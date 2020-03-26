@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import { Row, Container, Col, Form, FormGroup, Label, Input } from "reactstrap";
 import NavComponent from "./Components/NavComponent";
+import Footer from "./Components/FooterComponent";
 import netflix from "./assets/images/netflix.png";
 import facebook from "./assets/images/facebook.png";
 import google from "./assets/images/google.png";
@@ -13,8 +14,8 @@ import megaphone from "./assets/images/megaphone.png";
 import joe_netflix from "./assets/images/Joe _ Netflix.png";
 import capa from "./assets/images/Capa_1.png";
 import target from "./assets/images/Target.png";
-import heroshe from "./assets/images/heroshe.png";
 import arrow from "./assets/images/Arrow.png";
+import heroshe from "./assets/images/heroshe.png";
 
 function App() {
   return (
@@ -226,6 +227,9 @@ function App() {
               </Form>
             </div>
           </Row>
+        </Container>
+        <Container>
+          <Footer />
         </Container>
       </div>
     </div>

@@ -1,0 +1,36 @@
+.footerimage {
+  height: 38.64px;
+  width: 38.46px;
+  margin: 10px 10px;
+}
+
+.footergroup {
+  height: 59.7px;
+  width: 194px;
+  margin-bottom: 100px;
+}
+
+.footercontainer {
+  padding-top: 170px;
+  padding-bottom: 300px;
+}
+
+.ibadan {
+  height: 59px;
+  width: 193px;
+  color: #333;
+  font-size: 21px;
+  font-weight: 300;
+  letter-spacing: -0.08px;
+  line-height: 57px;
+}
+
+.address {
+  height: 109px;
+  width: 237px;
+  color: #333;
+  font-family: Gotham;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 17px;
+}

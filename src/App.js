@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Row, Container, Col } from "reactstrap";
+import { Row, Container, Col, Form, FormGroup, Label, Input } from "reactstrap";
 import NavComponent from "./Components/NavComponent";
 import netflix from "./assets/images/netflix.png";
 import facebook from "./assets/images/facebook.png";
@@ -166,28 +166,67 @@ function App() {
             </div>
           </Container>
         </div>
-        <div>
-          <Container>
-            <Row>
-              <Col>ready to Start ?</Col>
-            </Row>
-            <Row>
-              <Col>
-                <div>
-                  <h4>0800 000 0000</h4>
-                  <h5>Call us</h5>
-                </div>
-                <div>
-                  <h4>0800 000 0000</h4>
-                  <h5>Call us</h5>
-                </div>
-                <div>
-                  <h6> or drop a message here</h6>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </div>
+
+        <Container className="formcontainer">
+          <Row>
+            <Col className="ready">ready to Start ?</Col>
+          </Row>
+          <Row>
+            <Col>
+              <div className="contactContainer">
+                <h4 className="contactText">0800 000 0000</h4>
+                <h5 className="callus">Call us</h5>
+              </div>
+              <div>
+                <h4 className="contactText">hello@digifigs.com</h4>
+                <h5 className="callus" style={{ marginBottom: "40px" }}>
+                  {" "}
+                  Send an e-mail
+                </h5>
+              </div>
+              <div>
+                <h6 className="amessage"> or drop a message here</h6>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <div>
+              <Form>
+                <Row form>
+                  <Col>
+                    <FormGroup>
+                      <Input
+                        type="name"
+                        name="name"
+                        id="name"
+                        placeholder="full Name"
+                        className="inputtext"
+                      ></Input>
+                    </FormGroup>
+                    <FormGroup>
+                      <Input
+                        className="inputtext"
+                        type="email"
+                        name="emaill"
+                        id="email"
+                        placeholder="email Address"
+                      ></Input>
+                    </FormGroup>
+                    <FormGroup>
+                      <textarea
+                        className="inputtext"
+                        type="textarea"
+                        placeholder="type a message"
+                        rows="5"
+                        cols="50"
+                      ></textarea>
+                    </FormGroup>
+                  </Col>
+                </Row>
+              </Form>
+            </div>
+          </Row>
+        </Container>
       </div>
     </div>
   );

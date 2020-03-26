@@ -256,3 +256,66 @@ body {
 .herosheText4 {
   font-size: 60px;
 }
+
+.ready {
+  height: 59px;
+  width: 692px;
+  color: #333;
+  font-size: 56px;
+  font-weight: 300;
+  letter-spacing: -0.2px;
+  line-height: 57px;
+}
+
+.contactText {
+  height: 35px;
+  width: 290px;
+  color: #39f;
+  font-size: 35px;
+  font-weight: 300;
+  letter-spacing: -0.13px;
+  line-height: 35px;
+}
+
+.callus {
+  height: 24px;
+  width: 176px;
+  color: #333;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -0.09px;
+  line-height: 24px;
+}
+
+.contactContainer {
+  margin: 40px 0px;
+}
+
+.amessage {
+  height: 47px;
+  width: 283px;
+  color: #333;
+  font-size: 17px;
+  font-weight: 200;
+  letter-spacing: -0.08px;
+  line-height: 57px;
+  margin: 50px 0px;
+}
+
+.inputtext {
+  border: none;
+  border-bottom: 2px solid grey;
+}
+
+textarea {
+  margin-top: 20px;
+}
+
+::placeholder {
+  color: #495057;
+  padding: 0.375rem 0.75rem;
+}
+
+.formcontainer {
+  padding-left: 400px;
+}

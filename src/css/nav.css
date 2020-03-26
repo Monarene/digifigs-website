@@ -1,0 +1,23 @@
+img {
+  height: 56px;
+  width: 254px;
+}
+
+NavbarToggler {
+  color: #39f;
+  background-color: #39f;
+}
+
+.btn-default {
+  height: 62px;
+  width: 216px;
+  background-color: #39f;
+}
+
+.btn-default:hover {
+  background-color: #39f;
+}
+
+.btn-default:active {
+  background-color: #39f !important;
+}

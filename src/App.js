@@ -1,21 +1,16 @@
 import React from "react";
 import "./App.css";
-import { Container } from "reactstrap";
-import NavComponent from "./Components/NavComponent";
-import Footer from "./Components/FooterComponent";
-import HomeBody from "./Components/HomeBody";
-
+import Main from "./Components/MainComponent";
+import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <div>
       <div className="App">
-        <NavComponent />
-
-        <HomeBody />
-
-        <Container>
-          <Footer />
-        </Container>
+        <BrowserRouter>
+          <div className="App">
+            <Main />
+          </div>
+        </BrowserRouter>
       </div>
     </div>
   );

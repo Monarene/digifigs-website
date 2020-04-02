@@ -6,6 +6,7 @@ import instagram_black from "../assets/images/Instagram.png";
 import twitter_black from "../assets/images/Twitter.png";
 import facebook_black from "../assets/images/FACEBOOK.png";
 
+// testing the SSH key
 const Footer = () => {
   return (
     <Container>

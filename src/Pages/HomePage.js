@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container, FormGroup, Input, Form } from "reactstrap";
+import { Row, Col, Container } from "reactstrap";
 import "../css/homebody.css";
 import netflix from "../assets/images/netflix.png";
 import facebook from "../assets/images/facebook.png";
@@ -8,28 +8,19 @@ import vmware from "../assets/images/vmware.png";
 import toyota from "../assets/images/toyota.png";
 import ballons from "../assets/images/ballons.png";
 import new_image from "../assets/images/fine-girl.png";
-import megaphone from "../assets/images/megaphone.png";
 import joe_netflix from "../assets/images/Joe _ Netflix.png";
 import capa from "../assets/images/Capa_1.png";
 import target from "../assets/images/Target.png";
 import arrow from "../assets/images/Arrow.png";
 import heroshe from "../assets/images/heroshe.png";
+import FormComponent from "../Components/FormComponent";
+import BrandComponent from "../Components/BrandComponent";
+import MarketingComponent from "../Components/MarketingComponent";
 
 const HomeBody = () => {
   return (
     <div>
-      <Container>
-        <Row>
-          <Col>
-            <h2 className="header1">Get the visibility Your Brand Needs</h2>
-          </Col>
-        </Row>
-        <Row>
-          <h2 className="header2 text-center">
-            Customized Digital Marketing Strategies just for your brand
-          </h2>
-        </Row>
-      </Container>
+      <BrandComponent />
       <Container className="justify-content-center">
         <Row>
           <Col>
@@ -71,19 +62,7 @@ const HomeBody = () => {
           </Col>
         </Row>
       </Container>
-      <Container className="marketing">
-        <Row>
-          <Col sm={12}>
-            <img src={megaphone} alt="" className="megaphone" />
-          </Col>
-        </Row>
-
-        <Row>
-          <Col sm={12}>
-            <h3 className="mtext">We have Mastered the Art of Marketing</h3>
-          </Col>
-        </Row>
-      </Container>
+      <MarketingComponent />
       <Container className="joecontainer">
         <Row>
           <Col>
@@ -148,7 +127,7 @@ const HomeBody = () => {
                           height: "15.25px",
                           width: "32px",
                           paddingLeft: "5px",
-                          textTransform: " transform: scaleX(-1) scaleY(-1)"
+                          textTransform: " transform: scaleX(-1) scaleY(-1)",
                         }}
                       />
                     </span>
@@ -164,66 +143,7 @@ const HomeBody = () => {
         </Container>
       </div>
 
-      <Container className="formcontainer">
-        <Row>
-          <Col className="ready">ready to Start ?</Col>
-        </Row>
-        <Row>
-          <Col>
-            <div className="contactContainer">
-              <h4 className="contactText">0800 000 0000</h4>
-              <h5 className="callus">Call us</h5>
-            </div>
-            <div>
-              <h4 className="contactText">hello@digifigs.com</h4>
-              <h5 className="callus" style={{ marginBottom: "40px" }}>
-                {" "}
-                Send an e-mail
-              </h5>
-            </div>
-            <div>
-              <h6 className="amessage"> or drop a message here</h6>
-            </div>
-          </Col>
-        </Row>
-        <Row>
-          <div>
-            <Form>
-              <Row form>
-                <Col>
-                  <FormGroup>
-                    <Input
-                      type="name"
-                      name="name"
-                      id="name"
-                      placeholder="full Name"
-                      className="inputtext"
-                    ></Input>
-                  </FormGroup>
-                  <FormGroup>
-                    <Input
-                      className="inputtext"
-                      type="email"
-                      name="emaill"
-                      id="email"
-                      placeholder="email Address"
-                    ></Input>
-                  </FormGroup>
-                  <FormGroup>
-                    <textarea
-                      className="inputtext"
-                      type="textarea"
-                      placeholder="  type a message"
-                      rows="5"
-                      cols="50"
-                    ></textarea>
-                  </FormGroup>
-                </Col>
-              </Row>
-            </Form>
-          </div>
-        </Row>
-      </Container>
+      <FormComponent />
     </div>
   );
 };

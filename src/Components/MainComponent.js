@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderComponent from "./HeaderComponent";
 import Footer from "./FooterComponent";
-import HomeBody from "./HomeBody";
+import HomePage from "../Pages/HomePage";
 import { Switch, Route, Redirect } from "react-router-dom";
 
 const Main = () => {
@@ -9,7 +9,7 @@ const Main = () => {
     <div className="App">
       <HeaderComponent />
       <Switch>
-        <Route path="/home" component={HomeBody} />
+        <Route path="/home" component={HomePage} />
         <Redirect to="/home" />
       </Switch>
       <Footer />

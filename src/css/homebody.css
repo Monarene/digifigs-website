@@ -60,9 +60,10 @@ body {
 }
 
 .standing {
-  position: absolute;
+  /* position: absolute;
   bottom: 170px;
-  left: 145px;
+  left: 145px; */
+  align-items: center;
   height: 110px;
   width: 353px;
   color: #333;
@@ -71,7 +72,7 @@ body {
   font-weight: 300;
   letter-spacing: -0.16px;
   line-height: 42px;
-  margin-top: 45%;
+  margin-top: 25%;
   margin-left: 45%;
 }
 

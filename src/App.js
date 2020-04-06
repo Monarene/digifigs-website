@@ -7,9 +7,7 @@ function App() {
     <div>
       <div className="App">
         <BrowserRouter>
-          <div className="App">
-            <Main />
-          </div>
+          <Main />
         </BrowserRouter>
       </div>
     </div>

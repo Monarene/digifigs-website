@@ -24,24 +24,23 @@ const NavComponent = (props) => {
         </NavbarBrand>
         <NavbarToggler
           onClick={toggleNavbar}
-          style={{ color: "#39f" }}
-          className="mr-4 mt-3"
+          className="mr-4 mt-3 "
         />
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem className="nav-link">
-              <NavLink href="">About</NavLink>
+              <NavLink href="/about">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="" className="nav-link">
+              <NavLink href="/contact-us" className="nav-link">
                 Contact Us
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="" className="nav-link">
+            {/* <NavItem>
+              <NavLink href="/our-services" className="nav-link">
                 Discover Our services
               </NavLink>
-            </NavItem>
+            </NavItem> */}
           </Nav>
         </Collapse>
       </Navbar>

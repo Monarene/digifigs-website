@@ -4,7 +4,7 @@ import "../css/footer.css";
 import group from "../assets/images/Group.png";
 import instagram_black from "../assets/images/Instagram.png";
 import twitter_black from "../assets/images/Twitter.png";
-import facebook_black from "../assets/images/FACEBOOK.png";
+import facebook_black from "../assets/images/facebook.png";
 
 // testing the SSH key
 const Footer = () => {

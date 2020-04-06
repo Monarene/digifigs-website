@@ -1,8 +1,8 @@
 import React from "react";
 import { Row, Col, Container } from "reactstrap";
-import "../css/homebody.css";
+import AOS from 'aos';
 import netflix from "../assets/images/netflix.png";
-import facebook from "../assets/images/facebook.png";
+import facebook from "../assets/images/facebook-2.png";
 import google from "../assets/images/google.png";
 import vmware from "../assets/images/vmware.png";
 import toyota from "../assets/images/toyota.png";
@@ -16,11 +16,17 @@ import heroshe from "../assets/images/heroshe.png";
 import FormComponent from "../Components/FormComponent";
 import BrandComponent from "../Components/BrandComponent";
 import MarketingComponent from "../Components/MarketingComponent";
+import "../css/homebody.css";
+import "aos/dist/aos.css";
 
 const HomeBody = () => {
+  AOS.init({ duration: 1000,});
   return (
     <div>
-      <BrandComponent />
+      <div data-aos="fade-up">
+        <BrandComponent />
+      </div>
+      
       <Container className="justify-content-center">
         <Row>
           <Col>
@@ -28,10 +34,10 @@ const HomeBody = () => {
           </Col>
         </Row>
       </Container>
-      <Container className="justify-content-center">
+      <Container className="justify-content-center" data-aos="fade-down">
         <Row>
           <Col>
-            <h5 className="header3">See who loves to Work with us</h5>
+            <h5 className="header3" >See who loves to Work with us</h5>
           </Col>
         </Row>
         <Row>
@@ -52,7 +58,7 @@ const HomeBody = () => {
           </Col>
         </Row>
       </Container>
-      <Container className="mt-4 standing2" height="444" width="1542">
+      <div className="standing2" height="444" data-aos="flip-down">
         <Row>
           <Col sm={6}>
             <h3 className="standing">We stand out among the Crowd</h3>
@@ -61,10 +67,13 @@ const HomeBody = () => {
             <img alt="" className="ballons" src={ballons} />
           </Col>
         </Row>
-      </Container>
-      <MarketingComponent />
+      </div>
+      <div data-aos="zoom-in">
+        <MarketingComponent />
+      </div>
+      
       <Container className="joecontainer">
-        <Row>
+        <Row data-aos="fade-up">
           <Col>
             <img src={joe_netflix} alt="" className="joenetflix" />
           </Col>
@@ -82,7 +91,7 @@ const HomeBody = () => {
           </Col>
         </Row>
         <Row className="engineO">
-          <Col sm={12} md={6}>
+          <Col sm={12} md={6} data-aos="fade-right">
             <img src={target} alt="" className="target" />
             <h4 className="targetText1">Search Engine Optimization</h4>
             <h5 className="targetText2">
@@ -91,7 +100,7 @@ const HomeBody = () => {
               SEO services.
             </h5>
           </Col>
-          <Col sm={12} md={6}>
+          <Col sm={12} md={6} data-aos="fade-left">
             <img src={capa} alt="" className="capa" />
             <h4 className="targetText1">Web Development</h4>
             <h5 className="targetText2">
@@ -142,8 +151,9 @@ const HomeBody = () => {
           </div>
         </Container>
       </div>
-
-      <FormComponent />
+      <div data-aos="fade-right">
+        <FormComponent />
+      </div>
     </div>
   );
 };

@@ -1,0 +1,27 @@
+.address-contact {
+    margin-top: 200px;
+}
+.address-contact h3 {
+    height: 85.34px;
+  width: 279.32px;
+  color: #333;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: -0.13px;
+  line-height: 57px;
+}
+
+.address-contact p {
+    height: 157.66px;
+  width: 612px;
+  color: #333;
+  /* font-family: Gotham, Arial, Helvetica, sans-serif; */
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 31px;
+}
+
+.marketing-contact {
+    margin-top: 0px;
+    margin-bottom: 200px;
+}

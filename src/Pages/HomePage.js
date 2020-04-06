@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col, Container } from "reactstrap";
 import AOS from 'aos';
 import netflix from "../assets/images/netflix.png";
-import facebook from "../assets/images/facebook.png";
+import facebook from "../assets/images/facebook-2.png";
 import google from "../assets/images/google.png";
 import vmware from "../assets/images/vmware.png";
 import toyota from "../assets/images/toyota.png";

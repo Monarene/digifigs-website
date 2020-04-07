@@ -8,8 +8,9 @@ import {
   NavItem,
   NavLink,
   Nav,
+  Button,
 } from "reactstrap";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/new_logo.png";
 import "../css/nav.css";
 
 const NavComponent = (props) => {
@@ -18,29 +19,48 @@ const NavComponent = (props) => {
 
   return (
     <div>
-      <Navbar light>
+      <Navbar light expand="md">
         <NavbarBrand href="/">
           <img src={logo} alt="logos" className="mt-3" />
         </NavbarBrand>
-        <NavbarToggler
-          onClick={toggleNavbar}
-          className="mr-4 mt-3 "
-        />
+        <NavbarToggler onClick={toggleNavbar} className="mr-4 mt-3 " />
         <Collapse isOpen={!collapsed} navbar>
-          <Nav navbar>
+          <Nav navbar className="mr-auto">
+            <NavItem className="nav-link">
+              <NavLink href="/about" className="nav-text">
+                Home
+              </NavLink>
+            </NavItem>
             <NavItem className="nav-link">
               <NavLink href="/about">About</NavLink>
+            </NavItem>
+            <NavItem className="nav-link">
+              <NavLink href="/about">Services</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/contact-us" className="nav-link">
                 Contact Us
               </NavLink>
             </NavItem>
-            {/* <NavItem>
-              <NavLink href="/our-services" className="nav-link">
-                Discover Our services
+            <NavItem
+              style={{
+                paddingLeft: "60%",
+                position: "relative",
+                bottom: "5px",
+              }}
+            >
+              <NavLink className="nav-link">
+                <Button
+                  color="primary"
+                  style={{
+                    height: "47px",
+                    width: "204px",
+                  }}
+                >
+                  Get started
+                </Button>
               </NavLink>
-            </NavItem> */}
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>

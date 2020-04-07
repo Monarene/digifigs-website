@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Container } from "reactstrap";
-import AOS from 'aos';
+import AOS from "aos";
 import netflix from "../assets/images/netflix.png";
 import facebook from "../assets/images/facebook-2.png";
 import google from "../assets/images/google.png";
@@ -20,13 +20,13 @@ import "../css/homebody.css";
 import "aos/dist/aos.css";
 
 const HomeBody = () => {
-  AOS.init({ duration: 1000,});
+  AOS.init({ duration: 1000 });
   return (
     <div>
       <div data-aos="fade-up">
         <BrandComponent />
       </div>
-      
+
       <Container className="justify-content-center">
         <Row>
           <Col>
@@ -37,7 +37,7 @@ const HomeBody = () => {
       <Container className="justify-content-center" data-aos="fade-down">
         <Row>
           <Col>
-            <h5 className="header3" >See who loves to Work with us</h5>
+            <h5 className="header3">See who loves to Work with us</h5>
           </Col>
         </Row>
         <Row>
@@ -71,7 +71,7 @@ const HomeBody = () => {
       <div data-aos="zoom-in">
         <MarketingComponent />
       </div>
-      
+
       <Container className="joecontainer">
         <Row data-aos="fade-up">
           <Col>

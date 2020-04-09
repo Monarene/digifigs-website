@@ -1,124 +1,95 @@
 import React from "react";
-import { Row, Col, Container } from "reactstrap";
+import Partners from '../Components/Partners';
 import AOS from 'aos';
-import netflix from "../assets/images/netflix.png";
-import facebook from "../assets/images/facebook-2.png";
-import google from "../assets/images/google.png";
-import vmware from "../assets/images/vmware.png";
-import toyota from "../assets/images/toyota.png";
+import down from "../assets/images/down.png";
+
 import ballons from "../assets/images/ballons.png";
-import new_image from "../assets/images/fine-girl.png";
-import joe_netflix from "../assets/images/Joe _ Netflix.png";
+import new_image from "../assets/images/home-banner.png";
 import capa from "../assets/images/Capa_1.png";
 import target from "../assets/images/Target.png";
 import arrow from "../assets/images/Arrow.png";
 import heroshe from "../assets/images/heroshe.png";
-import FormComponent from "../Components/FormComponent";
-import BrandComponent from "../Components/BrandComponent";
-import MarketingComponent from "../Components/MarketingComponent";
-import "../css/homebody.css";
+import ContactForm from "../Components/ContactForm";
+import TopCaption from "../Components/TopCaption";
+import Marketing from "../Components/Marketing";
+import CaptionImage from "../Components/CaptionImage";
+import Carousel from "../Components/Carousel";
+import Service from "../Components/Service";
+import "../css/homepage.css";
 import "aos/dist/aos.css";
 
-const HomeBody = () => {
-  AOS.init({ duration: 1000,});
+
+
+const HomePage = () => {
+  AOS.init({ duration: 800,});
   return (
     <div>
       <div data-aos="fade-up">
-        <BrandComponent />
+        <TopCaption />
       </div>
       
-      <Container className="justify-content-center">
-        <Row>
-          <Col>
-            <img alt="" src={new_image} className="image1 mt-3" />
-          </Col>
-        </Row>
-      </Container>
-      <Container className="justify-content-center" data-aos="fade-down">
-        <Row>
-          <Col>
-            <h5 className="header3" >See who loves to Work with us</h5>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <img alt="" src={netflix} className="company-logo" />
-          </Col>
-          <Col>
-            <img alt="" src={facebook} className="company-logo" />
-          </Col>
-          <Col>
-            <img alt="" src={google} className="company-logo" />
-          </Col>
-          <Col>
-            <img alt="" src={vmware} className="company-logo" />
-          </Col>
-          <Col>
-            <img alt="" src={toyota} className="company-logo" />
-          </Col>
-        </Row>
-      </Container>
-      <div className="standing2" height="444" data-aos="flip-down">
-        <Row>
-          <Col sm={6}>
-            <h3 className="standing">We stand out among the Crowd</h3>
-          </Col>
-          <Col sm={6}>
-            <img alt="" className="ballons" src={ballons} />
-          </Col>
-        </Row>
+      <div data-aos="zoom-in">
+        <CaptionImage image={new_image} />
+      </div>
+      <div className="container justify-content-center" data-aos="fade-down">
+        <Partners />
+      </div>
+      <div className="standing2" height="444">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-6">
+              <h3 className="standing" data-aos="flip-down">We stand out<br /> among the Crowd</h3>
+            </div>
+            <div className="col-sm-6">
+              <img alt="" className="ballons" src={ballons} />
+            </div>
+          </div>
+        </div>
+        
       </div>
       <div data-aos="zoom-in">
-        <MarketingComponent />
+        <Marketing />
       </div>
       
-      <Container className="joecontainer">
-        <Row data-aos="fade-up">
-          <Col>
-            <img src={joe_netflix} alt="" className="joenetflix" />
-          </Col>
-        </Row>
-      </Container>
-      <Container className="justify-content-center">
-        <Row>
-          <Col>
+      <div className="container carousel-container" data-aos="fade-up">
+        <Carousel />
+      </div>
+      <div className="container justify-content-center">
+        <div className="row">
+          <div className="col">
             <h3
               className="buildingText"
               style={{ marginTop: "30px", marginBottom: "40px" }}
             >
               Build your Business
             </h3>
-          </Col>
-        </Row>
-        <Row className="engineO">
-          <Col sm={12} md={6} data-aos="fade-right">
-            <img src={target} alt="" className="target" />
-            <h4 className="targetText1">Search Engine Optimization</h4>
-            <h5 className="targetText2">
-              Get your website to rank higher on search engine results pages
-              through the improved online visibility that we offer through our
-              SEO services.
-            </h5>
-          </Col>
-          <Col sm={12} md={6} data-aos="fade-left">
-            <img src={capa} alt="" className="capa" />
-            <h4 className="targetText1">Web Development</h4>
-            <h5 className="targetText2">
-              We will help you build a website that shows the brand image you
-              want your website visitors to see. We also provide quality
-              services in web hosting.
-            </h5>
-          </Col>
-        </Row>
-      </Container>
+          </div>
+        </div>
+        <div className="row engineO">
+          <div className="col-sm-12 col-md-6" data-aos="fade-right">
+            <Service imgClass="target" image={target} text1="Search Engine Optimization" text2="Get your website to rank higher on search engine results pages through the improved online visibility that we offer through our SEO services." />
+          </div>
+          <div className="col-sm-12 col-md-6" data-aos="fade-left">
+            <Service imgClass="capa" image={capa} text1="Web Development" text2="We will help you build a website that shows the brand image you want your website visitors to see. We also provide quality services in web hosting." />
+          </div>
+        </div>
+        <div className="row see-all-wrapper">
+          <div>
+            <a href="#"><button type="button" class="btn btn-link see-all">See all</button></a>
+          </div>
+          <div>
+            <img src={down} alt=""/>
+          </div>
+        </div>
+      </div>
       <div className="herosheContainer">
-        <Container>
-          <Row>
+        <div className="container">
+          <div className="row">
             <h6 className="casestudies">Case Studies</h6>
-          </Row>
+          </div>
           <div className="herosheContainer2">
-            <Row className="heroshecontainer">
-              <Col sm={12} md={6} className="heroshecontainer2">
+            <div className="row heroshecontainer">
+              <div className="col-sm-12 col-md-6 heroshecontainer2">
                 <h3 className="herosheText1">
                   How we scaled Heroshe from 0 to 100
                 </h3>
@@ -143,19 +114,19 @@ const HomeBody = () => {
                   </h4>
                 </div>
                 <h3 className="herosheText4">heroshe</h3>
-              </Col>
-              <Col sm={12} md={6}>
+              </div>
+              <div className="col-sm-12 col-md-6">
                 <img src={heroshe} alt="" className="herosheImage" />
-              </Col>
-            </Row>
+              </div>
+            </div>
           </div>
-        </Container>
+        </div>
       </div>
-      <div data-aos="fade-right">
-        <FormComponent />
+      <div data-aos="fade-up">
+        <ContactForm />
       </div>
     </div>
   );
 };
 
-export default HomeBody;
+export default HomePage;

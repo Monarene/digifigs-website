@@ -1,18 +1,13 @@
 .footerimage {
-  height: 38.64px;
-  width: 38.46px;
-  margin: 10px 10px;
+  height: 36.87px;
+  width: 36.87px;
+  margin: 5px 5px;
 }
 
 .footergroup {
   height: 59.7px;
   width: 194px;
   margin-bottom: 100px;
-}
-
-.footercontainer {
-  padding-top: 170px;
-  padding-bottom: 200px;
 }
 
 .ibadan {
@@ -27,10 +22,62 @@
 
 .address {
   height: 109px;
-  width: 237px;
+  width: 193px;
   color: #333;
   font-family: Gotham;
   font-size: 11px;
   font-weight: 300;
   line-height: 17px;
+}
+
+.footer-content-wrapper {
+  padding: 96px;
+}
+
+.arrow-sub {
+  margin-left: -26px;
+  height: 44.11px;
+  width: 44.25px;
+  transform: scaleY(-1);
+}
+
+.input-sub,.form-inline .form-control {
+  height: 50.28px;
+  width: 386.67px;
+}
+
+.btn-sub {
+  width: 57.69px;
+  height: 50px;
+  background-color: #39F;
+  padding: 0px
+}
+
+.sub-txt {
+  height: 21.29px;
+  color: #333;
+  font-family: Gotham;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
+  margin: 0px;
+}
+
+.footer-bottom {
+  align-items: center;
+  margin-top: 100px;
+}
+
+.sub {
+  padding-left: 96px;
+}
+
+.copy-txt {
+  color: #333;
+  font-family: Gotham;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
+  margin-top: 36px;;
+  text-align: center;
 }

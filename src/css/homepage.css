@@ -1,0 +1,220 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"); */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.header3 {
+  height: 44.43px;
+  width: 372.46px;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: auto;
+  margin-top: 110px;
+  text-align: center;
+}
+
+.company-logo {
+  height: 80px;
+  margin-top: 50px;
+  width: 150px;
+}
+
+.standing {
+  /* position: absolute;
+  bottom: 170px;
+  left: 145px; */
+  align-items: center;
+  height: 110px;
+  width: 353px;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  letter-spacing: -0.16px;
+  line-height: 42px;
+  margin-top: 25%;
+  margin-left: 45%;
+}
+
+.ballons {
+  height: 402px;
+  width: 625px;
+  margin-top: 40px;
+}
+
+.standing2 {
+  height: 444px;
+  background-color: #f6f6f6;
+  margin-top: 100px;
+}
+
+.marketing {
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.megaphone {
+  margin-top: 50px;
+  margin-left: 50%;
+  height: 124.44px;
+  width: 124.41px;
+}
+
+.mtext {
+  height: 110px;
+  width: 450px;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: -0.18px;
+  line-height: 58px;
+  text-align: center;
+  margin-left: 35%;
+  margin-top: 70px;
+}
+
+
+
+.carousel-container {
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+
+.buildingText {
+  height: 86px; 
+  color: #333;
+  font-size: 58px;
+  font-weight: 400;
+  letter-spacing: -0.26px;
+  line-height: 58px;
+  display: block;
+  margin-left: 34%;
+}
+
+
+
+.engineO {
+  margin-top: 80px;
+  margin-left: 130px;
+}
+
+.herosheContainer {
+  height: 842px;
+  width: 100%;
+  background-color: rgba(242, 242, 242, 0.4);
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.casestudies {
+  height: 14px;
+  width: 101px;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.42px;
+  line-height: 14px;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+.herosheText1 {
+  height: 114px;
+  width: 450px;
+  color: #333;
+  font-size: 39px;
+  font-weight: 300;
+  letter-spacing: -0.18px;
+  line-height: 41px;
+}
+.partcontainer {
+  height: 128px;
+  width: 434px;
+  color: #333;
+  font-size: 23.5px;
+  line-height: 32px;
+}
+
+.herosheText2 {
+  font-size: 23.5px;
+  font-weight: 100;
+  line-height: 32px;
+}
+
+.herosheText3 {
+  height: 20px;
+  width: 86px;
+  color: #39f;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.herosheText4 {
+  height: 64px;
+  width: 256px;
+}
+
+.herosheImage {
+  height: 572px;
+  width: 471px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.herosheContainer2 {
+  padding-top: 100px;
+}
+
+.heroshecontainer2 {
+  margin-top: 100px;
+  position: relative;
+  left: 120px;
+}
+
+.herosheText4 {
+  font-size: 60px;
+}
+
+
+
+
+.see-all-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 140px;
+  margin-bottom: 144.74px;
+}
+
+.see-all-wrapper img {
+  height: 35.26px;
+  width: 35.26px;
+  margin-top: 5px
+}
+
+.see-all {
+  height: 30px; 
+  color: #39F;
+  font-family: Gotham;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  line-height: 30px;
+  text-align: center;
+  
+}
+
+.see-all:hover, .see-all:focus {
+  text-decoration: none;
+}

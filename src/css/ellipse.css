@@ -1,0 +1,14 @@
+.ellipse {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.ellipse div {
+    height: 31px;
+  width: 31px;
+  background-color: #39F;
+  border-radius: 100%;
+  border: 5px solid rgb(117,186,255);
+
+}

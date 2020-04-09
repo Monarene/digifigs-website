@@ -1,0 +1,36 @@
+.header1 {
+    height: 132px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -0.21px;
+    line-height: 65px;
+    text-align: center;
+    margin-top: 44px;
+    /* font-family: "Montserrat", sans-serif; */
+  }
+  
+.header2 {
+    height: 32px;
+    color: #4f4f4f;
+    font-family: Gotham;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 60px;
+    margin: auto;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.image1 {
+  
+  height: 600px;
+  width: 1225px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}

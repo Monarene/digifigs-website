@@ -3,21 +3,12 @@ img {
   width: 254px;
 }
 
-NavbarToggler {
-  color: #39f;
-  background-color: #39f;
+.nav-wrapper {
+  flex-wrap: nowrap;
+  margin-top: 15px;
 }
 
-.btn-default {
-  height: 62px;
-  width: 216px;
-  background-color: #39f;
-}
-
-.btn-default:hover {
-  background-color: #39f;
-}
-
-.btn-default:active {
-  background-color: #39f !important;
+.btn {
+  height: 47px;
+  width: 204px;
 }

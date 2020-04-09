@@ -1,12 +1,14 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import AOS from 'aos';
-import BrandVisibility from '../Components/BrandComponent'
-import Marketing from '../Components/MarketingComponent';
-import FormComponent from '../Components/FormComponent';
+import TopCaption from '../Components/TopCaption';
+import Marketing from '../Components/Marketing';
+import ContactForm from '../Components/ContactForm';
 import banner from '../assets/images/about-banner.png'
 import '../css/about.css';
 import 'aos/dist/aos.css';
+
+
 
 
 
@@ -16,7 +18,7 @@ export default function About() {
   return (
     <React.Fragment>
         <div data-aos="fade-up">
-            <BrandVisibility />
+            <TopCaption />
         </div> 
       <Container className="justify-content-center">
         <Row>
@@ -39,7 +41,7 @@ export default function About() {
         <Marketing />
       </div>
       <div className="form" data-aos="fade-up">
-        <FormComponent />
+        <ContactForm />
       </div>
     </React.Fragment>
   )

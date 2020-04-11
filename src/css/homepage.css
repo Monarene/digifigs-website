@@ -27,9 +27,6 @@ body {
 }
 
 .standing {
-  /* position: absolute;
-  bottom: 170px;
-  left: 145px; */
   align-items: center;
   height: 110px;
   width: 353px;
@@ -124,6 +121,7 @@ body {
   letter-spacing: -0.42px;
   line-height: 14px;
   padding-top: 30px;
+  padding-left: 15px;
   text-transform: uppercase;
 }
 
@@ -177,8 +175,6 @@ body {
 
 .heroshecontainer2 {
   margin-top: 100px;
-  position: relative;
-  left: 120px;
 }
 
 .herosheText4 {
@@ -217,4 +213,204 @@ body {
 
 .see-all:hover, .see-all:focus {
   text-decoration: none;
+}
+
+.standing-mb {
+  display: none;
+}
+
+.partners-mb {
+  display: none;
+}
+
+.services-header {
+  display: none;
+}
+
+.herosheImage-mb {
+  display: none;
+}
+
+.see-how-wrapper {
+  display: none;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .standing-mb {
+    display: block;
+    height: auto;
+    width: 100%;
+    color: #000;
+    font-family: Gotham;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.08px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .standing-lg {
+    display: none;
+  }
+  .standing2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    height: auto;
+    margin-top: 60.52px;
+  }
+  .partners-lg {
+    display: none;
+  }
+  .partners-mb {
+    display: block;
+  }
+  .header3 {
+    margin-top: 53px;
+    height: auto;
+    width: 100%;
+    color: #333;
+    font-family: Gotham;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 10px;
+    text-align: center;
+  }
+  .company-logo {
+    height: 28.24px;
+    width: 63.12px;
+  }
+  .megaphone {
+    height: 42.98px;
+    width: 42.63px;
+    margin-left: 46%;
+  }
+  .mtext {
+    height: 72.31px;
+    width: 319px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0.11px;
+    line-height: 28px;
+    text-align: center;
+    margin: auto;
+    margin-top: 23px;
+  }
+  .buildingText {
+    color: #333;
+    font-family: Gotham;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: -0.1px;
+    line-height: 15px;
+    text-align: center;
+    margin: 0px;
+    height: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .services-header {
+    display: block;
+    color: #000;
+    font-family: Gotham;
+    font-size: 7px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 7px;
+    text-align: center;
+  }
+  .see-all {
+    color: #39F;
+    font-family: Gotham;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -0.36px;
+    line-height: 12px;
+    text-align: center;
+    height: 12px;
+  }
+  .see-all-wrapper img {
+    height: 13.26px;
+    width: 14.15px;
+  }
+  .casestudies {
+    height: 12px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 7px;
+    font-weight: 500;
+    letter-spacing: -0.18px;
+    line-height: 7px;
+  }
+  .heroshecontainer2 {
+    margin-top: 35px;
+  }
+  .herosheImage {
+    display: none;
+  }
+  .herosheImage-mb {
+    display: block;
+    height: auto;
+    width: 100%;
+    border-radius: 3px;
+
+  }
+  .herosheText1 {
+    height: auto;
+    width: auto;
+    color: #333;
+    font-family: Gotham;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -0.09px;
+    line-height: 25px;
+  }
+  .herosheText2 {
+    height: 48px;
+    width: 260px;
+    color: #000;
+    font-family: Gotham;
+    font-size: 12.5px;
+    font-weight: 300;
+    line-height: 18px;
+  }
+  .herosheText4 {
+    height: auto;
+    width: 106px;
+    margin-left: -12px;
+    margin-bottom: 26px;
+  }
+  .herosheText3 {
+    display: none;
+  }
+  .engineO {
+    margin-left: 0px;
+    padding-left: 30px;
+    margin-top: 0px;
+  }
+  .partcontainer {
+    height: 60px;
+    width: auto;
+  }
+  .see-how-wrapper {
+    display: block;
+  }
+  .see-how {
+    height: 18px;
+    width: 80.3px;
+    margin-top: 34px;
+    margin-bottom: 86px;
+    margin-left: 15px;
+  }
+  .see-all-wrapper {
+    margin: 77px 0px;
+  }
+  .herosheContainer {
+    height: auto;
+  }
 }

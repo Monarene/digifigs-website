@@ -36,7 +36,7 @@ const Header = () => {
               <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
+          <form class="form-inline my-2 my-lg-0 get-started-lg">
             <button class="btn btn-primary my-2 my-sm-0" type="link">Get Started</button>
           </form>
         </div>

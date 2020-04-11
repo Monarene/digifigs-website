@@ -34,3 +34,44 @@
   border-radius: 5px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
+
+.get-started-mb {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header1 {
+    height: 67px;
+    color: #000;
+    font-family: Gotham;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: -0.15px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .header2 {
+    height: 32px;
+    width: 315px;
+    color: #4F4F4F;
+    font-family: Gotham;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+  }
+  .img-wrapper {
+    margin-top: 37px;
+  }
+  .image1 {
+    height: auto;
+    width: 100%;
+    border-radius: 3px;
+  }
+  .get-started-mb {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-top: 30px;
+  }
+}

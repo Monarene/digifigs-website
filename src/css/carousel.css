@@ -33,3 +33,10 @@
     margin: auto;
   }
 
+  @media (max-width: 768px) {
+      .joenetflix {
+        height: auto;
+        width: 355px;
+      }
+  }
+

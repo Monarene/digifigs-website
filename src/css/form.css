@@ -1,7 +1,7 @@
 .ready {
     margin-top: 227px;
     height: 59px;
-    width: 692px;
+    /* width: 692px; */
     color: #333;
     font-size: 56px;
     font-weight: 300;
@@ -96,4 +96,74 @@
     width: 118px;
     border-radius: 3px;
     background-color: #39F;
+  }
+
+
+
+
+
+  @media (max-width: 768px) {
+    .ready {
+      color: #333;
+      font-family: Gotham;
+      font-size: 20px;
+      font-weight: 300;
+      letter-spacing: -0.07px;
+      line-height: 12px;
+      text-align: center;
+      margin-top: 92px;
+      margin-bottom: 65px;
+    }
+    .formcontainer {
+      align-items: normal;
+    }
+    .form-group {
+      padding-left: 15px;
+    }
+    .contactText {
+      height: 19.65px;
+      /* width: 236px; */
+      color: #39F;
+      font-family: Gotham;
+      font-size: 20px;
+      font-weight: 300;
+      letter-spacing: -0.07px;
+      line-height: 20px;
+    }
+    .callus {
+      height: 21.37px;
+      /* width: 67.85px; */
+      color: #333;
+      font-family: Gotham;
+      font-size: 12px;
+      font-weight: 300;
+      letter-spacing: -0.04px;
+      line-height: 12px;
+      margin-bottom: 20px;
+    }
+    .amessage {
+      height: 29.75px;
+      /* width: 202.1px; */
+      color: #333;
+      font-family: Gotham;
+      font-size: 12px;
+      font-weight: 300;
+      letter-spacing: -0.04px;
+      line-height: 12px;
+    }
+    .inputtext {
+      width: 307px;
+    }
+    ::placeholder {
+      color: #4F4F4F;
+      font-family: Gotham;
+      font-size: 10px;
+      font-weight: 300;
+      letter-spacing: -0.03px;
+      line-height: 12px;
+    }
+    .btn-wrapper {
+      justify-content: flex-start;
+      margin-left: 15px;
+    }
   }

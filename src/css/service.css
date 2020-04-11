@@ -28,3 +28,35 @@
     width: 136.07px;
     margin-bottom: 40px;
 }
+
+@media (max-width: 768px) {
+  .target {
+    height: 70px;
+    width: 70px;
+    margin-top: 70px;
+  }
+  .capa {
+    height: 70px;
+    width: auto;
+    margin-top: 70px;
+  }
+  .targetText1 {
+    color: #333;
+    font-family: Gotham;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: -0.36px;
+    line-height: 17px;
+    height: 40px;
+    width: auto;
+  }
+  .targetText2 {
+    height: 84px;
+    max-width: 260px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 17px;
+  }
+}

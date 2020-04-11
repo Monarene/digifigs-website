@@ -18,6 +18,9 @@ const TopCaption = () => {
           Customized Digital Marketing Strategies just for your brand
         </h6>
       </Row>
+      <div className="get-started-mb">
+        <button class="btn btn-primary" type="link">Get Started</button>
+      </div>
     </Container>
   );
 };

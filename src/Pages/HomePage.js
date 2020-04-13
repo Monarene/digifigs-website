@@ -62,20 +62,17 @@ const HomePage = () => {
       <div className="container justify-content-center">
         <div className="row">
           <div className="col">
-            <h3
-              className="buildingText"
-              style={{ marginTop: "30px", marginBottom: "40px" }}
-            >
+            <h3 className="buildingText">
               Build your Business
             </h3>
             <h6 className="services-header">SERVICES</h6>
           </div>
         </div>
         <div className="row engineO">
-          <div className="col-sm-12 col-md-auto" data-aos="fade-right">
+          <div className="col-sm-12 col-md-auto" data-aos="fade-up">
             <Service imgClass="target" image={target} text1="Search Engine Optimization" text2="Get your website to rank higher on search engine results pages through the improved online visibility that we offer through our SEO services." />
           </div>
-          <div className="col-sm-12 col-md-auto" data-aos="fade-left">
+          <div className="col-sm-12 col-md-auto" data-aos="fade-up">
             <Service imgClass="capa" image={capa} text1="Web Development" text2="We will help you build a website that shows the brand image you want your website visitors to see. We also provide quality services in web hosting." />
           </div>
         </div>

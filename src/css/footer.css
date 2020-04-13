@@ -1,10 +1,14 @@
-.footerimage {
+.mb {
+  display: none;
+}
+
+.footer-icon {
   height: 36.87px;
   width: 36.87px;
   margin: 5px 5px;
 }
 
-.footergroup {
+.logo-footer {
   height: 59.7px;
   width: 194px;
   margin-bottom: 100px;
@@ -33,6 +37,7 @@
 .footer-content-wrapper {
   padding: 96px;
   margin-top: 176.29px;
+  border-top: 1px solid #f4f4f4;
 }
 
 .arrow-sub {
@@ -81,4 +86,111 @@
   line-height: 12px;
   margin-top: 36px;;
   text-align: center;
+}
+
+.col-space {
+  display: none;
+}
+
+.image-group-mb {
+  display: none;
+}
+
+.copy-mb {
+  display: none;
+}
+
+
+@media (max-width: 767.89px) {
+  .main {
+    display: none;
+  }
+  .mb {
+    display: block;
+  }
+  .logo-footer {
+    height: 24.03px;
+    width: 82.21px;
+    margin-bottom: 30px;
+  }
+  .ibadan {
+    height: 9.34px;
+    width: 29.56px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 8px;
+  }
+  .address {
+    height: 96.92px;
+    width: 79.12px;
+    color: #4F4F4F;
+    font-family: Gotham;
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 16px;
+
+  }
+  .footer-content-wrapper {
+    border-top: 0.5px solid #f4f4f4;
+    padding: 35px;
+  }
+  .col-space {
+    display: block;
+  }
+  .image-group {
+    display: none;
+  }
+  .image-group-mb {
+    display: block;
+  }
+  .footer-icon {
+    height: 16.52px;
+    width: 16.39px;
+  }
+  .copy {
+    display: none;
+  }
+  .copy-mb {
+    display: block;
+  }
+  /* .sub {
+    padding-left: 0px;
+  } */
+  .form-inline {
+    flex-flow: row nowrap;
+  }
+  .sub-txt {
+    height: 12px; 
+    color: #333;
+    font-family: Gotham;
+    font-size: 9px;
+    font-weight: 300;
+    line-height: 12px;
+  }
+  .input-sub,.form-inline .form-control {
+    height: 39.47px;
+    width: 164.47px;
+    border-radius: 0px;
+  }
+  .btn-sub {
+    height: 39.47px;
+    width: 39.47px;
+    border-radius: 0px;
+  }
+  .arrow-sub {
+    height: 36.47px;
+    width: 39.47px;
+  }
+  .copy-txt {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .footer-content-wrapper {
+    padding: 10px;
+    padding-top: 50px;
+  }
 }

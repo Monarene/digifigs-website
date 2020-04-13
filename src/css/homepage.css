@@ -95,6 +95,7 @@ body {
   line-height: 58px;
   display: block;
   margin-left: 34%;
+  /* margin-top: "30px", marginBottom: "40px"  */
 }
 
 
@@ -160,6 +161,7 @@ body {
 .herosheText4 {
   height: 64px;
   width: 256px;
+  margin-left: -30px;
 }
 
 .herosheImage {
@@ -238,7 +240,7 @@ body {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 767.89px) {
   .standing-mb {
     display: block;
     height: auto;
@@ -274,7 +276,7 @@ body {
     width: 100%;
     color: #333;
     font-family: Gotham;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 300;
     line-height: 10px;
     text-align: center;
@@ -282,6 +284,10 @@ body {
   .company-logo {
     height: 28.24px;
     width: 63.12px;
+    margin-top: 29px;
+  }
+  .partners-wrapper .col {
+    padding: 0px;
   }
   .megaphone {
     height: 42.98px;
@@ -346,6 +352,9 @@ body {
     font-weight: 500;
     letter-spacing: -0.18px;
     line-height: 7px;
+  }
+  .herosheContainer {
+    padding: 0px 30px;
   }
   .heroshecontainer2 {
     margin-top: 35px;
@@ -412,5 +421,17 @@ body {
   }
   .herosheContainer {
     height: auto;
+  }
+}
+
+@media (max-width: 360px) {
+  .mtext {
+    width: 305px;
+  }
+  .engineO {
+    padding-left: 10px;
+  }
+  .company-logo {
+    width: 54.12px;
   }
 }

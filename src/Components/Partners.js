@@ -14,7 +14,7 @@ export default function Partners() {
             <h5 className="header3" >See who loves to Work with us</h5>
           </div>
         </div>
-        <div className="row">
+        <div className="row partners-wrapper">
           <div className="col">
             <img alt="" src={netflix} className="company-logo" />
           </div>

@@ -2,6 +2,7 @@ import React from "react";
 import arrow from '../assets/images/Arrow2.png'
 import "../css/footer.css";
 import group from "../assets/images/Group.png";
+import logo from "../assets/images/logo-footer.png";
 import instagram_black from "../assets/images/Instagram.png";
 import twitter_black from "../assets/images/Twitter.png";
 import facebook_black from "../assets/images/facebook.png";
@@ -11,47 +12,50 @@ const Footer = () => {
   return (
     <div className="container-fluid footer-content-wrapper">
       <div className="row">
-        <div className="col-sm-12 col-md-4">
-          <img src={group} alt="" className="footergroup" />
-          
+        <div className="col-4 col-sm-4 col-md-4">
+          <img src={group} alt="" className="logo-footer main" />
+          <img src={logo} alt="" className="logo-footer mb" />
+          <div className="image-group-mb">
+              <img src={instagram_black} alt="" className="footer-icon" />
+              <img src={twitter_black} alt="" className="footer-icon" />
+              <img src={facebook_black} alt="" className="footer-icon" />
+          </div>
         </div>
-        <div className="col-sm-12 col-md-auto">
+        <div className="col-4 col-sm-4 col-md-auto">
           <h6 className="ibadan">Ibadan</h6>
           <h6 className="address">
             Kuye Street, Ikolaba Estate, Adjacent A3 Estate, Ikolaba, Ibadan
           </h6>
         </div>
-        <div className="col-sm-12 col-md-auto">
-          <h6 className="ibadan">Our Mission</h6>
+        <div className="col-4 col-sm-4 col-md-auto">
+          <h6 className="ibadan">Products</h6>
           <h6 className="address">
-            Opportunity to work with achieve over and beyond their set targets.
-            Our clients’ growth and satisfaction is our growth and fulfilment.{" "}
+            Lorem ipsum sit amet, consectetur adipiscing elit
           </h6>
         </div>
-        <div className="col-sm-12 col-md-auto">
-          <h6 className="ibadan">Our Mission</h6>
+        <div className="col-4 col-sm-4 col-md-auto col-space"></div>
+        <div className="col-4 col-sm-4 col-md-auto">
+          <h6 className="ibadan">Products</h6>
           <h6 className="address">
-            Opportunity to work with achieve over and beyond their set targets.
-            Our clients’ growth and satisfaction is our growth and fulfilment.{" "}
+            Lorem ipsum sit amet, consectetur adipiscing elit
           </h6>
         </div>
-        <div className="col-sm-12 col-md-auto">
-          <h6 className="ibadan">Our Mission</h6>
+        <div className="col-4 col-sm-4 col-md-auto">
+          <h6 className="ibadan">Products</h6>
           <h6 className="address">
-            Opportunity to work with achieve over and beyond their set targets.
-            Our clients’ growth and satisfaction is our growth and fulfilment.{" "}
+            Lorem ipsum sit amet, consectetur adipiscing elit
           </h6>
         </div>
       </div>
       <div className="row footer-bottom">
         <div className="col-sm-12 col-md-3">
-          <div className="imagegroup">
-              <img src={instagram_black} alt="" className="footerimage" />
-              <img src={twitter_black} alt="" className="footerimage" />
-              <img src={facebook_black} alt="" className="footerimage" />
+          <div className="image-group">
+              <img src={instagram_black} alt="" className="footer-icon" />
+              <img src={twitter_black} alt="" className="footer-icon" />
+              <img src={facebook_black} alt="" className="footer-icon" />
           </div>
         </div>
-        <div className="col-sm-12 col-md-4">
+        <div className="col-sm-12 col-md-4 copy">
           <p className="copy-txt">&copy; 2020 Copyright - Digifigs Limited | All Rights Reserved</p>
         </div>
         <div className="col-sm-12 col-md-5 sub">
@@ -62,6 +66,9 @@ const Footer = () => {
                 <img className="arrow-sub" src={arrow} alt="" />
             </button>
           </form>
+        </div>
+        <div className="col-sm-12 col-md-4 copy-mb">
+          <p className="copy-txt">&copy; 2020 Copyright - Digifigs Limited | All Rights Reserved</p>
         </div>
       </div>
     </div>

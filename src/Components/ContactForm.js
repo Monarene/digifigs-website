@@ -16,7 +16,7 @@ const ContactForm = () => {
         </div> 
         <div className="col contactContainer">
           <h4 className="contactText">hello@digifigs.com</h4>
-          <h5 className="callus" style={{ marginBottom: "40px" }}>
+          <h5 className="callus">
             {/* {" "} */}
             Send an e-mail
           </h5>
@@ -51,7 +51,7 @@ const ContactForm = () => {
               <textarea
                 className="inputtext"
                 type="textarea"
-                placeholder="type a message"
+                placeholder="message"
                 rows="5"
                 cols="50"
               ></textarea>

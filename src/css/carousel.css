@@ -7,17 +7,21 @@
     background-color: #C8C8C8 !important;
     height: 13px !important;
     width: 13px !important;
-    border: 1px solid #C8C8C8 !important;
+    /* border: 1px solid #C8C8C8 !important; */
     border-radius: 100% !important;
 
+}
+
+.indicators > .active {
+    background-color: #FF3336 !important;
 }
 
 .indicators {
     position: relative;
     display: flex;
     justify-content: space-evenly;
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 28%;
+    padding-right: 28%;
     left: 0;
     z-index: 15;
     margin-top: 30px;
@@ -33,10 +37,24 @@
     margin: auto;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767.89px) {
       .joenetflix {
         height: auto;
         width: 355px;
       }
   }
+
+  @media (max-width: 360px) {
+    .joenetflix {
+      height: auto;
+      width: 311px;
+    }
+    .indicators {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .carousel-wrapper {
+        margin-bottom: 82px;
+    }
+}
 

@@ -3,6 +3,7 @@ import arrow from '../assets/images/Arrow2.png'
 import "../css/footer.css";
 import group from "../assets/images/Group.png";
 import logo from "../assets/images/logo-footer.png";
+import logo_tb from "../assets/images/logo-tb.png";
 import instagram_black from "../assets/images/Instagram.png";
 import twitter_black from "../assets/images/Twitter.png";
 import facebook_black from "../assets/images/facebook.png";
@@ -15,6 +16,7 @@ const Footer = () => {
         <div className="col-4 col-sm-4 col-md-4">
           <img src={group} alt="" className="logo-footer main" />
           <img src={logo} alt="" className="logo-footer mb" />
+          <img src={logo_tb} alt="" className="logo-footer tb" />
           <div className="image-group-mb">
               <img src={instagram_black} alt="" className="footer-icon" />
               <img src={twitter_black} alt="" className="footer-icon" />
@@ -58,7 +60,7 @@ const Footer = () => {
         <div className="col-sm-12 col-md-4 copy">
           <p className="copy-txt">&copy; 2020 Copyright - Digifigs Limited | All Rights Reserved</p>
         </div>
-        <div className="col-sm-12 col-md-5 sub">
+        <div className="col-sm-12 col-md-12 col-lg-4 sub">
           <p className="sub-txt">SUBSCRIBE TO OUR NEWSLETTER</p>
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2 input-sub" type="email" placeholder="Your e-mail Address" aria-label="Email" />
@@ -67,7 +69,7 @@ const Footer = () => {
             </button>
           </form>
         </div>
-        <div className="col-sm-12 col-md-4 copy-mb">
+        <div className="col-sm-12 col-md-12 copy-mb">
           <p className="copy-txt">&copy; 2020 Copyright - Digifigs Limited | All Rights Reserved</p>
         </div>
       </div>

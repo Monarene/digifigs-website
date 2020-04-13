@@ -29,6 +29,7 @@
     font-weight: 300;
     letter-spacing: -0.09px;
     line-height: 24px;
+    margin-bottom: 50px;
   }
   
   /* .contactContainer {
@@ -56,6 +57,10 @@
     border-radius: 0px;
     padding: 0px;
   }
+
+  .inputtext:focus {
+    outline: 0px;
+  }
   
   textarea {
     margin-top: 20px;
@@ -63,7 +68,7 @@
   }
   
   ::placeholder {
-    color: #333;
+    color: #4f4f4f;
     padding: 0.375rem 0rem;
     text-transform: uppercase;
   }
@@ -174,5 +179,72 @@
 @media (max-width: 360px) {
   .inputtext {
     width: 257px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .ready {
+    color: #333;
+    font-family: Gotham;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -0.07px;
+    line-height: 12px;
+    text-align: center;
+    margin-top: 92px;
+    margin-bottom: 40px;
+  }
+  .formcontainer {
+    align-items: normal;
+    padding: 0px 210px;
+  }
+  .form-group {
+    padding-left: 15px;
+  }
+  .contactText {
+    height: 19.65px;
+    /* width: 236px; */
+    color: #39F;
+    font-family: Gotham;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -0.07px;
+    line-height: 20px;
+  }
+  .callus {
+    height: 21.37px;
+    /* width: 67.85px; */
+    color: #333;
+    font-family: Gotham;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -0.04px;
+    line-height: 12px;
+    margin-bottom: 20px;
+  }
+  .amessage {
+    height: 29.75px;
+    width: auto;
+    color: #333;
+    font-family: Gotham;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -0.04px;
+    line-height: 12px;
+  }
+  .inputtext {
+    width: 297px;
+  }
+  ::placeholder {
+    color: #4F4F4F;
+    font-family: Gotham;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: -0.03px;
+    line-height: 12px;
+  }
+  .btn-wrapper {
+    justify-content: flex-start;
+    margin-left: 15px;
   }
 }

@@ -57,9 +57,12 @@ body {
   justify-content: center;
 }
 
+.marketing .row {
+  justify-content: center;
+}
+
 .megaphone {
   margin-top: 50px;
-  margin-left: 50%;
   height: 124.44px;
   width: 124.41px;
 }
@@ -74,7 +77,6 @@ body {
   letter-spacing: -0.18px;
   line-height: 58px;
   text-align: center;
-  margin-left: 35%;
   margin-top: 70px;
 }
 
@@ -86,6 +88,10 @@ body {
   margin-bottom: 20px;
 }
 
+.services {
+  justify-content: center;
+}
+
 .buildingText {
   height: 86px; 
   color: #333;
@@ -93,9 +99,7 @@ body {
   font-weight: 400;
   letter-spacing: -0.26px;
   line-height: 58px;
-  display: block;
-  margin-left: 34%;
-  /* margin-top: "30px", marginBottom: "40px"  */
+  text-align: center;
 }
 
 
@@ -226,7 +230,15 @@ body {
 }
 
 .services-header {
-  display: none;
+  display: block;
+  height: 12px;
+  color: #000;
+  font-family: Gotham;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 3.43px;
+  line-height: 12px;
+  text-align: center;
 }
 
 .herosheImage-mb {
@@ -241,6 +253,9 @@ body {
 
 
 @media (max-width: 767.89px) {
+  .standing-mb-wrapper {
+    justify-content: center;
+  }
   .standing-mb {
     display: block;
     height: auto;
@@ -248,7 +263,7 @@ body {
     color: #000;
     font-family: Gotham;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 600;
     letter-spacing: -0.08px;
     line-height: 24px;
     text-align: center;
@@ -292,7 +307,6 @@ body {
   .megaphone {
     height: 42.98px;
     width: 42.63px;
-    margin-left: 46%;
   }
   .mtext {
     height: 72.31px;
@@ -311,7 +325,7 @@ body {
     color: #333;
     font-family: Gotham;
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 600;
     letter-spacing: -0.1px;
     line-height: 15px;
     text-align: center;
@@ -433,5 +447,169 @@ body {
   }
   .company-logo {
     width: 54.12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .partners-lg {
+    display: none;
+  }
+  .partners-mb {
+    display: block;
+  }
+  .herosheText3 {
+    display: none;
+  }
+  .standing-lg {
+    display: none;
+  }
+  .standing2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    height: auto;
+    margin-top: 60.52px;
+  }
+  .standing-mb-wrapper {
+    justify-content: center;
+  }
+  .standing-mb {
+    display: block;
+    height: 63.19px;
+    width: 292px;
+    color: #000;
+    font-family: Gotham;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -0.14px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 80px;
+  }
+  .header3 {
+    height: 22.3px;
+    width: 292.99px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: center;
+  }
+  .company-logo {
+    height: 32.02px;
+    width: 68.76px;
+  }
+  .megaphone {
+    height: 84.23px;
+    width: 83.93px;
+  }
+  .mtext {
+    height: 111.14px;
+    width: 490px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: -0.14px;
+    line-height: 38px;
+    text-align: center;
+  }
+  .buildingText {
+    height: 32px;
+    /* width: 473px; */
+    color: #333;
+    font-family: Gotham;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: -0.16px;
+    line-height: 15px;
+    text-align: center;
+  }
+  .see-all {
+    height: 22.24px;
+    width: 107px;
+    color: #39F;
+    font-family: Gotham;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.54px;
+    line-height: 18px;
+    text-align: center
+  }
+  .see-all img {
+    height: 27.28px;
+    width: 29.11px
+  }
+  .casestudies {
+    height: 9.72px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: -0.18px;
+    line-height: 8px;
+  }
+  .heroshe-wrapper {
+    padding: 0px 100px;
+  }
+  .herosheContainer {
+    height: auto;
+    padding: 0px 15px;
+  }
+  .heroshecontainer2 {
+    margin-top: 35px;
+  }
+  .herosheImage {
+    display: none;
+  }
+  .herosheImage-mb {
+    display: block;
+    height: auto;
+    width: 100%;
+    border-radius: 3px;
+  }
+  .herosheText1 {
+    height: 81.29px;
+    width: 444.54px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: -0.14px;
+    line-height: 36px;
+  }
+  .herosheText2 {
+    height: 77.74px;
+    width: 421.83px;
+    color: #000;
+    font-family: Gotham;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+  }
+  .herosheText4 {
+    height: auto;
+    width: 105px;
+    margin: 26px 0px;
+    margin-left: -12px;
+  }
+  .herosheText3 {
+    display: none;
+  }
+  .partcontainer {
+    height: 70px;
+    width: auto;
+  }
+  .see-how-wrapper {
+    display: block;
+  }
+  .see-how {
+    height: 18px;
+    width: 80.3px;
+    margin-top: 34px;
+    margin-bottom: 56px;
+    margin-left: 15px;
   }
 }

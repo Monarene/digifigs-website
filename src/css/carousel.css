@@ -42,6 +42,10 @@
         height: auto;
         width: 355px;
       }
+      .indicators {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
   }
 
   @media (max-width: 360px) {
@@ -56,5 +60,12 @@
     .carousel-wrapper {
         margin-bottom: 82px;
     }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .joenetflix {
+    height: auto;
+    width: 524px;
+  }
 }
 

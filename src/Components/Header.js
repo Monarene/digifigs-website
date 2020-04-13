@@ -10,13 +10,15 @@ const Header = () => {
   return (
     <React.Fragment>
       <nav class="navbar navbar-expand-lg navbar-light nav-wrapper">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler mb" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="/">
           <img src={logo} alt="logo" />
         </a>
-        
+        <button class="navbar-toggler tb" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -38,7 +40,7 @@ const Header = () => {
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0 get-started-lg">
-            <button class="btn btn-primary my-2 my-sm-0" type="link">Get Started</button>
+            <a href="#get-started"><button class="btn btn-primary my-2 my-sm-0" type="button">Get Started</button></a>
           </form>
         </div>
       </nav>

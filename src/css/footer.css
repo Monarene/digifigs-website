@@ -2,6 +2,16 @@
   display: none;
 }
 
+.tb {
+  display: none;
+}
+
+.footer-content-wrapper {
+  padding: 96px;
+  margin-top: 176.29px;
+  border-top: 1px solid #f4f4f4;
+}
+
 .footer-icon {
   height: 36.87px;
   width: 36.87px;
@@ -15,35 +25,33 @@
 }
 
 .ibadan {
-  height: 59px;
-  width: 193px;
+  height: 19px;
+  width: 61px;
   color: #333;
-  font-size: 21px;
-  font-weight: 700;
-  letter-spacing: -0.08px;
-  line-height: 57px;
+  font-family: Gotham;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
 }
 
 .address {
-  height: 109px;
-  width: 193px;
-  color: #333;
+  height: 96.92px;
+  width: 99px;
+  color: #4F4F4F;
   font-family: Gotham;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 300;
-  line-height: 17px;
+  line-height: 24px;
 }
 
-.footer-content-wrapper {
-  padding: 96px;
-  margin-top: 176.29px;
-  border-top: 1px solid #f4f4f4;
+.form-inline {
+  flex-flow: row nowrap;
 }
 
 .arrow-sub {
-  margin-left: -26px;
+  margin-left: -9px;
   height: 44.11px;
-  width: 44.25px;
+  width: 38.25px;
   transform: scaleY(-1);
 }
 
@@ -98,6 +106,11 @@
 
 .copy-mb {
   display: none;
+}
+
+::placeholder {
+  font-size: 14px;
+  color: #4F4F4F;
 }
 
 
@@ -192,5 +205,99 @@
   .footer-content-wrapper {
     padding: 10px;
     padding-top: 50px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main {
+    display: none;
+  }
+  .mb {
+    display: none;
+  }
+  .tb {
+    display: block;
+  }
+  .logo-footer {
+    height: 31.03px;
+    width: 107.21px;
+    margin-bottom: 30px;
+  }
+  .ibadan {
+    height: 9.34px;
+    width: 29.56px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 8px;
+  }
+  .address {
+    height: 96.92px;
+    width: 79.12px;
+    color: #4F4F4F;
+    font-family: Gotham;
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 16px;
+
+  }
+  .footer-content-wrapper {
+    border-top: 0.5px solid #f4f4f4;
+    padding: 35px;
+  }
+  .col-space {
+    display: none;
+  }
+  .image-group {
+    display: none;
+  }
+  .image-group-mb {
+    display: block;
+  }
+  .footer-icon {
+    height: 16.52px;
+    width: 16.39px;
+  }
+  .copy {
+    display: none;
+  }
+  .copy-mb {
+    display: block;
+  }
+  .sub {
+    padding-left: 260px;
+  }
+  .form-inline {
+    flex-flow: row nowrap;
+  }
+  .sub-txt {
+    height: 22px; 
+    color: #333;
+    font-family: Gotham;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+  }
+  .input-sub,.form-inline .form-control {
+    height: 39.47px;
+    width: 304.47px;
+    border-radius: 0px;
+  }
+   .btn-sub {
+    height: 39.47px;
+    border-radius: 0px;
+  }
+  .arrow-sub {
+    height: 38.47px;
+    width: 41.47px;
+    margin-left: -17px;
+  }
+  .copy-txt {
+    font-size: 12px;
+  }
+  .footer-content-wrapper {
+    padding: 96px;
   }
 }

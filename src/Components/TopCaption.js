@@ -19,7 +19,7 @@ const TopCaption = () => {
         </h6>
       </Row>
       <div className="get-started-mb">
-        <button class="btn btn-primary" type="link">Get Started</button>
+        <a href="#get-started"><button class="btn btn-primary my-2 my-sm-0" type="button">Get Started</button></a>
       </div>
     </Container>
   );

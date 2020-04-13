@@ -10,11 +10,11 @@ const ContactForm = () => {
         <div className="col ready">Ready to Start ?</div>
       </div>
       <div className="row">
-        <div className="col contactContainer">
+        <div className="col-12 col-sm-12 col-md-12 contactContainer">
           <h4 className="contactText">0800 000 0000</h4>
           <h5 className="callus">Call us</h5>
         </div> 
-        <div className="col contactContainer">
+        <div className="col-12 col-sm-12 col-md-12 contactContainer">
           <h4 className="contactText">hello@digifigs.com</h4>
           <h5 className="callus">
             {/* {" "} */}

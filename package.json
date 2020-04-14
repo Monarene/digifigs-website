@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "aos": "^3.0.0-beta.6",
     "bootstrap": "4",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
@@ -15,6 +16,7 @@
     "reactstrap": "5"
   },
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "resolutions": {
+    "@babel/preset-env": "^7.8.7"
   }
 }

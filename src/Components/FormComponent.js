@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, FormGroup, Col, Row, Input, Form } from "reactstrap";
+import { Button, Container, FormGroup, Col, Row, Input, Form } from "reactstrap";
 
 import "../css/homebody.css";
 
@@ -18,7 +18,7 @@ const FormComponent = () => {
           <div>
             <h4 className="contactText">hello@digifigs.com</h4>
             <h5 className="callus" style={{ marginBottom: "40px" }}>
-              {" "}
+              {/* {" "} */}
               Send an e-mail
             </h5>
           </div>
@@ -30,7 +30,7 @@ const FormComponent = () => {
       <Row>
         <div>
           <Form>
-            <Row form>
+            <Row>
               <Col>
                 <FormGroup>
                   <Input
@@ -60,6 +60,9 @@ const FormComponent = () => {
                   ></textarea>
                 </FormGroup>
               </Col>
+            </Row>
+            <Row className="btn-wrapper">
+              <Button color="primary">Send</Button>
             </Row>
           </Form>
         </div>

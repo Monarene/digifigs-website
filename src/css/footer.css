@@ -1,36 +1,303 @@
-.footerimage {
-  height: 38.64px;
-  width: 38.46px;
-  margin: 10px 10px;
+.mb {
+  display: none;
 }
 
-.footergroup {
+.tb {
+  display: none;
+}
+
+.footer-content-wrapper {
+  padding: 96px;
+  margin-top: 176.29px;
+  border-top: 1px solid #f4f4f4;
+}
+
+.footer-icon {
+  height: 36.87px;
+  width: 36.87px;
+  margin: 5px 5px;
+}
+
+.logo-footer {
   height: 59.7px;
   width: 194px;
   margin-bottom: 100px;
 }
 
-.footercontainer {
-  padding-top: 170px;
-  padding-bottom: 200px;
-}
-
 .ibadan {
-  height: 59px;
-  width: 193px;
+  height: 19px;
+  width: 61px;
   color: #333;
-  font-size: 21px;
-  font-weight: 700;
-  letter-spacing: -0.08px;
-  line-height: 57px;
+  font-family: Gotham;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
 }
 
 .address {
-  height: 109px;
-  width: 237px;
+  height: 96.92px;
+  width: 99px;
+  color: #4F4F4F;
+  font-family: Gotham;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.form-inline {
+  flex-flow: row nowrap;
+}
+
+.arrow-sub {
+  margin-left: -9px;
+  height: 44.11px;
+  width: 38.25px;
+  transform: scaleY(-1);
+}
+
+.input-sub,.form-inline .form-control {
+  height: 50.28px;
+  width: 386.67px;
+}
+
+.btn-sub {
+  width: 57.69px;
+  height: 50px;
+  background-color: #39F;
+  padding: 0px
+}
+
+.sub-txt {
+  height: 21.29px;
   color: #333;
   font-family: Gotham;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 300;
-  line-height: 17px;
+  line-height: 12px;
+  margin: 0px;
+}
+
+.footer-bottom {
+  align-items: center;
+  margin-top: 100px;
+}
+
+.sub {
+  padding-left: 96px;
+}
+
+.copy-txt {
+  color: #333;
+  font-family: Gotham;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
+  margin-top: 36px;;
+  text-align: center;
+}
+
+.col-space {
+  display: none;
+}
+
+.image-group-mb {
+  display: none;
+}
+
+.copy-mb {
+  display: none;
+}
+
+::placeholder {
+  font-size: 14px;
+  color: #4F4F4F;
+}
+
+
+@media (max-width: 767.89px) {
+  .main {
+    display: none;
+  }
+  .mb {
+    display: block;
+  }
+  .logo-footer {
+    height: 24.03px;
+    width: 82.21px;
+    margin-bottom: 30px;
+  }
+  .ibadan {
+    height: 9.34px;
+    width: 29.56px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 8px;
+  }
+  .address {
+    height: 96.92px;
+    width: 79.12px;
+    color: #4F4F4F;
+    font-family: Gotham;
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 16px;
+
+  }
+  .footer-content-wrapper {
+    border-top: 0.5px solid #f4f4f4;
+    padding: 35px;
+  }
+  .col-space {
+    display: block;
+  }
+  .image-group {
+    display: none;
+  }
+  .image-group-mb {
+    display: block;
+  }
+  .footer-icon {
+    height: 16.52px;
+    width: 16.39px;
+  }
+  .copy {
+    display: none;
+  }
+  .copy-mb {
+    display: block;
+  }
+  /* .sub {
+    padding-left: 0px;
+  } */
+  .form-inline {
+    flex-flow: row nowrap;
+  }
+  .sub-txt {
+    height: 12px; 
+    color: #333;
+    font-family: Gotham;
+    font-size: 9px;
+    font-weight: 300;
+    line-height: 12px;
+  }
+  .input-sub,.form-inline .form-control {
+    height: 39.47px;
+    width: 164.47px;
+    border-radius: 0px;
+  }
+  .btn-sub {
+    height: 39.47px;
+    width: 39.47px;
+    border-radius: 0px;
+  }
+  .arrow-sub {
+    height: 36.47px;
+    width: 39.47px;
+  }
+  .copy-txt {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .footer-content-wrapper {
+    padding: 10px;
+    padding-top: 50px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main {
+    display: none;
+  }
+  .mb {
+    display: none;
+  }
+  .tb {
+    display: block;
+  }
+  .logo-footer {
+    height: 31.03px;
+    width: 107.21px;
+    margin-bottom: 30px;
+  }
+  .ibadan {
+    height: 9.34px;
+    width: 29.56px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 8px;
+  }
+  .address {
+    height: 96.92px;
+    width: 79.12px;
+    color: #4F4F4F;
+    font-family: Gotham;
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 16px;
+
+  }
+  .footer-content-wrapper {
+    border-top: 0.5px solid #f4f4f4;
+    padding: 35px;
+  }
+  .col-space {
+    display: none;
+  }
+  .image-group {
+    display: none;
+  }
+  .image-group-mb {
+    display: block;
+  }
+  .footer-icon {
+    height: 16.52px;
+    width: 16.39px;
+  }
+  .copy {
+    display: none;
+  }
+  .copy-mb {
+    display: block;
+  }
+  .sub {
+    padding-left: 260px;
+  }
+  .form-inline {
+    flex-flow: row nowrap;
+  }
+  .sub-txt {
+    height: 22px; 
+    color: #333;
+    font-family: Gotham;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+  }
+  .input-sub,.form-inline .form-control {
+    height: 39.47px;
+    width: 304.47px;
+    border-radius: 0px;
+  }
+   .btn-sub {
+    height: 39.47px;
+    border-radius: 0px;
+  }
+  .arrow-sub {
+    height: 38.47px;
+    width: 41.47px;
+    margin-left: -17px;
+  }
+  .copy-txt {
+    font-size: 12px;
+  }
+  .footer-content-wrapper {
+    padding: 96px;
+  }
 }

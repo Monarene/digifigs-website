@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import { Row, Col, Container } from "reactstrap";
 import AOS from "aos";
 import netflix from "../assets/images/netflix.png";
@@ -6,26 +7,44 @@ import facebook from "../assets/images/facebook-2.png";
 import google from "../assets/images/google.png";
 import vmware from "../assets/images/vmware.png";
 import toyota from "../assets/images/toyota.png";
+=======
+import Partners from '../Components/Partners';
+import AOS from 'aos';
+import down from "../assets/images/down.png";
+import see_how from "../assets/images/cta.png";
+>>>>>>> odi
 import ballons from "../assets/images/ballons.png";
-import new_image from "../assets/images/fine-girl.png";
-import joe_netflix from "../assets/images/Joe _ Netflix.png";
+import new_image from "../assets/images/home-banner.png";
 import capa from "../assets/images/Capa_1.png";
 import target from "../assets/images/Target.png";
 import arrow from "../assets/images/Arrow.png";
 import heroshe from "../assets/images/heroshe.png";
-import FormComponent from "../Components/FormComponent";
-import BrandComponent from "../Components/BrandComponent";
-import MarketingComponent from "../Components/MarketingComponent";
-import "../css/homebody.css";
+import heroshe_mb from "../assets/images/heroshe-mb.png";
+import heroshe_text from "../assets/images/heroshe-text.png";
+import ContactForm from "../Components/ContactForm";
+import TopCaption from "../Components/TopCaption";
+import Marketing from "../Components/Marketing";
+import CaptionImage from "../Components/CaptionImage";
+import Carousel from "../Components/Carousel";
+import Service from "../Components/Service";
+import "../css/homepage.css";
 import "aos/dist/aos.css";
 
+<<<<<<< HEAD
 const HomeBody = () => {
   AOS.init({ duration: 1000 });
+=======
+
+
+const HomePage = () => {
+  AOS.init({ duration: 800,});
+>>>>>>> odi
   return (
     <div>
       <div data-aos="fade-up">
-        <BrandComponent />
+        <TopCaption title="Get the visibility your brand needs" subtitle="Customized Digital Marketing Strategies just for your brand" />
       </div>
+<<<<<<< HEAD
 
       <Container className="justify-content-center">
         <Row>
@@ -67,10 +86,35 @@ const HomeBody = () => {
             <img alt="" className="ballons" src={ballons} />
           </Col>
         </Row>
+=======
+      
+      <div data-aos="zoom-in">
+        <CaptionImage image={new_image} />
+      </div>
+      <div className="container justify-content-center partners-lg" data-aos="fade-down">
+        <Partners />
+      </div>
+      <div className="standing2" height="444">
+        <div className="container">
+          <div className="row standing-mb-wrapper">
+            <h3 className="standing-mb" data-aos="flip-down">We stand out<br /> among the Crowd</h3>
+            <div className="col-sm-6 standing-lg">
+              <h3 className="standing" data-aos="flip-down">We stand out<br /> among the Crowd</h3>
+            </div>
+            <div className="col-sm-6 standing-lg">
+              <img alt="" className="ballons" src={ballons} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container justify-content-center partners-mb" data-aos="fade-down">
+        <Partners />
+>>>>>>> odi
       </div>
       <div data-aos="zoom-in">
-        <MarketingComponent />
+        <Marketing />
       </div>
+<<<<<<< HEAD
 
       <Container className="joecontainer">
         <Row data-aos="fade-up">
@@ -86,76 +130,85 @@ const HomeBody = () => {
               className="buildingText"
               style={{ marginTop: "30px", marginBottom: "40px" }}
             >
+=======
+      
+      <div className="container carousel-container" data-aos="fade-up">
+        <Carousel />
+      </div>
+      <div className="container justify-content-center">
+        <div className="row services">
+          <div className="col">
+            <h3 className="buildingText">
+>>>>>>> odi
               Build your Business
             </h3>
-          </Col>
-        </Row>
-        <Row className="engineO">
-          <Col sm={12} md={6} data-aos="fade-right">
-            <img src={target} alt="" className="target" />
-            <h4 className="targetText1">Search Engine Optimization</h4>
-            <h5 className="targetText2">
-              Get your website to rank higher on search engine results pages
-              through the improved online visibility that we offer through our
-              SEO services.
-            </h5>
-          </Col>
-          <Col sm={12} md={6} data-aos="fade-left">
-            <img src={capa} alt="" className="capa" />
-            <h4 className="targetText1">Web Development</h4>
-            <h5 className="targetText2">
-              We will help you build a website that shows the brand image you
-              want your website visitors to see. We also provide quality
-              services in web hosting.
-            </h5>
-          </Col>
-        </Row>
-      </Container>
-      <div className="herosheContainer">
-        <Container>
-          <Row>
-            <h6 className="casestudies">Case Studies</h6>
-          </Row>
-          <div className="herosheContainer2">
-            <Row className="heroshecontainer">
-              <Col sm={12} md={6} className="heroshecontainer2">
-                <h3 className="herosheText1">
-                  How we scaled Heroshe from 0 to 100
-                </h3>
-                <div className="partcontainer">
-                  <h4 className="herosheText2">
-                    Get your website to rank higher on search engine results
-                  </h4>
-                  <h4 className="herosheText3">
-                    See how
-                    <span>
-                      <img
-                        alt=""
-                        src={arrow}
-                        style={{
-                          height: "15.25px",
-                          width: "32px",
-                          paddingLeft: "5px",
-                          textTransform: " transform: scaleX(-1) scaleY(-1)",
-                        }}
-                      />
-                    </span>
-                  </h4>
-                </div>
-                <h3 className="herosheText4">heroshe</h3>
-              </Col>
-              <Col sm={12} md={6}>
-                <img src={heroshe} alt="" className="herosheImage" />
-              </Col>
-            </Row>
+            <h6 className="services-header">SERVICES</h6>
           </div>
-        </Container>
+        </div>
+        <div className="row engineO">
+          <div className="col-sm-12 col-md-12 col-lg-6" data-aos="fade-up">
+            <Service imgClass="target" image={target} text1="Search Engine Optimization" text2="Get your website to rank higher on search engine results pages through the improved online visibility that we offer through our SEO services." />
+          </div>
+          <div className="col-sm-12 col-md-12 col-lg-6" data-aos="fade-up">
+            <Service imgClass="capa" image={capa} text1="Web Development" text2="We will help you build a website that shows the brand image you want your website visitors to see. We also provide quality services in web hosting." />
+          </div>
+        </div>
+        <div className="row see-all-wrapper">
+          <div>
+            <a href="#"><button type="button" class="btn btn-link see-all">See all</button></a>
+          </div>
+          <div>
+            <img src={down} alt=""/>
+          </div>
+        </div>
       </div>
-      <div data-aos="fade-right">
-        <FormComponent />
+      <div className="herosheContainer">
+        <div className="container">
+          <div className="row">
+            <h6 className="casestudies">Case Studies</h6>
+          </div>
+          <div className="row heroshe-wrapper">
+            <div className="col-sm-12 col-md-auto heroshecontainer2">
+              <h3 className="herosheText1">
+                How we scaled Heroshe<br /> from 0 to 100
+              </h3>
+              <div className="partcontainer">
+                <h4 className="herosheText2">
+                  Get your website to rank higher on search engine results
+                </h4>
+                <h4 className="herosheText3">
+                  See how
+                  <span>
+                    <img
+                      alt=""
+                      src={arrow}
+                      style={{
+                        height: "15.25px",
+                        width: "32px",
+                        paddingLeft: "5px",
+                        textTransform: " transform: scaleX(-1) scaleY(-1)",
+                      }}
+                    />
+                  </span>
+                </h4>
+              </div>
+              <img src={heroshe_text} alt="" className="herosheText4" />
+            </div>
+            <div className="col-sm-12 col-md-auto">
+              <img src={heroshe} alt="" className="herosheImage" />
+              <img src={heroshe_mb} alt="" className="herosheImage-mb" />
+            </div>
+            <div className="see-how-wrapper">
+              <img src={see_how} alt="" className="see-how" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-aos="fade-up">
+        <ContactForm />
       </div>
     </div>
   );
 };
 
-export default HomeBody;
+export default HomePage;

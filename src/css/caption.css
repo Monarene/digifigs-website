@@ -1,0 +1,116 @@
+.header1 {
+    height: auto;
+    width: 590px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -0.21px;
+    line-height: 65px;
+    text-align: center;
+    margin: 40px auto;
+    /* font-family: "Montserrat", sans-serif; */
+  }
+  
+.header2 {
+    height: auto;
+    color: #4f4f4f;
+    font-family: Gotham;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 60px;
+    margin: auto;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.image1 {
+  margin-top: 70px;
+  height: 600px;
+  width: 1225px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.get-started-mb {
+  display: none;
+}
+
+@media (max-width: 767.89px) {
+  .header1 {
+    width: 300px;
+    color: #000;
+    font-family: Gotham;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: -0.15px;
+    line-height: 35px;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .header2 {
+    width: 270px;
+    color: #4F4F4F;
+    font-family: Gotham;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+  }
+  .img-wrapper {
+    margin-top: 37px;
+  }
+  .image1 {
+    margin-top: 35px;
+    height: auto;
+    width: 100%;
+    border-radius: 3px;
+  }
+  .get-started-mb {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header1 {
+    height: auto;
+    width: 377px;
+    color: #000;
+    font-family: Gotham;
+    font-size: 38px;
+    font-weight: 300;
+    letter-spacing: -0.19px;
+    line-height: 43px;
+    text-align: center;
+    margin: 30px auto;
+  }
+  .header2 {
+    height: auto;
+    width: 638px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: center;
+  }
+  .get-started-mb {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-top: 30px;
+  }
+  .image1 {
+    height: auto;
+    width: 100%;
+    border-radius: 3px;
+  }
+}
+

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import AOS from "aos";
@@ -7,23 +8,69 @@ import FormComponent from "../Components/FormComponent";
 import banner from "../assets/images/about-banner.png";
 import "../css/about.css";
 import "aos/dist/aos.css";
+=======
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import AOS from 'aos';
+import ballons from "../assets/images/ballons.png";
+import TopCaption from '../Components/TopCaption';
+import Marketing from '../Components/Marketing';
+import ContactForm from '../Components/ContactForm';
+import banner from '../assets/images/about-banner.png';
+import Partners from '../Components/Partners';
+import Carousel from '../Components/Carousel';
+import '../css/carousel.css';
+import '../css/homepage.css';
+import '../css/caption.css';
+import '../css/about.css';
+import 'aos/dist/aos.css';
+
+
+
+>>>>>>> odi
+
+
 
 export default function About() {
+<<<<<<< HEAD
   AOS.init({ duration: 1200 });
   return (
     <React.Fragment>
       <div data-aos="fade-up">
         <BrandVisibility />
       </div>
+=======
+    AOS.init({duration: 800,});
+  return (
+    <React.Fragment>
+        <div data-aos="fade-down">
+          <TopCaption title="Get the visibility your brand needs" subtitle="Customized Digital Marketing Strategies just for your brand" />
+        </div> 
+>>>>>>> odi
       <Container className="justify-content-center">
         <Row>
-          <Col>
-            <img alt="" src={banner} className="image1 mt-3" />
-          </Col>
+          <img alt="" src={banner} className="image1" data-aos="zoom-in"/>
         </Row>
       </Container>
+      <div className="container justify-content-center partners-lg" data-aos="fade-down">
+        <Partners />
+      </div>
+      <div className="standing2" height="444">
+        <div className="container">
+          <div className="row standing-mb-wrapper">
+            <h3 className="standing-mb" data-aos="flip-down">We stand out<br /> among the Crowd</h3>
+            <div className="col-sm-6 standing-lg">
+              <h3 className="standing" data-aos="flip-down">We stand out<br /> among the Crowd</h3>
+            </div>
+            <div className="col-sm-6 standing-lg">
+              <img alt="" className="ballons" src={ballons} />
+            </div>
+          </div>
+        </div>
+      </div>
       <Container>
         <Row className="description">
+<<<<<<< HEAD
           <Col className="item-1" data-aos="fade-right">
             <p>
               Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit,
@@ -37,13 +84,27 @@ export default function About() {
               experince using our devices
             </p>
           </Col>
+=======
+            <Col className="item-1" data-aos="fade-up">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </Col>
+            <Col className="item-2" data-aos="fade-up">
+                <p>We are Kin on making <br /> sure you have the best <br /> experince using our devices</p>
+            </Col>
+>>>>>>> odi
         </Row>
       </Container>
       <div className="marketing-about" data-aos="zoom-in">
         <Marketing />
       </div>
+      <div className="container justify-content-center partners-mb" data-aos="fade-down">
+        <Partners />
+      </div>
+      <div className="container carousel-container" data-aos="fade-up">
+        <Carousel />
+      </div>
       <div className="form" data-aos="fade-up">
-        <FormComponent />
+        <ContactForm />
       </div>
     </React.Fragment>
   );

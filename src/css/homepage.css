@@ -1,0 +1,615 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"); */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.header3 {
+  height: 44.43px;
+  width: 372.46px;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: auto;
+  margin-top: 110px;
+  text-align: center;
+}
+
+.company-logo {
+  height: 80px;
+  margin-top: 50px;
+  width: 150px;
+}
+
+.standing {
+  align-items: center;
+  height: 110px;
+  width: 353px;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  letter-spacing: -0.16px;
+  line-height: 42px;
+  margin-top: 25%;
+  margin-left: 45%;
+}
+
+.ballons {
+  height: 402px;
+  width: 625px;
+  margin-top: 40px;
+}
+
+.standing2 {
+  height: 444px;
+  background-color: #f6f6f6;
+  margin-top: 100px;
+}
+
+.marketing {
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.marketing .row {
+  justify-content: center;
+}
+
+.megaphone {
+  margin-top: 50px;
+  height: 124.44px;
+  width: 124.41px;
+}
+
+.mtext {
+  height: 110px;
+  width: 450px;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: -0.18px;
+  line-height: 58px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+
+
+.carousel-container {
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+
+.services {
+  justify-content: center;
+}
+
+.buildingText {
+  height: 86px; 
+  color: #333;
+  font-size: 58px;
+  font-weight: 400;
+  letter-spacing: -0.26px;
+  line-height: 58px;
+  text-align: center;
+}
+
+
+
+.engineO {
+  margin-top: 80px;
+  margin-left: 130px;
+}
+
+.herosheContainer {
+  height: 842px;
+  width: 100%;
+  background-color: rgba(242, 242, 242, 0.4);
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.casestudies {
+  height: 14px;
+  width: 101px;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.42px;
+  line-height: 14px;
+  padding-top: 30px;
+  padding-left: 15px;
+  text-transform: uppercase;
+}
+
+.herosheText1 {
+  height: 114px;
+  width: 450px;
+  color: #333;
+  font-size: 39px;
+  font-weight: 300;
+  letter-spacing: -0.18px;
+  line-height: 41px;
+}
+.partcontainer {
+  height: 128px;
+  width: 434px;
+  color: #333;
+  font-size: 23.5px;
+  line-height: 32px;
+}
+
+.herosheText2 {
+  font-size: 23.5px;
+  font-weight: 100;
+  line-height: 32px;
+}
+
+.herosheText3 {
+  height: 20px;
+  width: 86px;
+  color: #39f;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.herosheText4 {
+  height: 64px;
+  width: 256px;
+  margin-left: -30px;
+}
+
+.herosheImage {
+  height: 572px;
+  width: 471px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.herosheContainer2 {
+  padding-top: 100px;
+}
+
+.heroshecontainer2 {
+  margin-top: 100px;
+}
+
+.herosheText4 {
+  font-size: 60px;
+}
+
+
+
+
+.see-all-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 140px;
+  margin-bottom: 144.74px;
+}
+
+.see-all-wrapper img {
+  height: 35.26px;
+  width: 35.26px;
+  margin-top: 5px
+}
+
+.see-all {
+  height: 30px; 
+  color: #39F;
+  font-family: Gotham;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  line-height: 30px;
+  text-align: center;
+  
+}
+
+.see-all:hover, .see-all:focus {
+  text-decoration: none;
+}
+
+.standing-mb {
+  display: none;
+}
+
+.partners-mb {
+  display: none;
+}
+
+.services-header {
+  display: block;
+  height: 12px;
+  color: #000;
+  font-family: Gotham;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 3.43px;
+  line-height: 12px;
+  text-align: center;
+}
+
+.herosheImage-mb {
+  display: none;
+}
+
+.see-how-wrapper {
+  display: none;
+}
+
+
+
+
+@media (max-width: 767.89px) {
+  .standing-mb-wrapper {
+    justify-content: center;
+  }
+  .standing-mb {
+    display: block;
+    height: auto;
+    width: 100%;
+    color: #000;
+    font-family: Gotham;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.08px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .standing-lg {
+    display: none;
+  }
+  .standing2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    height: auto;
+    margin-top: 60.52px;
+  }
+  .partners-lg {
+    display: none;
+  }
+  .partners-mb {
+    display: block;
+  }
+  .header3 {
+    margin-top: 53px;
+    height: auto;
+    width: 100%;
+    color: #333;
+    font-family: Gotham;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 10px;
+    text-align: center;
+  }
+  .company-logo {
+    height: 28.24px;
+    width: 63.12px;
+    margin-top: 29px;
+  }
+  .partners-wrapper .col {
+    padding: 0px;
+  }
+  .megaphone {
+    height: 42.98px;
+    width: 42.63px;
+  }
+  .mtext {
+    height: 72.31px;
+    width: 319px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0.11px;
+    line-height: 28px;
+    text-align: center;
+    margin: auto;
+    margin-top: 23px;
+  }
+  .buildingText {
+    color: #333;
+    font-family: Gotham;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.1px;
+    line-height: 15px;
+    text-align: center;
+    margin: 0px;
+    height: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .services-header {
+    display: block;
+    color: #000;
+    font-family: Gotham;
+    font-size: 7px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 7px;
+    text-align: center;
+  }
+  .see-all {
+    color: #39F;
+    font-family: Gotham;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -0.36px;
+    line-height: 12px;
+    text-align: center;
+    height: 12px;
+  }
+  .see-all-wrapper img {
+    height: 13.26px;
+    width: 14.15px;
+  }
+  .casestudies {
+    height: 12px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 7px;
+    font-weight: 500;
+    letter-spacing: -0.18px;
+    line-height: 7px;
+  }
+  .herosheContainer {
+    padding: 0px 30px;
+  }
+  .heroshecontainer2 {
+    margin-top: 35px;
+  }
+  .herosheImage {
+    display: none;
+  }
+  .herosheImage-mb {
+    display: block;
+    height: auto;
+    width: 100%;
+    border-radius: 3px;
+
+  }
+  .herosheText1 {
+    height: auto;
+    width: auto;
+    color: #333;
+    font-family: Gotham;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -0.09px;
+    line-height: 25px;
+  }
+  .herosheText2 {
+    height: 48px;
+    width: 260px;
+    color: #000;
+    font-family: Gotham;
+    font-size: 12.5px;
+    font-weight: 300;
+    line-height: 18px;
+  }
+  .herosheText4 {
+    height: auto;
+    width: 106px;
+    margin-left: -12px;
+    margin-bottom: 26px;
+  }
+  .herosheText3 {
+    display: none;
+  }
+  .engineO {
+    margin-left: 0px;
+    padding-left: 30px;
+    margin-top: 0px;
+  }
+  .partcontainer {
+    height: 60px;
+    width: auto;
+  }
+  .see-how-wrapper {
+    display: block;
+  }
+  .see-how {
+    height: 18px;
+    width: 80.3px;
+    margin-top: 34px;
+    margin-bottom: 86px;
+    margin-left: 15px;
+  }
+  .see-all-wrapper {
+    margin: 77px 0px;
+  }
+  .herosheContainer {
+    height: auto;
+  }
+}
+
+@media (max-width: 360px) {
+  .mtext {
+    width: 305px;
+  }
+  .engineO {
+    padding-left: 10px;
+  }
+  .company-logo {
+    width: 54.12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .partners-lg {
+    display: none;
+  }
+  .partners-mb {
+    display: block;
+  }
+  .herosheText3 {
+    display: none;
+  }
+  .standing-lg {
+    display: none;
+  }
+  .standing2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    height: auto;
+    margin-top: 60.52px;
+  }
+  .standing-mb-wrapper {
+    justify-content: center;
+  }
+  .standing-mb {
+    display: block;
+    height: 63.19px;
+    width: 292px;
+    color: #000;
+    font-family: Gotham;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -0.14px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 80px;
+  }
+  .header3 {
+    height: 22.3px;
+    width: 292.99px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: center;
+  }
+  .company-logo {
+    height: 32.02px;
+    width: 68.76px;
+  }
+  .megaphone {
+    height: 84.23px;
+    width: 83.93px;
+  }
+  .mtext {
+    height: 111.14px;
+    width: 490px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: -0.14px;
+    line-height: 38px;
+    text-align: center;
+  }
+  .buildingText {
+    height: 32px;
+    /* width: 473px; */
+    color: #333;
+    font-family: Gotham;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: -0.16px;
+    line-height: 15px;
+    text-align: center;
+  }
+  .see-all {
+    height: 22.24px;
+    width: 107px;
+    color: #39F;
+    font-family: Gotham;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.54px;
+    line-height: 18px;
+    text-align: center
+  }
+  .see-all img {
+    height: 27.28px;
+    width: 29.11px
+  }
+  .casestudies {
+    height: 9.72px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: -0.18px;
+    line-height: 8px;
+  }
+  .heroshe-wrapper {
+    padding: 0px 100px;
+  }
+  .herosheContainer {
+    height: auto;
+    padding: 0px 15px;
+  }
+  .heroshecontainer2 {
+    margin-top: 35px;
+  }
+  .herosheImage {
+    display: none;
+  }
+  .herosheImage-mb {
+    display: block;
+    height: auto;
+    width: 100%;
+    border-radius: 3px;
+  }
+  .herosheText1 {
+    height: 81.29px;
+    width: 444.54px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: -0.14px;
+    line-height: 36px;
+  }
+  .herosheText2 {
+    height: 77.74px;
+    width: 421.83px;
+    color: #000;
+    font-family: Gotham;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+  }
+  .herosheText4 {
+    height: auto;
+    width: 105px;
+    margin: 26px 0px;
+    margin-left: -12px;
+  }
+  .herosheText3 {
+    display: none;
+  }
+  .partcontainer {
+    height: 70px;
+    width: auto;
+  }
+  .see-how-wrapper {
+    display: block;
+  }
+  .see-how {
+    height: 18px;
+    width: 80.3px;
+    margin-top: 34px;
+    margin-bottom: 56px;
+    margin-left: 15px;
+  }
+}

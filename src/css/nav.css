@@ -3,23 +3,66 @@ img {
   width: 122px;
 }
 
-NavbarToggler {
-  color: #39f;
-  background-color: #39f;
+.nav-wrapper {
+  /* flex-wrap: nowrap; */
+  margin-top: 15px;
 }
 
-.btn-default {
-  height: 62px;
-  width: 216px;
-  background-color: #39f;
+.btn {
+  height: 47px;
+  width: 204px;
 }
 
-.btn-default:hover {
-  background-color: #39f;
+.navbar-light .navbar-toggler-icon {
+  height: 23.89px;
+  width: 23.46px;
+  background-image: url(../assets/images/Menu.png);
 }
 
-.btn-default:active {
-  background-color: #39f !important;
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+
+button:focus {
+  outline: transparent;
+}
+
+.tb {
+  display: none;
+}
+
+
+
+@media (max-width: 767.89px) {
+  img {
+    height: 23px;
+    width: 99.9px;
+  }
+  .get-started-lg {
+    display: none;
+  }
+  .navbar {
+    justify-content: flex-start;
+  }
+  .tb {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  img {
+    height: 35px;
+    width: 143px;
+  }
+  .get-started-lg {
+    display: none;
+  }
+  .navbar {
+    justify-content: space-between;
+  }
+  .tb {
+    display: block;
+  }
 }
 
 .nav-link {

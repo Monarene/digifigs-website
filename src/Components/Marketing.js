@@ -10,7 +10,7 @@ const Marketing = () => {
       </Row>
 
       <Row>
-          <h3 className="mtext">We have Mastered the Art of Marketing</h3>
+          <h3 className="mtext">We have Mastered the <br /> Art of Marketing</h3>
       </Row>
     </Container>
   );

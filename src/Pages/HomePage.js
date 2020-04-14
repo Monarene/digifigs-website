@@ -27,7 +27,7 @@ const HomePage = () => {
   return (
     <div>
       <div data-aos="fade-up">
-        <TopCaption />
+        <TopCaption title="Get the visibility your brand needs" subtitle="Customized Digital Marketing Strategies just for your brand" />
       </div>
       
       <div data-aos="zoom-in">
@@ -127,7 +127,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <div data-aos="fade-up" id="get-started">
+      <div data-aos="fade-up">
         <ContactForm />
       </div>
     </div>

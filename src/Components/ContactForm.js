@@ -5,7 +5,7 @@ import "../css/form.css";
 
 const ContactForm = () => {
   return (
-    <div className="container formcontainer">
+    <div className="container formcontainer" id="get-started">
       <div className="row">
         <div className="col ready">Ready to Start ?</div>
       </div>

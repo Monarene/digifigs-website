@@ -2,9 +2,9 @@
     margin-top: 200px;
 }
 .address-contact h3 {
-    height: 85.34px;
+  height: 85.34px;
   width: 279.32px;
-  color: #333;
+  color: #39F;
   font-size: 35px;
   font-weight: 700;
   letter-spacing: -0.13px;
@@ -12,7 +12,7 @@
 }
 
 .address-contact p {
-    height: 157.66px;
+  height: 157.66px;
   width: 612px;
   color: #333;
   /* font-family: Gotham, Arial, Helvetica, sans-serif; */
@@ -24,4 +24,43 @@
 .marketing-contact {
     margin-top: 0px;
     margin-bottom: 200px;
+}
+
+
+@media (max-width: 767.89px) {
+  .standing-contact {
+    font-weight: 300;
+  }
+  .address-contact {
+    padding-left: 15px;
+    margin-bottom: 108px;
+  }
+  .address-contact h3 {
+    height: 40px;
+    color: #39F;
+    font-family: Gotham;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.06px;
+    line-height: 57px;
+  }
+  .address-contact p {
+    height: 60px;
+    width: 312px;
+    color: #333;
+    font-family: Gotham;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .item-contact p {
+    text-align: center;
+  }
+  .address-contact {
+    padding-left: 30px;
+  }
 }

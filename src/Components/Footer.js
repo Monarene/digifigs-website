@@ -23,30 +23,34 @@ const Footer = () => {
               <img src={facebook_black} alt="" className="footer-icon" />
           </div>
         </div>
-        <div className="col-4 col-sm-4 col-md-auto">
-          <h6 className="ibadan">Ibadan</h6>
-          <h6 className="address">
-            Kuye Street, Ikolaba Estate, Adjacent A3 Estate, Ikolaba, Ibadan
-          </h6>
-        </div>
-        <div className="col-4 col-sm-4 col-md-auto">
-          <h6 className="ibadan">Products</h6>
-          <h6 className="address">
-            Lorem ipsum sit amet, consectetur adipiscing elit
-          </h6>
-        </div>
-        <div className="col-4 col-sm-4 col-md-auto col-space"></div>
-        <div className="col-4 col-sm-4 col-md-auto">
-          <h6 className="ibadan">Products</h6>
-          <h6 className="address">
-            Lorem ipsum sit amet, consectetur adipiscing elit
-          </h6>
-        </div>
-        <div className="col-4 col-sm-4 col-md-auto">
-          <h6 className="ibadan">Products</h6>
-          <h6 className="address">
-            Lorem ipsum sit amet, consectetur adipiscing elit
-          </h6>
+        <div className="col-8 col-sm-8 col-md-8">
+          <div className="row">
+            <div className="col-4 col-sm-4 col-md-auto">
+              <h6 className="ibadan">Ibadan</h6>
+              <h6 className="address">
+                Kuye Street, Ikolaba Estate, Adjacent A3 Estate, Ikolaba, Ibadan
+              </h6>
+            </div>
+            <div className="col-4 col-sm-4 col-md-auto">
+              <h6 className="ibadan">Products</h6>
+              <h6 className="address">
+                Lorem ipsum sit amet, consectetur adipiscing elit
+              </h6>
+            </div>
+            <div className="col-4 col-sm-4 col-md-auto col-space"></div>
+            <div className="col-4 col-sm-4 col-md-auto">
+              <h6 className="ibadan">Products</h6>
+              <h6 className="address">
+                Lorem ipsum sit amet, consectetur adipiscing elit
+              </h6>
+            </div>
+            <div className="col-4 col-sm-4 col-md-auto">
+              <h6 className="ibadan">Products</h6>
+              <h6 className="address">
+                Lorem ipsum sit amet, consectetur adipiscing elit
+              </h6>
+            </div>
+          </div>
         </div>
       </div>
       <div className="row footer-bottom">

@@ -4,18 +4,18 @@ import Ellipse from "./Ellipse";
 import '../css/caption.css'
 
 
-const TopCaption = () => {
+const TopCaption = ({ title, subtitle }) => {
   return (
     <Container>
       <Ellipse />
       <Row>
         <Col>
-          <h2 className="header1">Get the visibility <br /> your brand needs</h2>
+          <h2 className="header1">{title}</h2>
         </Col>
       </Row>
       <Row>
         <h6 className="header2 text-center">
-          Customized Digital Marketing Strategies just for your brand
+          {subtitle}
         </h6>
       </Row>
       <div className="get-started-mb">

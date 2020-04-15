@@ -1,0 +1,47 @@
+.contentImage {
+  height: 97px;
+  width: 100px;
+  margin: 20px 0;
+}
+
+.content-container {
+  margin-top: 120px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contentText {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: -0.1px;
+  line-height: 26px;
+  margin: 20px 0px;
+}
+
+.content-text {
+  color: #333;
+  font-family: Gotham;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.rejoice-text {
+  margin-top: 200px;
+  height: 327px;
+  width: 515px;
+  color: #000;
+  font-family: Gotham;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 43px;
+}
+
+.image-rejoicing {
+  height: 358px;
+  width: 558px;
+}

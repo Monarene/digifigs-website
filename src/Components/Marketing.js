@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import megaphone from "../assets/images/megaphone.png";
 
-const Marketing = () => {
+const Marketing = ({ caption }) => {
   return (
     <Container className="marketing">
       <Row>
@@ -10,7 +10,9 @@ const Marketing = () => {
       </Row>
 
       <Row>
-          <h3 className="mtext">We have Mastered the <br /> Art of Marketing</h3>
+        <h3 className="mtext">
+          We have Mastered the <br /> {caption}
+        </h3>
       </Row>
     </Container>
   );

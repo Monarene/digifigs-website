@@ -8,6 +8,7 @@ import ContactForm from "../Components/ContactForm";
 import banner from "../assets/images/contact-banner.png";
 import Partners from "../Components/Partners";
 import Carousel from "../Components/Carousel";
+import StandOut from "../Components/StandOut";
 import "../css/contact.css";
 import "../css/homepage.css";
 import "aos/dist/aos.css";
@@ -34,23 +35,7 @@ export default function Contact() {
         <Partners />
       </div>
       <div className="standing2" height="444">
-        <div className="container">
-          <div className="row standing-mb-wrapper">
-            <h3 className="standing-mb  standing-contact" data-aos="flip-down">
-              We stand out
-              <br /> among the Crowd
-            </h3>
-            <div className="col-sm-6 standing-lg">
-              <h3 className="standing" data-aos="flip-down">
-                We stand out
-                <br /> among the Crowd
-              </h3>
-            </div>
-            <div className="col-sm-6 standing-lg">
-              <img alt="" className="ballons" src={ballons} />
-            </div>
-          </div>
-        </div>
+        <StandOut />
       </div>
       <Container>
         <Row className="description">
@@ -63,7 +48,7 @@ export default function Contact() {
         </Row>
       </Container>
       <div className="marketing-about" data-aos="zoom-in">
-        <Marketing />
+        <Marketing caption="Art of Digital Marketing" />
       </div>
       <div className="form" data-aos="fade-up">
         <ContactForm />

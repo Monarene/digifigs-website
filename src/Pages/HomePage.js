@@ -14,6 +14,7 @@ import heroshe_text from "../assets/images/heroshe-text.png";
 import ContactForm from "../Components/ContactForm";
 import TopCaption from "../Components/TopCaption";
 import Marketing from "../Components/Marketing";
+import StandOut from "..//Components/StandOut";
 import CaptionImage from "../Components/CaptionImage";
 import Carousel from "../Components/Carousel";
 import Service from "../Components/Service";
@@ -41,23 +42,7 @@ const HomePage = () => {
         <Partners />
       </div>
       <div className="standing2" height="444">
-        <div className="container">
-          <div className="row standing-mb-wrapper">
-            <h3 className="standing-mb" data-aos="flip-down">
-              We stand out
-              <br /> among the Crowd
-            </h3>
-            <div className="col-sm-6 standing-lg">
-              <h3 className="standing" data-aos="flip-down">
-                We stand out
-                <br /> among the Crowd
-              </h3>
-            </div>
-            <div className="col-sm-6 standing-lg">
-              <img alt="" className="ballons" src={ballons} />
-            </div>
-          </div>
-        </div>
+        <StandOut />
       </div>
       <div
         className="container justify-content-center partners-mb"
@@ -66,7 +51,7 @@ const HomePage = () => {
         <Partners />
       </div>
       <div data-aos="zoom-in">
-        <Marketing />
+        <Marketing caption="Art of Digital Marketing" />
       </div>
 
       <div className="container carousel-container" data-aos="fade-up">

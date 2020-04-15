@@ -5,7 +5,7 @@ import HomePage from "../Pages/HomePage";
 import { Switch, Route } from "react-router-dom";
 import About from "../Pages/About";
 import Contact from "../Pages/Contact";
-
+import ServicePage from "../Pages/Services";
 
 const Main = () => {
   return (
@@ -15,6 +15,7 @@ const Main = () => {
         <Route exact={true} path="/" component={HomePage} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
+        <Route path="/services" component={ServicePage} />
       </Switch>
       <Footer />
     </div>

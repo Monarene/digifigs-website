@@ -1,18 +1,8 @@
 import React from "react";
-<<<<<<< HEAD
-import { Row, Col, Container } from "reactstrap";
+import Partners from "../Components/Partners";
 import AOS from "aos";
-import netflix from "../assets/images/netflix.png";
-import facebook from "../assets/images/facebook-2.png";
-import google from "../assets/images/google.png";
-import vmware from "../assets/images/vmware.png";
-import toyota from "../assets/images/toyota.png";
-=======
-import Partners from '../Components/Partners';
-import AOS from 'aos';
 import down from "../assets/images/down.png";
 import see_how from "../assets/images/cta.png";
->>>>>>> odi
 import ballons from "../assets/images/ballons.png";
 import new_image from "../assets/images/home-banner.png";
 import capa from "../assets/images/Capa_1.png";
@@ -30,76 +20,38 @@ import Service from "../Components/Service";
 import "../css/homepage.css";
 import "aos/dist/aos.css";
 
-<<<<<<< HEAD
-const HomeBody = () => {
-  AOS.init({ duration: 1000 });
-=======
-
-
 const HomePage = () => {
-  AOS.init({ duration: 800,});
->>>>>>> odi
+  AOS.init({ duration: 800 });
   return (
     <div>
       <div data-aos="fade-up">
-        <TopCaption title="Get the visibility your brand needs" subtitle="Customized Digital Marketing Strategies just for your brand" />
+        <TopCaption
+          title="Get the visibility your brand needs"
+          subtitle="Customized Digital Marketing Strategies just for your brand"
+        />
       </div>
-<<<<<<< HEAD
 
-      <Container className="justify-content-center">
-        <Row>
-          <Col>
-            <img alt="" src={new_image} className="image1 mt-3" />
-          </Col>
-        </Row>
-      </Container>
-      <Container className="justify-content-center" data-aos="fade-down">
-        <Row>
-          <Col>
-            <h5 className="header3">See who loves to Work with us</h5>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <img alt="" src={netflix} className="company-logo" />
-          </Col>
-          <Col>
-            <img alt="" src={facebook} className="company-logo" />
-          </Col>
-          <Col>
-            <img alt="" src={google} className="company-logo" />
-          </Col>
-          <Col>
-            <img alt="" src={vmware} className="company-logo" />
-          </Col>
-          <Col>
-            <img alt="" src={toyota} className="company-logo" />
-          </Col>
-        </Row>
-      </Container>
-      <div className="standing2" height="444" data-aos="flip-down">
-        <Row>
-          <Col sm={6}>
-            <h3 className="standing">We stand out among the Crowd</h3>
-          </Col>
-          <Col sm={6}>
-            <img alt="" className="ballons" src={ballons} />
-          </Col>
-        </Row>
-=======
-      
       <div data-aos="zoom-in">
         <CaptionImage image={new_image} />
       </div>
-      <div className="container justify-content-center partners-lg" data-aos="fade-down">
+      <div
+        className="container justify-content-center partners-lg"
+        data-aos="fade-down"
+      >
         <Partners />
       </div>
       <div className="standing2" height="444">
         <div className="container">
           <div className="row standing-mb-wrapper">
-            <h3 className="standing-mb" data-aos="flip-down">We stand out<br /> among the Crowd</h3>
+            <h3 className="standing-mb" data-aos="flip-down">
+              We stand out
+              <br /> among the Crowd
+            </h3>
             <div className="col-sm-6 standing-lg">
-              <h3 className="standing" data-aos="flip-down">We stand out<br /> among the Crowd</h3>
+              <h3 className="standing" data-aos="flip-down">
+                We stand out
+                <br /> among the Crowd
+              </h3>
             </div>
             <div className="col-sm-6 standing-lg">
               <img alt="" className="ballons" src={ballons} />
@@ -107,58 +59,54 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <div className="container justify-content-center partners-mb" data-aos="fade-down">
+      <div
+        className="container justify-content-center partners-mb"
+        data-aos="fade-down"
+      >
         <Partners />
->>>>>>> odi
       </div>
       <div data-aos="zoom-in">
         <Marketing />
       </div>
-<<<<<<< HEAD
 
-      <Container className="joecontainer">
-        <Row data-aos="fade-up">
-          <Col>
-            <img src={joe_netflix} alt="" className="joenetflix" />
-          </Col>
-        </Row>
-      </Container>
-      <Container className="justify-content-center">
-        <Row>
-          <Col>
-            <h3
-              className="buildingText"
-              style={{ marginTop: "30px", marginBottom: "40px" }}
-            >
-=======
-      
       <div className="container carousel-container" data-aos="fade-up">
         <Carousel />
       </div>
       <div className="container justify-content-center">
         <div className="row services">
           <div className="col">
-            <h3 className="buildingText">
->>>>>>> odi
-              Build your Business
-            </h3>
+            <h3 className="buildingText">Build your Business</h3>
             <h6 className="services-header">SERVICES</h6>
           </div>
         </div>
         <div className="row engineO">
           <div className="col-sm-12 col-md-12 col-lg-6" data-aos="fade-up">
-            <Service imgClass="target" image={target} text1="Search Engine Optimization" text2="Get your website to rank higher on search engine results pages through the improved online visibility that we offer through our SEO services." />
+            <Service
+              imgClass="target"
+              image={target}
+              text1="Search Engine Optimization"
+              text2="Get your website to rank higher on search engine results pages through the improved online visibility that we offer through our SEO services."
+            />
           </div>
           <div className="col-sm-12 col-md-12 col-lg-6" data-aos="fade-up">
-            <Service imgClass="capa" image={capa} text1="Web Development" text2="We will help you build a website that shows the brand image you want your website visitors to see. We also provide quality services in web hosting." />
+            <Service
+              imgClass="capa"
+              image={capa}
+              text1="Web Development"
+              text2="We will help you build a website that shows the brand image you want your website visitors to see. We also provide quality services in web hosting."
+            />
           </div>
         </div>
         <div className="row see-all-wrapper">
           <div>
-            <a href="#"><button type="button" class="btn btn-link see-all">See all</button></a>
+            <a href="#">
+              <button type="button" class="btn btn-link see-all">
+                See all
+              </button>
+            </a>
           </div>
           <div>
-            <img src={down} alt=""/>
+            <img src={down} alt="" />
           </div>
         </div>
       </div>
@@ -170,7 +118,8 @@ const HomePage = () => {
           <div className="row heroshe-wrapper">
             <div className="col-sm-12 col-md-auto heroshecontainer2">
               <h3 className="herosheText1">
-                How we scaled Heroshe<br /> from 0 to 100
+                How we scaled Heroshe
+                <br /> from 0 to 100
               </h3>
               <div className="partcontainer">
                 <h4 className="herosheText2">

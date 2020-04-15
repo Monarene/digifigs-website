@@ -6,7 +6,7 @@ import TopCaption from "../Components/TopCaption";
 import CaptionImage from "../Components/CaptionImage";
 import Partners from "../Components/Partners";
 import StandOut from "../Components/StandOut";
-
+import { Button } from "reactstrap";
 // importing css
 import "aos/dist/aos.css";
 import "../css/homepage.css";
@@ -19,7 +19,15 @@ import content from "../assets/images/content_marketing.png";
 import developement from "../assets/images/content_development.png";
 import copywriting from "../assets/images/copywriting.png";
 import people_black from "../assets/images/people_black.png";
-import { Button } from "reactstrap";
+import girl_dog from "../assets/images/girl_and_dog.png";
+import Carousel from "../Components/Carousel";
+import arrow from "../assets/images/Arrow.png";
+import heroshe from "../assets/images/heroshe.png";
+import heroshe_mb from "../assets/images/heroshe-mb.png";
+import heroshe_text from "../assets/images/heroshe-text.png";
+import see_how from "../assets/images/cta.png";
+
+import ContactForm from "../Components/ContactForm";
 
 //TO-DO implement the jumbotron on all pages
 
@@ -125,8 +133,84 @@ const ServicePage = () => {
           </div>
         </div>
       </div>
-      <div className="standing2" height="444" style={{ marginTop: "90px" }}>
+      <div
+        className="standing2"
+        height="444"
+        style={{ marginTop: "90px" }}
+        data-aos="fade-down"
+      >
         <StandOut />
+      </div>
+      <div className="container content-container" data-aos="fade-up">
+        <div className="row">
+          <div className="col-sm-12 col-md-6 girl-dog-container">
+            <img src={girl_dog} alt="A girl and a dog" className="girl-dog" />
+          </div>
+          <div className="col-sm-12 col-md-6" style={{ paddingLeft: "20px" }}>
+            <h4 className="customer-text">
+              We’ll create a customer-focused content strategy without
+              compromising brand-image or product-quality across any online
+              medium.{" "}
+            </h4>
+            <Button
+              color="primary"
+              className="text-white"
+              style={{ marginTop: "30px" }}
+            >
+              {" "}
+              Get started
+            </Button>
+          </div>
+        </div>
+      </div>
+      <div className="container carousel-container" data-aos="zoom-in">
+        <Carousel />
+      </div>
+      <div className="herosheContainer" data-aos="fade-up">
+        <div className="container">
+          <div className="row">
+            <h6 className="casestudies">Case Studies</h6>
+          </div>
+          <div className="row heroshe-wrapper">
+            <div className="col-sm-12 col-md-auto heroshecontainer2">
+              <h3 className="herosheText1">
+                How we scaled Heroshe
+                <br /> from 0 to 100
+              </h3>
+              <div className="partcontainer">
+                <h4 className="herosheText2">
+                  Get your website to rank higher on search engine results
+                </h4>
+                <h4 className="herosheText3">
+                  See how
+                  <span>
+                    <img
+                      alt=""
+                      src={arrow}
+                      style={{
+                        height: "15.25px",
+                        width: "32px",
+                        paddingLeft: "5px",
+                        textTransform: " transform: scaleX(-1) scaleY(-1)",
+                      }}
+                    />
+                  </span>
+                </h4>
+              </div>
+              <img src={heroshe_text} alt="" className="herosheText4" />
+            </div>
+            <div className="col-sm-12 col-md-auto">
+              <img src={heroshe} alt="" className="herosheImage" />
+              <img src={heroshe_mb} alt="" className="herosheImage-mb" />
+            </div>
+            <div className="see-how-wrapper">
+              <img src={see_how} alt="" className="see-how" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-aos="fade-up">
+        <ContactForm />
       </div>
     </React.Fragment>
   );

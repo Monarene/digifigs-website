@@ -102,7 +102,7 @@ const ServicePage = () => {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 col-md-6">
+          <div className="col-sm-12 col-md-6 grow-container">
             <h5 className="rejoice-text">
               Let’s help your brand express its intended message despite the
               crowd of competitors.
@@ -143,10 +143,13 @@ const ServicePage = () => {
       </div>
       <div className="container content-container" data-aos="fade-up">
         <div className="row">
-          <div className="col-sm-12 col-md-6 girl-dog-container">
+          <div className="col-sm-6 col-md-6 girl-dog-container">
             <img src={girl_dog} alt="A girl and a dog" className="girl-dog" />
           </div>
-          <div className="col-sm-12 col-md-6" style={{ paddingLeft: "20px" }}>
+          <div
+            className="col-sm-6 col-md-6 customer-container"
+            style={{ paddingLeft: "20px" }}
+          >
             <h4 className="customer-text">
               We’ll create a customer-focused content strategy without
               compromising brand-image or product-quality across any online
@@ -154,7 +157,7 @@ const ServicePage = () => {
             </h4>
             <Button
               color="primary"
-              className="text-white"
+              className="text-white button-dog"
               style={{ marginTop: "30px" }}
             >
               {" "}

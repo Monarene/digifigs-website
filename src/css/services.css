@@ -108,7 +108,6 @@
 
   .grow-container {
     height: 200px;
-    background-color: red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,7 +131,6 @@
   }
 
   .customer-container {
-    background-color: green;
     width: 50%;
     float: right;
   }
@@ -163,5 +161,39 @@
     position: relative;
     bottom: 3%;
     display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .grow-container {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rejoice-text {
+    font-size: 35px;
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+  }
+
+  .image-rejoicing {
+    width: 100%;
+  }
+
+  .girl-dog-container {
+    float: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .girl-dog {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
   }
 }

@@ -1,18 +1,15 @@
 import React from "react";
 import AOS from "aos";
 
-// importing components
 import TopCaption from "../Components/TopCaption";
 import CaptionImage from "../Components/CaptionImage";
 import Partners from "../Components/Partners";
 import StandOut from "../Components/StandOut";
 import { Button } from "reactstrap";
-// importing css
 import "aos/dist/aos.css";
 import "../css/homepage.css";
 import "../css/services.css";
 
-// importing images
 import people from "../assets/images/people.png";
 import Marketing from "../Components/Marketing";
 import content from "../assets/images/content_marketing.png";
@@ -125,7 +122,7 @@ const ServicePage = () => {
           >
             <Button
               color="primary"
-              className="text-white justify-content-center"
+              className="text-white justify-content-center rejoicing-button"
               style={{ margin: "auto" }}
             >
               Get started

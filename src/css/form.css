@@ -80,11 +80,11 @@
   }
 
   .form-group {
-      margin-bottom: 2.5rem;
+    margin-bottom: 2.5rem;
   }
 
   .arrow {
-      margin-left: 4px;
+    margin-left: 4px;
     height: 24.36px;
     width: 27.36px;
     transform: scaleY(-1);
@@ -194,16 +194,9 @@
     margin-top: 92px;
     margin-bottom: 40px;
   }
-  .formcontainer {
-    align-items: normal;
-    padding: 0px 210px;
-  }
-  .form-group {
-    padding-left: 15px;
-  }
   .contactText {
     height: 19.65px;
-    /* width: 236px; */
+    width: auto;
     color: #39F;
     font-family: Gotham;
     font-size: 20px;
@@ -213,7 +206,7 @@
   }
   .callus {
     height: 21.37px;
-    /* width: 67.85px; */
+    width: auto;
     color: #333;
     font-family: Gotham;
     font-size: 12px;
@@ -224,7 +217,7 @@
   }
   .amessage {
     height: 29.75px;
-    width: auto;
+    width: 375px;
     color: #333;
     font-family: Gotham;
     font-size: 12px;
@@ -233,7 +226,7 @@
     line-height: 12px;
   }
   .inputtext {
-    width: 297px;
+    width: 375px;
   }
   ::placeholder {
     color: #4F4F4F;
@@ -245,6 +238,6 @@
   }
   .btn-wrapper {
     justify-content: flex-start;
-    margin-left: 15px;
+    margin-left: 0px;
   }
 }

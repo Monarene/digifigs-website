@@ -1,6 +1,5 @@
 import React from "react";
 import AOS from "aos";
-
 import TopCaption from "../Components/TopCaption";
 import CaptionImage from "../Components/CaptionImage";
 import Partners from "../Components/Partners";
@@ -9,7 +8,6 @@ import { Button } from "reactstrap";
 import "aos/dist/aos.css";
 import "../css/homepage.css";
 import "../css/services.css";
-
 import people from "../assets/images/people.png";
 import Marketing from "../Components/Marketing";
 import content from "../assets/images/content_marketing.png";

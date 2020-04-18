@@ -1,7 +1,6 @@
 import React from "react";
 import AOS from "aos";
 import TopCaption from "../Components/TopCaption";
-import CaptionImage from "../Components/CaptionImage";
 import Partners from "../Components/Partners";
 import StandOut from "../Components/StandOut";
 import { Button } from "reactstrap";

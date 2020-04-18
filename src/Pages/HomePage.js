@@ -132,7 +132,7 @@ const HomePage = () => {
               <img src={heroshe} alt="" className="herosheImage" />
               <img src={heroshe_mb} alt="" className="herosheImage-mb" />
             </div>
-            <div className="see-how-wrapper">
+            <div className="col-sm-12 col-md-auto see-how-wrapper">
               <img src={see_how} alt="" className="see-how" />
             </div>
           </div>

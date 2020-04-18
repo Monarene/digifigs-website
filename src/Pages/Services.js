@@ -120,6 +120,7 @@ const ServicePage = () => {
             <Button
               color="primary"
               className="text-white justify-content-center rejoicing-button"
+              href="#get-started"
               style={{ margin: "auto" }}
             >
               Get started
@@ -149,14 +150,14 @@ const ServicePage = () => {
               compromising brand-image or product-quality across any online
               medium.{" "}
             </h4>
-            <Button
+            <a href="#get-started"><Button
               color="primary"
               className="text-white button-dog"
               style={{ marginTop: "30px" }}
             >
               {" "}
               Get started
-            </Button>
+            </Button></a>
           </div>
         </div>
       </div>

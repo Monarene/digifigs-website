@@ -49,11 +49,6 @@ const MobileDev = (props) => {
       {/* <div data-aos="zoom-in">
         <Marketing caption="Art of Content Marketing" />
       </div> */}
-: 
-: 
-: 
-
-Tagline: 
 
       <div className="container" data-aos="fade-down">
         <div className="row">

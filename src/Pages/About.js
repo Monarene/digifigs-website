@@ -15,7 +15,7 @@ import "../css/caption.css";
 import "../css/about.css";
 import "aos/dist/aos.css";
 
-export default function About() {
+export default function About(props) {
   AOS.init({ duration: 800 });
   return (
     <React.Fragment>
@@ -68,7 +68,7 @@ export default function About() {
         <Carousel />
       </div>
       <div className="form" data-aos="fade-up">
-        <ContactForm />
+        <ContactForm resetForm={props.resetMessageForm} />
       </div>
     </React.Fragment>
   );

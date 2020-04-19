@@ -13,7 +13,7 @@ import "../css/contact.css";
 import "../css/homepage.css";
 import "aos/dist/aos.css";
 
-export default function Contact() {
+export default function Contact(props) {
   AOS.init({ duration: 800 });
   return (
     <React.Fragment>
@@ -51,7 +51,7 @@ export default function Contact() {
         <Marketing caption="Art of Digital Marketing" />
       </div>
       <div className="form" data-aos="fade-up">
-        <ContactForm />
+        <ContactForm resetForm={props.resetMessageForm} />
       </div>
       <Container>
         <div className="address-contact" data-aos="flip-down">

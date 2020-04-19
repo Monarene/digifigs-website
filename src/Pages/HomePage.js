@@ -22,7 +22,7 @@ import Service from "../Components/Service";
 import "../css/homepage.css";
 import "aos/dist/aos.css";
 
-const HomePage = () => {
+const HomePage = (props) => {
   AOS.init({ duration: 800 });
   return (
     <div>
@@ -140,7 +140,7 @@ const HomePage = () => {
         </div>
       </div>
       <div data-aos="fade-up">
-        <ContactForm />
+        <ContactForm resetForm={props.resetMessageForm} />
       </div>
     </div>
   );

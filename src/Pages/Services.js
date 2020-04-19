@@ -25,7 +25,7 @@ import ContactForm from "../Components/ContactForm";
 
 //TO-DO implement the jumbotron on all pages
 
-const ServicePage = () => {
+const ServicePage = (props) => {
   AOS.init({ duration: 800 });
   return (
     <React.Fragment>
@@ -150,14 +150,16 @@ const ServicePage = () => {
               compromising brand-image or product-quality across any online
               medium.{" "}
             </h4>
-            <a href="#get-started"><Button
-              color="primary"
-              className="text-white button-dog"
-              style={{ marginTop: "30px" }}
-            >
-              {" "}
-              Get started
-            </Button></a>
+            <a href="#get-started">
+              <Button
+                color="primary"
+                className="text-white button-dog"
+                style={{ marginTop: "30px" }}
+              >
+                {" "}
+                Get started
+              </Button>
+            </a>
           </div>
         </div>
       </div>
@@ -208,7 +210,7 @@ const ServicePage = () => {
         </div>
       </div>
       <div data-aos="fade-up">
-        <ContactForm />
+        <ContactForm resetForm={props.resetMessageForm} />
       </div>
     </React.Fragment>
   );

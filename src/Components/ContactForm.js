@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import arrow from "../assets/images/Arrow2.png";
-import { Control, LocalForm, Errors, actions } from "react-redux-form";
+import { Control, Form, Errors, actions } from "react-redux-form";
 import "../css/form.css";
 
 //TODO implement the form in react redux state
@@ -21,7 +21,7 @@ class ContactForm extends Component {
   handleSubmit(values) {
     console.log("You have sent the message " + JSON.stringify(values));
     alert("You have successfully submitted the form" + JSON.stringify(values));
-    actions.setInitial("sendMessage");
+    this.props.resetForm();
   }
 
   render() {
@@ -48,7 +48,7 @@ class ContactForm extends Component {
         </div>
         <div className="row">
           <div>
-            <LocalForm
+            <Form
               model="sendMessage"
               onSubmit={(values) => this.handleSubmit(values)}
             >
@@ -84,7 +84,7 @@ class ContactForm extends Component {
                   model=".email"
                   show="touched"
                   messages={{
-                    required: "This field is required",
+                    required: "This field is required ",
                     validEmail: "Please enter a valid email address",
                   }}
                 />
@@ -105,7 +105,7 @@ class ContactForm extends Component {
                   <img className="arrow" src={arrow} alt="" />
                 </button>
               </div>
-            </LocalForm>
+            </Form>
           </div>
         </div>
       </div>

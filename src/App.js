@@ -9,13 +9,13 @@ const store = configureStore();
 function App() {
   return (
     <div>
-      <div className="App">
-        <Provider store={store}>
+      <Provider store={store}>
+        <div className="App">
           <BrowserRouter>
             <Main />
           </BrowserRouter>
-        </Provider>
-      </div>
+        </div>
+      </Provider>
     </div>
   );
 }

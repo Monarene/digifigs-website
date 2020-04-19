@@ -18,6 +18,7 @@ import StandOut from "..//Components/StandOut";
 import CaptionImage from "../Components/CaptionImage";
 import Carousel from "../Components/Carousel";
 import Service from "../Components/Service";
+
 import "../css/homepage.css";
 import "aos/dist/aos.css";
 

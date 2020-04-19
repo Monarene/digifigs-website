@@ -40,9 +40,11 @@ const Header = () => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="/">
-                Home
-              </a>
+              <Link to="/">
+                <a class="nav-link" href="/">
+                  Home
+                </a>
+              </Link>
             </li>
             <li class="nav-item">
               <Link to="/about">
@@ -56,12 +58,39 @@ const Header = () => {
                 Case Studies
               </a>
             </li>
-            <li class="nav-item">
-              <Link to="/services">
-                <a class="nav-link" href="#">
-                  Services
-                </a>
-              </Link>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <Link to="/services/content-marketing">
+                  <a class="dropdown-item" href="/services/content-marketing">
+                    Content Marketing
+                  </a>
+                </Link>
+                <Link to="/services/se-marketing">
+                  <a class="dropdown-item" href="/services/se-marketing">
+                    Search Engine Marketing
+                  </a>
+                </Link>
+                <Link to="/services/seo">
+                  <a class="dropdown-item" href="/services/seo">
+                    Search Engine Optimization
+                  </a>
+                </Link>
+                <Link to="/services/web-development">
+                  <a class="dropdown-item" href="/services/web-development">
+                    Web Development
+                  </a>
+                </Link>
+                <Link to="/services/app-development">
+                  <a class="dropdown-item" href="/services/app-development">
+                    Mobile App Development
+                  </a>
+                </Link>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
             </li>
             <li class="nav-item">
               <Link to="/contact">

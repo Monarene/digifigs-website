@@ -17,7 +17,7 @@ export default function Contact(props) {
   AOS.init({ duration: 800 });
   return (
     <React.Fragment>
-      <div data-aos="fade-up">
+      <div data-aos="fade-down">
         <TopCaption
           title="Contact Us"
           subtitle="Customized Digital Marketing Strategies just for your brand"

@@ -1,38 +1,38 @@
 import React from "react";
 import AOS from "aos";
-import TopCaption from "../Components/TopCaption";
-import Partners from "../Components/Partners";
-import StandOut from "../Components/StandOut";
+import TopCaption from "../../Components/TopCaption";
+import Partners from "../../Components/Partners";
+import StandOut from "../../Components/StandOut";
+import Marketing from "../../Components/Marketing";
+import Carousel from "../../Components/Carousel";
 import { Button } from "reactstrap";
 import "aos/dist/aos.css";
-import "../css/homepage.css";
-import "../css/services.css";
-import people from "../assets/images/people.png";
-import Marketing from "../Components/Marketing";
-import content from "../assets/images/content_marketing.png";
-import developement from "../assets/images/content_development.png";
-import copywriting from "../assets/images/copywriting.png";
-import people_black from "../assets/images/people_black.png";
-import girl_dog from "../assets/images/girl_and_dog.png";
-import Carousel from "../Components/Carousel";
-import arrow from "../assets/images/Arrow.png";
-import heroshe from "../assets/images/heroshe.png";
-import heroshe_mb from "../assets/images/heroshe-mb.png";
-import heroshe_text from "../assets/images/heroshe-text.png";
-import see_how from "../assets/images/cta.png";
+import "../../css/homepage.css";
+import "../../css/services.css";
+import people from "../../assets/images/people.png";
+import content from "../../assets/images/content_marketing.png";
+import developement from "../../assets/images/content_development.png";
+import copywriting from "../../assets/images/copywriting.png";
+import people_black from "../../assets/images/people_black.png";
+// import girl_dog from "../../assets/images/girl_and_dog.png";
+import arrow from "../../assets/images/Arrow.png";
+import heroshe from "../../assets/images/heroshe.png";
+import heroshe_mb from "../../assets/images/heroshe-mb.png";
+import heroshe_text from "../../assets/images/heroshe-text.png";
+import see_how from "../../assets/images/cta.png";
 
-import ContactForm from "../Components/ContactForm";
+import ContactForm from "../../Components/ContactForm";
 
 //TO-DO implement the jumbotron on all pages
 
-const ServicePage = (props) => {
+const SEMarketing = (props) => {
   AOS.init({ duration: 800 });
   return (
     <React.Fragment>
       <div data-aos="fade-down">
         <TopCaption
-          title="Content Marketing"
-          subtitle="Our Content Marketing Team will create the right content that appeals to your target audience and drives them to take the needed action."
+          title="Search Engine Marketing"
+          subtitle="Our methods are backed with in-depth research and precise strategy."
         />
       </div>
       <div className="container justify-content-center">
@@ -47,18 +47,16 @@ const ServicePage = (props) => {
         <Partners />
       </div>
       <div data-aos="zoom-in">
-        <Marketing caption="Art of Content Marketing" />
+        <Marketing caption="Art of Search Engine Marketing" />
       </div>
       <div className="container" data-aos="fade-down">
         <div className="row">
           <div className="col-sm-12 col-md-4">
             <div className="content-container">
               <img src={content} className="contentImage" alt="content" />
-              <h5 className="contentText">Content Marketing Strategy</h5>
+              <h5 className="contentText">Keywords Research</h5>
               <h6 className="content-text">
-                We’ll connect your audience to your brand with engaging content.
-                Before crafting content, we’ll first build a strategy that suits
-                your brand’s objectives.
+                We will research alternative search terms that are commonly used when internet users make search queries related to your products and services. This will ensure that your ads pop up in the search engine results page when users make related searches online.
               </h6>
             </div>
           </div>
@@ -69,11 +67,9 @@ const ServicePage = (props) => {
                 className="contentImage"
                 alt="marketing"
               />
-              <h5 className="contentText">Content development</h5>
+              <h5 className="contentText">Campaign Optimization</h5>
               <h6 className="content-text">
-                Our content development expertise will improve your brand’s
-                reputation with thoroughly reviewed content and connect your
-                brand to your audience.
+              We will help monitor and enhance the performance of your ads after launching. Through this process, your ad campaigns can be better optimised through strategic conversion goal-setting, ad extensions, and ad groups segmentation.
               </h6>
             </div>
           </div>
@@ -84,11 +80,9 @@ const ServicePage = (props) => {
                 className="contentImage"
                 alt="copywriting"
               />
-              <h5 className="contentText">Copywriting</h5>
+              <h5 className="contentText">Ads Copywriting</h5>
               <h6 className="content-text">
-                We’ll increase your brand’s online awareness and attract new
-                visitors to your website with relatable, appealing and
-                accessible content.​
+              We will write effective sales and ads copy guaranteed to generate leads and conversion. We understand what it takes to write advertising copy that compels people to click and take profitable action.
               </h6>
             </div>
           </div>
@@ -98,8 +92,7 @@ const ServicePage = (props) => {
         <div className="row">
           <div className="col-sm-12 col-md-6 grow-container">
             <h5 className="rejoice-text">
-              Let’s help your brand express its intended message despite the
-              crowd of competitors.
+            Let's help you take your products and services where they are needed. 
             </h5>
           </div>
           <div className="col-sm-12 col-md-6">
@@ -136,7 +129,7 @@ const ServicePage = (props) => {
       >
         <StandOut />
       </div>
-      <div className="container content-container" data-aos="fade-up">
+      {/* <div className="container content-container" data-aos="fade-up">
         <div className="row">
           <div className="col-sm-6 col-md-6 girl-dog-container">
             <img src={girl_dog} alt="A girl and a dog" className="girl-dog" />
@@ -162,7 +155,7 @@ const ServicePage = (props) => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="container carousel-container" data-aos="zoom-in">
         <Carousel />
       </div>
@@ -216,4 +209,4 @@ const ServicePage = (props) => {
   );
 };
 
-export default ServicePage;
+export default SEMarketing;

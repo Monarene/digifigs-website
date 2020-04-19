@@ -26,7 +26,7 @@ const HomePage = (props) => {
   AOS.init({ duration: 800 });
   return (
     <div>
-      <div data-aos="fade-up">
+      <div data-aos="fade-down">
         <TopCaption
           title="Get the visibility your brand needs"
           subtitle="Customized Digital Marketing Strategies just for your brand"

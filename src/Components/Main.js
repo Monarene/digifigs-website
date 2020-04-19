@@ -7,7 +7,11 @@ import { connect } from "react-redux";
 import { actions } from "react-redux-form";
 import About from "../Pages/About";
 import Contact from "../Pages/Contact";
-import ServicePage from "../Pages/Services";
+import SEMarketing from "../Pages/services/SEMarketing";
+import SEO from "../Pages/services/SEO";
+import ContentMarketing from "../Pages/services/ContentMarketing";
+import WebDev from "../Pages/services/WebDev";
+import MobileDev from "../Pages/services/MobileDev";
 
 const mapDispatchToProps = (dispatch) => ({
   resetMessageForm: () => {
@@ -39,9 +43,33 @@ const Main = (props) => {
           )}
         />
         <Route
-          path="/services"
+          exact path="/services/content-marketing"
           component={() => (
-            <ServicePage resetMessageForm={props.resetMessageForm} />
+            <ContentMarketing resetMessageForm={props.resetMessageForm} />
+          )}
+        />
+        <Route
+          exact path="/services/se-marketing"
+          component={() => (
+            <SEMarketing resetMessageForm={props.resetMessageForm} />
+          )}
+        />
+        <Route
+          exact path="/services/seo"
+          component={() => (
+            <SEO resetMessageForm={props.resetMessageForm} />
+          )}
+        />
+        <Route
+          exact path="/services/web-development"
+          component={() => (
+            <WebDev resetMessageForm={props.resetMessageForm} />
+          )}
+        />
+        <Route
+          exact path="/services/app-development"
+          component={() => (
+            <MobileDev resetMessageForm={props.resetMessageForm} />
           )}
         />
       </Switch>

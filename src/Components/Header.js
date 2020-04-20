@@ -73,6 +73,17 @@ const Header = () => {
                     Search Engine Marketing
                   </a>
                 </Link>
+                <Link to="/services/sm-marketing">
+                  <a class="dropdown-item" href="/services/sm-marketing">
+                    Social Media Marketing
+                  </a>
+                </Link>
+                <Link to="/services/email-marketing">
+                  <a class="dropdown-item" href="/services/email-marketing">
+                    Email Marketing
+                  </a>
+                </Link>
+                <div class="dropdown-divider"></div>
                 <Link to="/services/seo">
                   <a class="dropdown-item" href="/services/seo">
                     Search Engine Optimization
@@ -89,7 +100,22 @@ const Header = () => {
                   </a>
                 </Link>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <Link to="/services/google-search-ads">
+                  <a class="dropdown-item" href="/services/google-search-ads">
+                    Google Search Ads
+                  </a>
+                </Link>
+                <Link to="/services/facebook-instagram-ads">
+                  <a class="dropdown-item" href="/services/facebook-instagram-ads">
+                    Facebook & Instagram Ads
+                  </a>
+                </Link>
+                <div class="dropdown-divider"></div>
+                <Link to="/services/branding-and-packaging">
+                  <a class="dropdown-item" href="/services/branding-and-packaging">
+                    Product Branding & Packaging
+                  </a>
+                </Link>
               </div>
             </li>
             <li class="nav-item">

@@ -9,7 +9,7 @@ import { Button } from "reactstrap";
 import "aos/dist/aos.css";
 import "../../css/homepage.css";
 import "../../css/services.css";
-import people from "../../assets/images/people.png";
+import people from "../../assets/images/email marketing/3.jpg";
 import content from "../../assets/images/content_marketing.png";
 import developement from "../../assets/images/content_development.png";
 import copywriting from "../../assets/images/copywriting.png";
@@ -139,9 +139,7 @@ const EmailMarketing = (props) => {
             style={{ paddingLeft: "20px" }}
           >
             <h4 className="customer-text">
-              We’ll create a customer-focused content strategy without
-              compromising brand-image or product-quality across any online
-              medium.{" "}
+            We will create email marketing campaigns to engage your audience, promote your products and services, and ultimately, increase sales.{" "}
             </h4>
             <a href="#get-started">
               <Button

@@ -9,7 +9,7 @@ import { Button } from "reactstrap";
 import "aos/dist/aos.css";
 import "../../css/homepage.css";
 import "../../css/services.css";
-import people from "../../assets/images/people.png";
+import people from "../../assets/images/FB and IG ads/3.jpg";
 import content from "../../assets/images/content_marketing.png";
 import developement from "../../assets/images/content_development.png";
 import copywriting from "../../assets/images/copywriting.png";
@@ -139,9 +139,7 @@ const FbInstaAds = (props) => {
             style={{ paddingLeft: "20px" }}
           >
             <h4 className="customer-text">
-              We’ll create a customer-focused content strategy without
-              compromising brand-image or product-quality across any online
-              medium.{" "}
+            With micro-targeting features that allow you to reach your exact target audience, Facebook and IG ads take your message right to the people who are most likely to want your products or services.{" "}
             </h4>
             <a href="#get-started">
               <Button

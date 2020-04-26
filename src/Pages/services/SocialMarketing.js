@@ -9,7 +9,7 @@ import { Button } from "reactstrap";
 import "aos/dist/aos.css";
 import "../../css/homepage.css";
 import "../../css/services.css";
-import people from "../../assets/images/people.png";
+import people from "../../assets/images/Social media marketting/1.jpg";
 import content from "../../assets/images/content_marketing.png";
 import developement from "../../assets/images/content_development.png";
 import copywriting from "../../assets/images/copywriting.png";

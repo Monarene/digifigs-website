@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import AOS from "aos";
-import ballons from "../assets/images/ballons.png";
+import ballons from "../assets/images/ballons.jpg";
 import TopCaption from "../Components/TopCaption";
 import Marketing from "../Components/Marketing";
 import ContactForm from "../Components/ContactForm";
-import banner from "../assets/images/about-banner.png";
+import banner from "../assets/images/about-banner.jpg";
 import Partners from "../Components/Partners";
 import Carousel from "../Components/Carousel";
 import StandOut from "../Components/StandOut";

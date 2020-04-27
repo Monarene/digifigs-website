@@ -14,10 +14,10 @@ import content from "../../assets/images/content_marketing.png";
 import developement from "../../assets/images/content_development.png";
 import copywriting from "../../assets/images/copywriting.png";
 import people_black from "../../assets/images/people_black.png";
-// import girl_dog from "../../assets/images/girl_and_dog.png";
+import girl_dog from "../../assets/images/girl_and_dog.jpg";
 import arrow from "../../assets/images/Arrow.png";
-import heroshe from "../../assets/images/heroshe.png";
-import heroshe_mb from "../../assets/images/heroshe-mb.png";
+import heroshe from "../../assets/images/heroshe.jpg";
+import heroshe_mb from "../../assets/images/heroshe-mb.jpg";
 import heroshe_text from "../../assets/images/heroshe-text.png";
 import see_how from "../../assets/images/cta.png";
 
@@ -56,7 +56,11 @@ const SEMarketing = (props) => {
               <img src={content} className="contentImage" alt="content" />
               <h5 className="contentText">Keywords Research</h5>
               <h6 className="content-text">
-                We will research alternative search terms that are commonly used when internet users make search queries related to your products and services. This will ensure that your ads pop up in the search engine results page when users make related searches online.
+                We will research alternative search terms that are commonly used
+                when internet users make search queries related to your products
+                and services. This will ensure that your ads pop up in the
+                search engine results page when users make related searches
+                online.
               </h6>
             </div>
           </div>
@@ -69,7 +73,10 @@ const SEMarketing = (props) => {
               />
               <h5 className="contentText">Campaign Optimization</h5>
               <h6 className="content-text">
-              We will help monitor and enhance the performance of your ads after launching. Through this process, your ad campaigns can be better optimised through strategic conversion goal-setting, ad extensions, and ad groups segmentation.
+                We will help monitor and enhance the performance of your ads
+                after launching. Through this process, your ad campaigns can be
+                better optimised through strategic conversion goal-setting, ad
+                extensions, and ad groups segmentation.
               </h6>
             </div>
           </div>
@@ -82,7 +89,10 @@ const SEMarketing = (props) => {
               />
               <h5 className="contentText">Ads Copywriting</h5>
               <h6 className="content-text">
-              We will write effective sales and ads copy guaranteed to generate leads and conversion. We understand what it takes to write advertising copy that compels people to click and take profitable action.
+                We will write effective sales and ads copy guaranteed to
+                generate leads and conversion. We understand what it takes to
+                write advertising copy that compels people to click and take
+                profitable action.
               </h6>
             </div>
           </div>
@@ -92,7 +102,8 @@ const SEMarketing = (props) => {
         <div className="row">
           <div className="col-sm-12 col-md-6 grow-container">
             <h5 className="rejoice-text">
-            Let's help you take your products and services where they are needed. 
+              Let's help you take your products and services where they are
+              needed.
             </h5>
           </div>
           <div className="col-sm-12 col-md-6">

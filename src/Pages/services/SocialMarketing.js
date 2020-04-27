@@ -14,10 +14,10 @@ import content from "../../assets/images/content_marketing.png";
 import developement from "../../assets/images/content_development.png";
 import copywriting from "../../assets/images/copywriting.png";
 import people_black from "../../assets/images/people_black.png";
-// import girl_dog from "../../assets/images/girl_and_dog.png";
+import girl_dog from "../../assets/images/girl_and_dog.jpg";
 import arrow from "../../assets/images/Arrow.png";
-import heroshe from "../../assets/images/heroshe.png";
-import heroshe_mb from "../../assets/images/heroshe-mb.png";
+import heroshe from "../../assets/images/heroshe.jpg";
+import heroshe_mb from "../../assets/images/heroshe-mb.jpg";
 import heroshe_text from "../../assets/images/heroshe-text.png";
 import see_how from "../../assets/images/cta.png";
 
@@ -56,7 +56,8 @@ const SocialMarketing = (props) => {
               <img src={content} className="contentImage" alt="content" />
               <h5 className="contentText">Social Media Management</h5>
               <h6 className="content-text">
-              We will drive business growth through organized brand-promoting ideas and measures that will appeal to your target audience.
+                We will drive business growth through organized brand-promoting
+                ideas and measures that will appeal to your target audience.
               </h6>
             </div>
           </div>
@@ -69,7 +70,9 @@ const SocialMarketing = (props) => {
               />
               <h5 className="contentText">Social Media Advertising</h5>
               <h6 className="content-text">
-              Our social media team will draw attention to your brand through ad campaigns aimed at generating leads and conversions for your business.
+                Our social media team will draw attention to your brand through
+                ad campaigns aimed at generating leads and conversions for your
+                business.
               </h6>
             </div>
           </div>
@@ -82,7 +85,9 @@ const SocialMarketing = (props) => {
               />
               <h5 className="contentText">Social Media Content Distribution</h5>
               <h6 className="content-text">
-              We revise, repurpose and distribute content across your social media platforms for effective audience engagement.  We’ll also track and measure the growth of your brand’s online presence.
+                We revise, repurpose and distribute content across your social
+                media platforms for effective audience engagement. We’ll also
+                track and measure the growth of your brand’s online presence.
               </h6>
             </div>
           </div>
@@ -92,7 +97,8 @@ const SocialMarketing = (props) => {
         <div className="row">
           <div className="col-sm-12 col-md-6 grow-container">
             <h5 className="rejoice-text">
-            Let's help you generate the needed traction for increased sales through the world's most-used social media platforms.
+              Let's help you generate the needed traction for increased sales
+              through the world's most-used social media platforms.
             </h5>
           </div>
           <div className="col-sm-12 col-md-6">

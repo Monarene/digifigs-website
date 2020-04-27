@@ -14,10 +14,10 @@ import content from "../../assets/images/content_marketing.png";
 import developement from "../../assets/images/content_development.png";
 import copywriting from "../../assets/images/copywriting.png";
 import people_black from "../../assets/images/people_black.png";
-import girl_dog from "../../assets/images/girl_and_dog.png";
+import girl_dog from "../../assets/images/girl_and_dog.jpg";
 import arrow from "../../assets/images/Arrow.png";
-import heroshe from "../../assets/images/heroshe.png";
-import heroshe_mb from "../../assets/images/heroshe-mb.png";
+import heroshe from "../../assets/images/heroshe.jpg";
+import heroshe_mb from "../../assets/images/heroshe-mb.jpg";
 import heroshe_text from "../../assets/images/heroshe-text.png";
 import see_how from "../../assets/images/cta.png";
 
@@ -56,7 +56,10 @@ const BrandingPackaging = (props) => {
               <img src={content} className="contentImage" alt="content" />
               <h5 className="contentText">Brand Strategy</h5>
               <h6 className="content-text">
-              We will create a time-based plan for the development of a successful brand in line with your specific business goals. Coupled with this we would focus on consumer needs, perception, and competition to build an enduring brand.
+                We will create a time-based plan for the development of a
+                successful brand in line with your specific business goals.
+                Coupled with this we would focus on consumer needs, perception,
+                and competition to build an enduring brand.
               </h6>
             </div>
           </div>
@@ -69,7 +72,9 @@ const BrandingPackaging = (props) => {
               />
               <h5 className="contentText">Product segmentation</h5>
               <h6 className="content-text">
-              To help create a strong brand for a variety of products within the same market, our team can help you create distinct brands that set your range of products apart from each unique one.
+                To help create a strong brand for a variety of products within
+                the same market, our team can help you create distinct brands
+                that set your range of products apart from each unique one.
               </h6>
             </div>
           </div>
@@ -82,7 +87,9 @@ const BrandingPackaging = (props) => {
               />
               <h5 className="contentText">Product Packaging design</h5>
               <h6 className="content-text">
-              Ensure optimal brand identification and promotion with our product package design service that helps you communicate product information in simple, yet convincing means. ​
+                Ensure optimal brand identification and promotion with our
+                product package design service that helps you communicate
+                product information in simple, yet convincing means. ​
               </h6>
             </div>
           </div>
@@ -92,7 +99,8 @@ const BrandingPackaging = (props) => {
         <div className="row">
           <div className="col-sm-12 col-md-6 grow-container">
             <h5 className="rejoice-text">
-            Let's help you speak your brand language through product packaging design that hits the target.
+              Let's help you speak your brand language through product packaging
+              design that hits the target.
             </h5>
           </div>
           <div className="col-sm-12 col-md-6">
@@ -139,7 +147,8 @@ const BrandingPackaging = (props) => {
             style={{ paddingLeft: "20px" }}
           >
             <h4 className="customer-text">
-            We will help you define the uniqueness of your product amidst the competition.{" "}
+              We will help you define the uniqueness of your product amidst the
+              competition.{" "}
             </h4>
             <a href="#get-started">
               <Button

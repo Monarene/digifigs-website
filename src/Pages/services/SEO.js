@@ -14,10 +14,10 @@ import content from "../../assets/images/content_marketing.png";
 import developement from "../../assets/images/content_development.png";
 import copywriting from "../../assets/images/copywriting.png";
 import people_black from "../../assets/images/people_black.png";
-// import girl_dog from "../../assets/images/girl_and_dog.png";
+import girl_dog from "../../assets/images/girl_and_dog.jpg";
 import arrow from "../../assets/images/Arrow.png";
-import heroshe from "../../assets/images/heroshe.png";
-import heroshe_mb from "../../assets/images/heroshe-mb.png";
+import heroshe from "../../assets/images/heroshe.jpg";
+import heroshe_mb from "../../assets/images/heroshe-mb.jpg";
 import heroshe_text from "../../assets/images/heroshe-text.png";
 import see_how from "../../assets/images/cta.png";
 
@@ -56,7 +56,11 @@ const SEO = (props) => {
               <img src={content} className="contentImage" alt="content" />
               <h5 className="contentText">SEO Audit</h5>
               <h6 className="content-text">
-              Our six-step SEO audit will highlight the weak points that need to be improved upon to ensure an overall wholesome SEO. With this in-depth study and analysis of your brand’s existing digital footprint, we will outline a workable plan to help you achieve a winning SEO goal and digital marketing objectives.
+                Our six-step SEO audit will highlight the weak points that need
+                to be improved upon to ensure an overall wholesome SEO. With
+                this in-depth study and analysis of your brand’s existing
+                digital footprint, we will outline a workable plan to help you
+                achieve a winning SEO goal and digital marketing objectives.
               </h6>
             </div>
           </div>
@@ -69,7 +73,10 @@ const SEO = (props) => {
               />
               <h5 className="contentText">On-page optimization</h5>
               <h6 className="content-text">
-              Our On-page optimization services will raise the position of your website in the rankings of search engines. through relevant content and accurate meta-descriptions, title tags, and other metadata features.
+                Our On-page optimization services will raise the position of
+                your website in the rankings of search engines. through relevant
+                content and accurate meta-descriptions, title tags, and other
+                metadata features.
               </h6>
             </div>
           </div>
@@ -82,7 +89,10 @@ const SEO = (props) => {
               />
               <h5 className="contentText">Off-page optimization</h5>
               <h6 className="content-text">
-              Our effective backlink sourcing and link-building strategies will help your brand become easily accessible to online users when they make related online searches similar to your service offering.
+                Our effective backlink sourcing and link-building strategies
+                will help your brand become easily accessible to online users
+                when they make related online searches similar to your service
+                offering.
               </h6>
             </div>
           </div>
@@ -92,7 +102,8 @@ const SEO = (props) => {
         <div className="row">
           <div className="col-sm-12 col-md-6 grow-container">
             <h5 className="rejoice-text">
-            Let's help you drive traffic to your website with outreach and link building.
+              Let's help you drive traffic to your website with outreach and
+              link building.
             </h5>
           </div>
           <div className="col-sm-12 col-md-6">

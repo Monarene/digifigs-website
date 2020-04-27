@@ -14,10 +14,10 @@ import content from "../../assets/images/content_marketing.png";
 import developement from "../../assets/images/content_development.png";
 import copywriting from "../../assets/images/copywriting.png";
 import people_black from "../../assets/images/people_black.png";
-import girl_dog from "../../assets/images/girl_and_dog.png";
+import girl_dog from "../../assets/images/girl_and_dog.jpg";
 import arrow from "../../assets/images/Arrow.png";
-import heroshe from "../../assets/images/heroshe.png";
-import heroshe_mb from "../../assets/images/heroshe-mb.png";
+import heroshe from "../../assets/images/heroshe.jpg";
+import heroshe_mb from "../../assets/images/heroshe-mb.jpg";
 import heroshe_text from "../../assets/images/heroshe-text.png";
 import see_how from "../../assets/images/cta.png";
 
@@ -56,7 +56,10 @@ const FbInstaAds = (props) => {
               <img src={content} className="contentImage" alt="content" />
               <h5 className="contentText">Objective-based ad campaigns</h5>
               <h6 className="content-text">
-              Launch adverts that speak to the end-goal that you have in mind. Be it brand awareness, increased reach or lead generation, Facebook ads offer a range of 11 objectives that sum up different business growth needs.
+                Launch adverts that speak to the end-goal that you have in mind.
+                Be it brand awareness, increased reach or lead generation,
+                Facebook ads offer a range of 11 objectives that sum up
+                different business growth needs.
               </h6>
             </div>
           </div>
@@ -67,9 +70,15 @@ const FbInstaAds = (props) => {
                 className="contentImage"
                 alt="marketing"
               />
-              <h5 className="contentText">Performance tracking and optimization</h5>
+              <h5 className="contentText">
+                Performance tracking and optimization
+              </h5>
               <h6 className="content-text">
-              This feature helps to ensure that you can monitor how well your primary campaigns perform in the Facebook Ads Manager dashboard. Otherwise, you can divert your budget into other more effective alternatives that are best suited to deliver the expected results.
+                This feature helps to ensure that you can monitor how well your
+                primary campaigns perform in the Facebook Ads Manager dashboard.
+                Otherwise, you can divert your budget into other more effective
+                alternatives that are best suited to deliver the expected
+                results.
               </h6>
             </div>
           </div>
@@ -82,7 +91,9 @@ const FbInstaAds = (props) => {
               />
               <h5 className="contentText">Audience-targeted ads</h5>
               <h6 className="content-text">
-              With Facebook and Instagram ads, you can choose your audience on several criteria so that your ad reaches the most valuable potential customers.
+                With Facebook and Instagram ads, you can choose your audience on
+                several criteria so that your ad reaches the most valuable
+                potential customers.
               </h6>
             </div>
           </div>
@@ -92,7 +103,8 @@ const FbInstaAds = (props) => {
         <div className="row">
           <div className="col-sm-12 col-md-6 grow-container">
             <h5 className="rejoice-text">
-            Let's help you reach your exact audience through novel advertising strategies on social media platforms.
+              Let's help you reach your exact audience through novel advertising
+              strategies on social media platforms.
             </h5>
           </div>
           <div className="col-sm-12 col-md-6">
@@ -139,7 +151,9 @@ const FbInstaAds = (props) => {
             style={{ paddingLeft: "20px" }}
           >
             <h4 className="customer-text">
-            With micro-targeting features that allow you to reach your exact target audience, Facebook and IG ads take your message right to the people who are most likely to want your products or services.{" "}
+              With micro-targeting features that allow you to reach your exact
+              target audience, Facebook and IG ads take your message right to
+              the people who are most likely to want your products or services.{" "}
             </h4>
             <a href="#get-started">
               <Button

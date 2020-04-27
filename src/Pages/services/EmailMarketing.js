@@ -14,10 +14,10 @@ import content from "../../assets/images/content_marketing.png";
 import developement from "../../assets/images/content_development.png";
 import copywriting from "../../assets/images/copywriting.png";
 import people_black from "../../assets/images/people_black.png";
-import girl_dog from "../../assets/images/girl_and_dog.png";
+import girl_dog from "../../assets/images/girl_and_dog.jpg";
 import arrow from "../../assets/images/Arrow.png";
-import heroshe from "../../assets/images/heroshe.png";
-import heroshe_mb from "../../assets/images/heroshe-mb.png";
+import heroshe from "../../assets/images/heroshe.jpg";
+import heroshe_mb from "../../assets/images/heroshe-mb.jpg";
 import heroshe_text from "../../assets/images/heroshe-text.png";
 import see_how from "../../assets/images/cta.png";
 
@@ -56,7 +56,9 @@ const EmailMarketing = (props) => {
               <img src={content} className="contentImage" alt="content" />
               <h5 className="contentText">Email Copywriting</h5>
               <h6 className="content-text">
-              Let’s make your emails effective with copywriting that accurately expresses and delivers the intended idea you’re looking to publicize.
+                Let’s make your emails effective with copywriting that
+                accurately expresses and delivers the intended idea you’re
+                looking to publicize.
               </h6>
             </div>
           </div>
@@ -69,7 +71,9 @@ const EmailMarketing = (props) => {
               />
               <h5 className="contentText">Email Design</h5>
               <h6 className="content-text">
-              Our content and design team will work together to build engaging yet responsive and appealing emails optimized for diverse devices.
+                Our content and design team will work together to build engaging
+                yet responsive and appealing emails optimized for diverse
+                devices.
               </h6>
             </div>
           </div>
@@ -82,7 +86,11 @@ const EmailMarketing = (props) => {
               />
               <h5 className="contentText">Email Drip Campaigns</h5>
               <h6 className="content-text">
-              We will launch a coordinated and automated set of emails released based on specific timelines or user actions. Leveraging on this automation feature that functions by ‘triggers’ using marketing automation, your brand will enjoy increased and efficient engagement as against standard email campaigns. ​
+                We will launch a coordinated and automated set of emails
+                released based on specific timelines or user actions. Leveraging
+                on this automation feature that functions by ‘triggers’ using
+                marketing automation, your brand will enjoy increased and
+                efficient engagement as against standard email campaigns. ​
               </h6>
             </div>
           </div>
@@ -92,7 +100,8 @@ const EmailMarketing = (props) => {
         <div className="row">
           <div className="col-sm-12 col-md-6 grow-container">
             <h5 className="rejoice-text">
-            Let's help you maintain correspondence and engage with your audience in the most appealing way.
+              Let's help you maintain correspondence and engage with your
+              audience in the most appealing way.
             </h5>
           </div>
           <div className="col-sm-12 col-md-6">
@@ -139,7 +148,9 @@ const EmailMarketing = (props) => {
             style={{ paddingLeft: "20px" }}
           >
             <h4 className="customer-text">
-            We will create email marketing campaigns to engage your audience, promote your products and services, and ultimately, increase sales.{" "}
+              We will create email marketing campaigns to engage your audience,
+              promote your products and services, and ultimately, increase
+              sales.{" "}
             </h4>
             <a href="#get-started">
               <Button

@@ -1,5 +1,5 @@
 import React from "react";
-import ballons from "../assets/images/ballons.png";
+import ballons from "../assets/images/ballons.jpg";
 
 const StandOut = () => {
   return (

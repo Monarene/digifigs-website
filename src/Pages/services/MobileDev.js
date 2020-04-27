@@ -14,10 +14,10 @@ import content from "../../assets/images/content_marketing.png";
 import developement from "../../assets/images/content_development.png";
 import copywriting from "../../assets/images/copywriting.png";
 import people_black from "../../assets/images/people_black.png";
-// import girl_dog from "../../assets/images/girl_and_dog.png";
+import girl_dog from "../../assets/images/girl_and_dog.jpg";
 import arrow from "../../assets/images/Arrow.png";
-import heroshe from "../../assets/images/heroshe.png";
-import heroshe_mb from "../../assets/images/heroshe-mb.png";
+import heroshe from "../../assets/images/heroshe.jpg";
+import heroshe_mb from "../../assets/images/heroshe-mb.jpg";
 import heroshe_text from "../../assets/images/heroshe-text.png";
 import see_how from "../../assets/images/cta.png";
 
@@ -31,7 +31,7 @@ const MobileDev = (props) => {
     <React.Fragment>
       <div data-aos="fade-down">
         <TopCaption
-          title="Mobiel App Development"
+          title="Mobile App Development"
           subtitle="Create your brand's own unique world with our mobile app services."
         />
       </div>
@@ -57,7 +57,9 @@ const MobileDev = (props) => {
               <img src={content} className="contentImage" alt="content" />
               <h5 className="contentText">User Experience and Design</h5>
               <h6 className="content-text">
-              Our team of developers work to bridge the gap between creativity and aesthetics and the final experience your customers and users get from interacting with the finished product.
+                Our team of developers work to bridge the gap between creativity
+                and aesthetics and the final experience your customers and users
+                get from interacting with the finished product.
               </h6>
             </div>
           </div>
@@ -70,7 +72,8 @@ const MobileDev = (props) => {
               />
               <h5 className="contentText">Digital Strategy</h5>
               <h6 className="content-text">
-              Let’s help you create an enhanced interface that delivers optimal digital experience and connects prospective customers.
+                Let’s help you create an enhanced interface that delivers
+                optimal digital experience and connects prospective customers.
               </h6>
             </div>
           </div>
@@ -83,7 +86,9 @@ const MobileDev = (props) => {
               />
               <h5 className="contentText">App Development and Engineering</h5>
               <h6 className="content-text">
-              We will innovate and create immersive digital reality for your brand, customers and employees through the building, connecting and development of digital assets.
+                We will innovate and create immersive digital reality for your
+                brand, customers and employees through the building, connecting
+                and development of digital assets.
               </h6>
             </div>
           </div>
@@ -93,7 +98,8 @@ const MobileDev = (props) => {
         <div className="row">
           <div className="col-sm-12 col-md-6 grow-container">
             <h5 className="rejoice-text">
-            Let's help you build digital experiences that your customers will love.
+              Let's help you build digital experiences that your customers will
+              love.
             </h5>
           </div>
           <div className="col-sm-12 col-md-6">

@@ -14,10 +14,10 @@ import content from "../../assets/images/content_marketing.png";
 import developement from "../../assets/images/content_development.png";
 import copywriting from "../../assets/images/copywriting.png";
 import people_black from "../../assets/images/people_black.png";
-import girl_dog from "../../assets/images/girl_and_dog.png";
+import girl_dog from "../../assets/images/girl_and_dog.jpg";
 import arrow from "../../assets/images/Arrow.png";
-import heroshe from "../../assets/images/heroshe.png";
-import heroshe_mb from "../../assets/images/heroshe-mb.png";
+import heroshe from "../../assets/images/heroshe.jpg";
+import heroshe_mb from "../../assets/images/heroshe-mb.jpg";
 import heroshe_text from "../../assets/images/heroshe-text.png";
 import see_how from "../../assets/images/cta.png";
 
@@ -56,7 +56,11 @@ const GoogleSearchAds = (props) => {
               <img src={content} className="contentImage" alt="content" />
               <h5 className="contentText">Keyword Planner</h5>
               <h6 className="content-text">
-              With this Google Ads feature, we will research and curate data such as commonly used keywords and ad groups, average monthly searches, and bidding rates.  With this information about the search queries that users have submitted in the Google search engine, we will plan and build your own unique ad campaigns.
+                With this Google Ads feature, we will research and curate data
+                such as commonly used keywords and ad groups, average monthly
+                searches, and bidding rates. With this information about the
+                search queries that users have submitted in the Google search
+                engine, we will plan and build your own unique ad campaigns.
               </h6>
             </div>
           </div>
@@ -69,7 +73,11 @@ const GoogleSearchAds = (props) => {
               />
               <h5 className="contentText">Google Ad Extensions</h5>
               <h6 className="content-text">
-              We will set your ads up for optimal visibility, best-rate performance and increased clicks using the Google Ads Extension service which allows advertisers to show extra information in ads including a business address, phone number, or web page links.
+                We will set your ads up for optimal visibility, best-rate
+                performance and increased clicks using the Google Ads Extension
+                service which allows advertisers to show extra information in
+                ads including a business address, phone number, or web page
+                links.
               </h6>
             </div>
           </div>
@@ -82,7 +90,12 @@ const GoogleSearchAds = (props) => {
               />
               <h5 className="contentText">Google Ads Re-targeting</h5>
               <h6 className="content-text">
-              We will help you advertise to old website visitors who previously visited your website but have not yet taken profitable action to possibly  convert them.  We will adopt the dynamic re-marketing model to customize ads for these users based on the specific searches they previously made on your website.
+                We will help you advertise to old website visitors who
+                previously visited your website but have not yet taken
+                profitable action to possibly convert them. We will adopt the
+                dynamic re-marketing model to customize ads for these users
+                based on the specific searches they previously made on your
+                website.
               </h6>
             </div>
           </div>
@@ -92,7 +105,8 @@ const GoogleSearchAds = (props) => {
         <div className="row">
           <div className="col-sm-12 col-md-6 grow-container">
             <h5 className="rejoice-text">
-            Let's help boost sales and conversion rates with targeted ads that connect you to potential customers.
+              Let's help boost sales and conversion rates with targeted ads that
+              connect you to potential customers.
             </h5>
           </div>
           <div className="col-sm-12 col-md-6">
@@ -139,7 +153,9 @@ const GoogleSearchAds = (props) => {
             style={{ paddingLeft: "20px" }}
           >
             <h4 className="customer-text">
-            Our service effectively drives qualified traffic to your business while they're searching for products and services similar to your brand’s offerings.{" "}
+              Our service effectively drives qualified traffic to your business
+              while they're searching for products and services similar to your
+              brand’s offerings.{" "}
             </h4>
             <a href="#get-started">
               <Button

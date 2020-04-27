@@ -14,10 +14,10 @@ import content from "../../assets/images/content_marketing.png";
 import developement from "../../assets/images/content_development.png";
 import copywriting from "../../assets/images/copywriting.png";
 import people_black from "../../assets/images/people_black.png";
-// import girl_dog from "../../assets/images/girl_and_dog.png";
+import girl_dog from "../../assets/images/girl_and_dog.jpg";
 import arrow from "../../assets/images/Arrow.png";
-import heroshe from "../../assets/images/heroshe.png";
-import heroshe_mb from "../../assets/images/heroshe-mb.png";
+import heroshe from "../../assets/images/heroshe.jpg";
+import heroshe_mb from "../../assets/images/heroshe-mb.jpg";
 import heroshe_text from "../../assets/images/heroshe-text.png";
 import see_how from "../../assets/images/cta.png";
 
@@ -57,7 +57,8 @@ const WebDev = (props) => {
               <img src={content} className="contentImage" alt="content" />
               <h5 className="contentText">Web Design</h5>
               <h6 className="content-text">
-              We will create a website with a strategy that pays attention to detail for all important elements for a well-laid out website.
+                We will create a website with a strategy that pays attention to
+                detail for all important elements for a well-laid out website.
               </h6>
             </div>
           </div>
@@ -70,7 +71,9 @@ const WebDev = (props) => {
               />
               <h5 className="contentText">Web Hosting</h5>
               <h6 className="content-text">
-              We will help procure appropriate  web hosting services for your brand to register its presence online and store the information that you want your visitors to see on your website.
+                We will help procure appropriate web hosting services for your
+                brand to register its presence online and store the information
+                that you want your visitors to see on your website.
               </h6>
             </div>
           </div>
@@ -83,7 +86,10 @@ const WebDev = (props) => {
               />
               <h5 className="contentText">Web Development</h5>
               <h6 className="content-text">
-              Whether it’s building web content, developing a basic website page, or developing a complex web app, our team of developers bring web design to life using HTML, CSS, Javascript, PHP and other programming languages.
+                Whether it’s building web content, developing a basic website
+                page, or developing a complex web app, our team of developers
+                bring web design to life using HTML, CSS, Javascript, PHP and
+                other programming languages.
               </h6>
             </div>
           </div>
@@ -93,7 +99,8 @@ const WebDev = (props) => {
         <div className="row">
           <div className="col-sm-12 col-md-6 grow-container">
             <h5 className="rejoice-text">
-            Let's help you innovate and create web solutions that offer your customers a delightful user-experience.
+              Let's help you innovate and create web solutions that offer your
+              customers a delightful user-experience.
             </h5>
           </div>
           <div className="col-sm-12 col-md-6">

@@ -32,7 +32,7 @@ const Header = () => {
           data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
-          aria-label="Toggle navigation"
+          aria-label="Togg￼le navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -59,7 +59,15 @@ const Header = () => {
               </a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
                 Services
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -106,13 +114,19 @@ const Header = () => {
                   </a>
                 </Link>
                 <Link to="/services/facebook-instagram-ads">
-                  <a class="dropdown-item" href="/services/facebook-instagram-ads">
+                  <a
+                    class="dropdown-item"
+                    href="/services/facebook-instagram-ads"
+                  >
                     Facebook & Instagram Ads
                   </a>
                 </Link>
                 <div class="dropdown-divider"></div>
                 <Link to="/services/branding-and-packaging">
-                  <a class="dropdown-item" href="/services/branding-and-packaging">
+                  <a
+                    class="dropdown-item"
+                    href="/services/branding-and-packaging"
+                  >
                     Product Branding & Packaging
                   </a>
                 </Link>

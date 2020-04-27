@@ -13,11 +13,9 @@ import {
 import logo from "../assets/images/new_logo.png";
 import "../css/nav.css";
 
-//TODO resize the logo in desktop
-//TODO show active links in their various plaxes
 //TODO implement breadcrumbs
-//TODO ensure all the possible navigations are correctly specified
-//TODO implement form validation with react redux form
+//TODO implement where all the form is taking the data to
+//TODO Resize all the images with squoosh
 const NavComponent = (props) => {
   const [collapsed, setCollapsed] = useState(true);
   const toggleNavbar = () => setCollapsed(!collapsed);

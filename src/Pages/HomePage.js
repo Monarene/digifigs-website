@@ -66,22 +66,22 @@ class HomePage extends Component {
             "Our team of developers understand the processes and procedures involved in software writing and programming.",
         },
         {
-          image: fb_ig,
-          text1: "Facebook (& Instagram) Ads ",
+          image: social_media,
+          text1: "Social Media Marketing ",
           text2:
-            "The Facebook and Instagram Ads service connects you to an endless pool of potential customers across the world on the largest social media platforms.",
+            "With an effective strategy in place, we’ll use social media as a tool to grow your brand’s reach, increase sales, and drive website traffic.",
         },
         {
-          image: fb_ig,
-          text1: "Facebook (& Instagram) Ads ",
+          image: product_branding,
+          text1: "Product Branding & Packaging",
           text2:
-            "The Facebook and Instagram Ads service connects you to an endless pool of potential customers across the world on the largest social media platforms.",
+            "We will help you define the uniqueness of your product amidst the competition. Our team will work to ideate and create a definitive brand that highlights your product’s essence and also appeals to your customers.",
         },
         {
-          image: fb_ig,
-          text1: "Facebook (& Instagram) Ads ",
+          image: email_marketing,
+          text1: "Email Marketing",
           text2:
-            "The Facebook and Instagram Ads service connects you to an endless pool of potential customers across the world on the largest social media platforms.",
+            "We will create email marketing campaigns to engage your audience, promote your products and services, and ultimately, increase sales.",
         },
       ],
       itemsToShow: 2,

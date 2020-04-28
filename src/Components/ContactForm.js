@@ -18,9 +18,18 @@ class ContactForm extends Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  handleSubmit(values) {
-    console.log("You have sent the message " + JSON.stringify(values));
-    alert("You have successfully submitted the form" + JSON.stringify(values));
+  async handleSubmit(values) {
+    let formdata = new FormData();
+    formdata.append("full_name", values.name);
+    formdata.append("email", values.email);
+    formdata.append("message", values.message);
+
+    await fetch("https://digifigs.com/contact-v2/", {
+      method: "POST",
+      mode: "no-cors",
+      body: formdata,
+    });
+
     this.props.resetForm();
   }
 

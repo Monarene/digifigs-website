@@ -9,7 +9,7 @@
   width: 136.07px;
   margin-bottom: 40px;
 }
-  
+
 .targetText1 {
   height: 120px;
   width: 230px;
@@ -18,8 +18,9 @@
   font-weight: 600;
   letter-spacing: -0.9px;
   line-height: 36px;
+  margin-top: 10px;
 }
-  
+
 .targetText2 {
   height: 150px;
   width: 434px;
@@ -28,8 +29,6 @@
   font-weight: 300;
   line-height: 32px;
 }
-
-
 
 @media (max-width: 767.89px) {
   .target {
@@ -48,6 +47,7 @@
     font-size: 12px;
     letter-spacing: -0.36px;
     line-height: 17px;
+    padding-top: 10px;
     height: 40px;
     width: auto;
   }
@@ -61,7 +61,6 @@
     line-height: 17px;
   }
 }
-
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .target {
@@ -79,6 +78,7 @@
     font-family: Gotham;
     font-size: 20px;
     font-weight: 600;
+    margin-top: 10px;
     letter-spacing: -0.6px;
     line-height: 17px;
   }

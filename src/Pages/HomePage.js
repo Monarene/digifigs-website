@@ -41,6 +41,18 @@ class HomePage extends Component {
           text2:
             " We will help you build a website that shows the brand image you want your website visitors to see. We also provide quality services in web hosting.",
         },
+        {
+          image: target,
+          text1: "Search Engine Optimization",
+          text2:
+            "Get your website to rank higher on search engine results pages through the improved online visibility that we offer through our SEO services.",
+        },
+        {
+          image: capa,
+          text1: "Web Development",
+          text2:
+            " We will help you build a website that shows the brand image you want your website visitors to see. We also provide quality services in web hosting.",
+        },
       ],
       itemsToShow: 2,
       expanded: false,
@@ -48,6 +60,15 @@ class HomePage extends Component {
     };
 
     this.showMore = this.showMore.bind(this);
+  }
+
+  showMore() {
+    this.state.itemsToShow === 2
+      ? this.setState({
+          itemsToShow: this.state.services.length,
+          expanded: true,
+        })
+      : this.setState({ itemsToShow: 2, expanded: false });
   }
 
   render() {
@@ -112,12 +133,16 @@ class HomePage extends Component {
           </div>
           <div></div>
           <div className="row see-all-wrapper">
-            <div>
-              <a href="#">
+            <div onClick={this.showMore}>
+              {this.state.expanded ? (
+                <button type="button" class="btn btn-link see-all">
+                  See less
+                </button>
+              ) : (
                 <button type="button" class="btn btn-link see-all">
                   See all
                 </button>
-              </a>
+              )}
             </div>
             <div>
               <img src={down} alt="" />

@@ -18,6 +18,12 @@ import StandOut from "..//Components/StandOut";
 import CaptionImage from "../Components/CaptionImage";
 import Carousel from "../Components/Carousel";
 import Service from "../Components/Service";
+import contentMarketing from "../assets/images/contentMarketing.svg";
+import fb_ig from "../assets/images/ig_and_fb.svg";
+import mobile_app from "../assets/images/Mobile_App_dev.svg";
+import social_media from "../assets/images/Ad.svg";
+import product_branding from "../assets/images/Product_Branding.svg";
+import email_marketing from "../assets/images/email_marketing.svg";
 
 import "../css/homepage.css";
 import "aos/dist/aos.css";
@@ -42,16 +48,40 @@ class HomePage extends Component {
             " We will help you build a website that shows the brand image you want your website visitors to see. We also provide quality services in web hosting.",
         },
         {
-          image: target,
-          text1: "Search Engine Optimization",
+          image: contentMarketing,
+          text1: "Content Marketing",
           text2:
-            "Get your website to rank higher on search engine results pages through the improved online visibility that we offer through our SEO services.",
+            "Our content marketing service will help your brand not only express its intended message but also deliver value which is the focal point of content marketing.",
         },
         {
-          image: capa,
-          text1: "Web Development",
+          image: fb_ig,
+          text1: "Facebook (& Instagram) Ads ",
           text2:
-            " We will help you build a website that shows the brand image you want your website visitors to see. We also provide quality services in web hosting.",
+            "The Facebook and Instagram Ads service connects you to an endless pool of potential customers across the world on the largest social media platforms.",
+        },
+        {
+          image: mobile_app,
+          text1: "Mobile App Development",
+          text2:
+            "Our team of developers understand the processes and procedures involved in software writing and programming.",
+        },
+        {
+          image: fb_ig,
+          text1: "Facebook (& Instagram) Ads ",
+          text2:
+            "The Facebook and Instagram Ads service connects you to an endless pool of potential customers across the world on the largest social media platforms.",
+        },
+        {
+          image: fb_ig,
+          text1: "Facebook (& Instagram) Ads ",
+          text2:
+            "The Facebook and Instagram Ads service connects you to an endless pool of potential customers across the world on the largest social media platforms.",
+        },
+        {
+          image: fb_ig,
+          text1: "Facebook (& Instagram) Ads ",
+          text2:
+            "The Facebook and Instagram Ads service connects you to an endless pool of potential customers across the world on the largest social media platforms.",
         },
       ],
       itemsToShow: 2,

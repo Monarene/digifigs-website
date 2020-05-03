@@ -48,61 +48,67 @@ const Main = (props) => {
           )}
         />
         <Route
-          exact path="/services/content-marketing"
+          exact
+          path="/services/content-marketing"
           component={() => (
             <ContentMarketing resetMessageForm={props.resetMessageForm} />
           )}
         />
         <Route
-          exact path="/services/se-marketing"
+          exact
+          path="/services/se-marketing"
           component={() => (
             <SEMarketing resetMessageForm={props.resetMessageForm} />
           )}
         />
         <Route
-          exact path="/services/seo"
-          component={() => (
-            <SEO resetMessageForm={props.resetMessageForm} />
-          )}
+          exact
+          path="/services/seo"
+          component={() => <SEO resetMessageForm={props.resetMessageForm} />}
         />
         <Route
-          exact path="/services/web-development"
-          component={() => (
-            <WebDev resetMessageForm={props.resetMessageForm} />
-          )}
+          exact
+          path="/services/web-development"
+          component={() => <WebDev resetMessageForm={props.resetMessageForm} />}
         />
         <Route
-          exact path="/services/app-development"
+          exact
+          path="/services/app-development"
           component={() => (
             <MobileDev resetMessageForm={props.resetMessageForm} />
           )}
         />
         <Route
-          exact path="/services/sm-marketing"
+          exact
+          path="/services/sm-marketing"
           component={() => (
             <SocialMarketing resetMessageForm={props.resetMessageForm} />
           )}
         />
         <Route
-          exact path="/services/branding-and-packaging"
+          exact
+          path="/services/branding-and-packaging"
           component={() => (
             <BrandingPackaging resetMessageForm={props.resetMessageForm} />
           )}
         />
         <Route
-          exact path="/services/email-marketing"
+          exact
+          path="/services/email-marketing"
           component={() => (
             <EmailMarketing resetMessageForm={props.resetMessageForm} />
           )}
         />
         <Route
-          exact path="/services/google-search-ads"
+          exact
+          path="/services/google-search-ads"
           component={() => (
             <GoogleSearchAds resetMessageForm={props.resetMessageForm} />
           )}
         />
         <Route
-          exact path="/services/facebook-instagram-ads"
+          exact
+          path="/services/facebook-instagram-ads"
           component={() => (
             <FbInstaAds resetMessageForm={props.resetMessageForm} />
           )}

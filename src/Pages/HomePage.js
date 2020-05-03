@@ -37,48 +37,56 @@ class HomePage extends Component {
       services: [
         {
           image: target,
+          imgClass: "target",
           text1: "Search Engine Optimization",
           text2:
             "Get your website to rank higher on search engine results pages through the improved online visibility that we offer through our SEO services.",
         },
         {
           image: capa,
+          imgClass: "capa",
           text1: "Web Development",
           text2:
             " We will help you build a website that shows the brand image you want your website visitors to see. We also provide quality services in web hosting.",
         },
         {
           image: contentMarketing,
+          imgClass: "capa",
           text1: "Content Marketing",
           text2:
             "Our content marketing service will help your brand not only express its intended message but also deliver value which is the focal point of content marketing.",
         },
         {
           image: fb_ig,
+          imgClass: "capa",
           text1: "Facebook (& Instagram) Ads ",
           text2:
             "The Facebook and Instagram Ads service connects you to an endless pool of potential customers across the world on the largest social media platforms.",
         },
         {
           image: mobile_app,
+          imgClass: "capa",
           text1: "Mobile App Development",
           text2:
             "Our team of developers understand the processes and procedures involved in software writing and programming.",
         },
         {
           image: social_media,
+          imgClass: "capa",
           text1: "Social Media Marketing ",
           text2:
             "With an effective strategy in place, we’ll use social media as a tool to grow your brand’s reach, increase sales, and drive website traffic.",
         },
         {
           image: product_branding,
+          imgClass: "capa",
           text1: "Product Branding & Packaging",
           text2:
             "We will help you define the uniqueness of your product amidst the competition. Our team will work to ideate and create a definitive brand that highlights your product’s essence and also appeals to your customers.",
         },
         {
           image: email_marketing,
+          imgClass: "capa",
           text1: "Email Marketing",
           text2:
             "We will create email marketing campaigns to engage your audience, promote your products and services, and ultimately, increase sales.",
@@ -153,7 +161,7 @@ class HomePage extends Component {
                   data-aos="fade-up"
                 >
                   <Service
-                    imgClass="capa"
+                    imgClass={service.imgClass}
                     image={service.image}
                     text1={service.text1}
                     text2={service.text2}

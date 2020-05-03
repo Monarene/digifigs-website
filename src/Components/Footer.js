@@ -1,5 +1,5 @@
 import React from "react";
-import arrow from '../assets/images/Arrow2.png'
+import arrow from "../assets/images/Arrow2.png";
 import "../css/footer.css";
 import group from "../assets/images/Group.png";
 import logo from "../assets/images/logo-footer.png";
@@ -18,9 +18,23 @@ const Footer = () => {
           <img src={logo} alt="" className="logo-footer mb" />
           <img src={logo_tb} alt="" className="logo-footer tb" />
           <div className="image-group-mb">
-              <img src={instagram_black} alt="" className="footer-icon" />
-              <img src={twitter_black} alt="" className="footer-icon" />
-              <img src={facebook_black} alt="" className="footer-icon" />
+            <a href="https://instagram.com/digifigs" target="_blank">
+              <img
+                src={instagram_black}
+                alt="Instagram"
+                className="footer-icon"
+              />
+            </a>
+            <a href="https://twitter.com/digifigsinc" target="_blank">
+              <img src={twitter_black} alt="twitter" className="footer-icon" />
+            </a>
+            <a href="https://facebook.com/digifigs" target="_blank">
+              <img
+                src={facebook_black}
+                alt="facebook"
+                className="footer-icon"
+              />
+            </a>
           </div>
         </div>
         <div className="col-8 col-sm-8 col-md-8">
@@ -56,25 +70,40 @@ const Footer = () => {
       <div className="row footer-bottom">
         <div className="col-sm-12 col-md-3">
           <div className="image-group">
+            <a href="https://instagram.com/digifigs" target="_blank">
               <img src={instagram_black} alt="" className="footer-icon" />
+            </a>
+            <a href="https://twitter.com/digifigsinc" target="_blank">
               <img src={twitter_black} alt="" className="footer-icon" />
+            </a>
+            <a href="https://facebook.com/digifigs" target="_blank">
               <img src={facebook_black} alt="" className="footer-icon" />
+            </a>
           </div>
         </div>
         <div className="col-sm-12 col-md-4 copy">
-          <p className="copy-txt">&copy; 2020 Copyright - Digifigs Limited | All Rights Reserved</p>
+          <p className="copy-txt">
+            &copy; 2020 Copyright - Digifigs Limited | All Rights Reserved
+          </p>
         </div>
         <div className="col-sm-12 col-md-12 col-lg-4 sub">
           <p className="sub-txt">SUBSCRIBE TO OUR NEWSLETTER</p>
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2 input-sub" type="email" placeholder="Your e-mail Address" aria-label="Email" />
+            <input
+              class="form-control mr-sm-2 input-sub"
+              type="email"
+              placeholder="Your e-mail Address"
+              aria-label="Email"
+            />
             <button className="btn btn-primary btn-sub">
-                <img className="arrow-sub" src={arrow} alt="" />
+              <img className="arrow-sub" src={arrow} alt="" />
             </button>
           </form>
         </div>
         <div className="col-sm-12 col-md-12 copy-mb">
-          <p className="copy-txt">&copy; 2020 Copyright - Digifigs Limited | All Rights Reserved</p>
+          <p className="copy-txt">
+            &copy; 2020 Copyright - Digifigs Limited | All Rights Reserved
+          </p>
         </div>
       </div>
     </div>

@@ -13,7 +13,7 @@
 
 .contactText {
   height: 35px;
-  width: 290px;
+  width: fit-content;
   color: #39f;
   font-size: 35px;
   font-weight: 300;

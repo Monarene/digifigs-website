@@ -18,9 +18,9 @@ body {
 }
 
 .company-logo {
-  height: 80px;
+  height: 90px;
   margin-top: 50px;
-  width: 150px;
+  width: 180px;
 }
 
 .standing {
@@ -157,8 +157,6 @@ body {
 
 .herosheText4 {
   height: 64px;
-  width: 256px;
-  margin-left: -30px;
 }
 
 .herosheImage {
@@ -391,7 +389,6 @@ body {
   .herosheText4 {
     height: auto;
     width: 106px;
-    margin-left: -12px;
     margin-bottom: 26px;
   }
   .herosheText3 {
@@ -579,7 +576,6 @@ body {
     height: auto;
     width: 105px;
     margin: 26px 0px;
-    margin-left: -12px;
   }
   .herosheText3 {
     display: none;

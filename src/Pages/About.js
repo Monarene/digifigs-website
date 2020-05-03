@@ -43,14 +43,15 @@ export default function About(props) {
         <Row className="description">
           <Col className="item-1" data-aos="fade-up">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              We’re committed to helping you maximize your online digital media
+              presence to generate conversions and increase your business ROI.
             </p>
           </Col>
           <Col className="item-2" data-aos="fade-up">
             <p>
-              We are Kin on making <br /> sure you have the best <br />{" "}
-              experince using our devices
+              Digifigs Limited is a digital marketing organization that helps
+              brands and businesses increase their online presence across
+              digital platforms.
             </p>
           </Col>
         </Row>

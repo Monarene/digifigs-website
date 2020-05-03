@@ -35,7 +35,24 @@ button:focus {
   position: absolute;
 }
 
+.dropdown-menu {
+  border-radius: 10px;
+  font-family: Gotham;
+}
 
+.dropdown-item:hover {
+  background-color: #39f;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav-link {
+  font-family: Gotham;
+  font-weight: bold;
+}
 
 @media (max-width: 767.89px) {
   .logo-header {

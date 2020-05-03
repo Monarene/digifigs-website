@@ -113,7 +113,11 @@ class ContactForm extends Component {
                 />
               </div>
               <div className="row btn-wrapper">
-                <button className="btn btn-primary" type="submit">
+                <button
+                  className="btn btn-primary"
+                  type="submit"
+                  style={{ height: "30px", paddingBottom: "35px" }}
+                >
                   Send
                   <img className="arrow" src={arrow} alt="" />
                 </button>

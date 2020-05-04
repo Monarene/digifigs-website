@@ -1,0 +1,123 @@
+.objective-container {
+  margin: 100px 0px;
+}
+
+.objective {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Gotham;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 63px;
+  text-align: center;
+}
+
+.objective-text {
+  padding: 20px 0px;
+  color: #000;
+  font-family: Gotham;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+.strategy {
+  margin: 40px 0px;
+  color: #000;
+  font-family: Gotham;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 60px;
+}
+
+.heroshe-work {
+  color: #000;
+  font-family: Gotham;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+  margin: 100px 0px;
+}
+
+.book {
+  height: 83.75px;
+  width: 328.49px;
+}
+
+.book-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rower {
+  margin: 100px 0px;
+}
+
+.book-text {
+  color: #000;
+  font-family: Gotham;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 34px;
+}
+
+.book-image {
+  height: 109.4px;
+  width: 285.45px;
+}
+
+.target-marketing {
+  color: #000;
+  font-family: Gotham;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.accelerating {
+  width: 235px;
+  color: #000;
+  font-family: Gotham;
+  font-size: 31px;
+  font-weight: 300;
+  line-height: 37px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.new-insta {
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.new-fb {
+  margin-bottom: 40px;
+}
+
+.social-media {
+  color: #000;
+  font-family: Gotham;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.results {
+  color: #080717;
+  font-family: Gotham;
+  font-size: 63.67px;
+  font-weight: 300;
+  line-height: 80px;
+  margin-bottom: 50px;
+}
+
+.team {
+  color: #000;
+  font-family: Gotham;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 35px;
+  margin-bottom: 40px;
+}

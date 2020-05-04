@@ -7,6 +7,7 @@ import { connect } from "react-redux";
 import { actions } from "react-redux-form";
 import About from "../Pages/About";
 import Contact from "../Pages/Contact";
+import CaseStudies from "../Pages/CaseStudies";
 import SEMarketing from "../Pages/services/SEMarketing";
 import SEO from "../Pages/services/SEO";
 import ContentMarketing from "../Pages/services/ContentMarketing";
@@ -61,6 +62,7 @@ const Main = (props) => {
             <SEMarketing resetMessageForm={props.resetMessageForm} />
           )}
         />
+        <Route exact path="/casestudies" component={() => <CaseStudies />} />
         <Route
           exact
           path="/services/seo"

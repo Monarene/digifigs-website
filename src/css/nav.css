@@ -3,6 +3,12 @@
   width: auto;
 }
 
+.header-button {
+  position: relative;
+  left: 20%;
+  bottom: 20%;
+}
+
 .nav-wrapper {
   /* flex-wrap: nowrap; */
   margin-top: 15px;

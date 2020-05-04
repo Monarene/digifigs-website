@@ -63,9 +63,11 @@ const Header = () => {
                 </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Case Studies
-                </a>
+                <Link to="/casestudies">
+                  <a class="nav-link" href="#">
+                    Case Studies
+                  </a>
+                </Link>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -148,14 +150,17 @@ const Header = () => {
                   </a>
                 </Link>
               </li>
+              <li>
+                <a href="#get-started">
+                  <button
+                    class="btn btn-primary my-2 my-sm-0 get-started-lg header-button"
+                    type="button"
+                  >
+                    Get Started
+                  </button>
+                </a>
+              </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0 get-started-lg">
-              <a href="#get-started">
-                <button class="btn btn-primary my-2 my-sm-0" type="button">
-                  Get Started
-                </button>
-              </a>
-            </form>
           </div>
         </nav>
       </div>

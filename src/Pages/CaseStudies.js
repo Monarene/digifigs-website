@@ -125,8 +125,47 @@ const CaseStudies = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-sm-4"></div>
-          <div className="col-sm-8"></div>
+          <div className="col-sm-4">
+            <img className="circle" src={circle} alt="circle" />
+          </div>
+          <div className="col-sm-8">
+            <img src={number} alt="numbers" />
+            <img src={facebook_studies} alt="facebook 1" />
+            <img src={facebook_studies_2} alt="Facebook 2" />
+            <img src={insta_studies} alt="Instagram Image" />
+            <img src={messanger} alt="Messanger" />
+          </div>
+        </div>
+        <div className="row">
+          <h3 className="col-sm-12">
+            The Heroshe website has seen a geometric increase - up to a whopping
+            1348% progression rate - in the number of new visitors on the
+            website. This percentage derives from the exponential jump from 2100
+            to 30,414 visitors between December 2019 & January 2020 to February
+            & March 2020.
+          </h3>
+          <div className="col-sm-12">
+            <img src={plot} alt="plot image" />
+            <h4>
+              With an 80% + increase in signups between February 1st and March
+              31st 2020, we have helped propel the brand into a vibrant
+              community of online shopping enthusiasts who are consistently on
+              the lookout for affordable shopping deals and discount offers.
+            </h4>
+            <h4>
+              These results are evidence of the wholesome impression our
+              outreach strategies have on the audience segments peculiar to the
+              various platforms.
+            </h4>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm-6">
+            <a>Visit Heroshe.com & start shoppig on US online stores</a>
+          </div>
+          <div className="col-sm-6">
+            <h3>Some funny image</h3>
+          </div>
         </div>
       </div>
     </React.Fragment>

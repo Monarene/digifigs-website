@@ -19,7 +19,7 @@ const Header = () => {
           zIndex: "1",
         }}
       >
-        <nav class="navbar navbar-expand-lg navbar-light nav-wrapper">
+        <div class="navbar navbar-expand-lg navbar-light nav-wrapper">
           <button
             class="navbar-toggler mb"
             type="button"
@@ -162,7 +162,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-        </nav>
+        </div>
       </div>
     </React.Fragment>
   );

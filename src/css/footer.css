@@ -10,6 +10,7 @@
   padding: 96px;
   margin-top: 176.29px;
   border-top: 1px solid #f4f4f4;
+  height: 500px;
 }
 
 .footer-icon {
@@ -37,7 +38,7 @@
 .address {
   height: 96.92px;
   width: 99px;
-  color: #4F4F4F;
+  color: #4f4f4f;
   font-family: Gotham;
   font-size: 12px;
   font-weight: 300;
@@ -55,7 +56,8 @@
   transform: scaleY(-1);
 }
 
-.input-sub,.form-inline .form-control {
+.input-sub,
+.form-inline .form-control {
   height: 50.28px;
   width: 386.67px;
 }
@@ -63,8 +65,8 @@
 .btn-sub {
   width: 57.69px;
   height: 50px;
-  background-color: #39F;
-  padding: 0px
+  background-color: #39f;
+  padding: 0px;
 }
 
 .sub-txt {
@@ -92,7 +94,7 @@
   font-size: 12px;
   font-weight: 300;
   line-height: 12px;
-  margin-top: 36px;;
+  margin-top: 36px;
   text-align: center;
 }
 
@@ -110,9 +112,8 @@
 
 ::placeholder {
   font-size: 14px;
-  color: #4F4F4F;
+  color: #4f4f4f;
 }
-
 
 @media (max-width: 767.89px) {
   .main {
@@ -138,12 +139,11 @@
   .address {
     height: 96.92px;
     width: 76.12px;
-    color: #4F4F4F;
+    color: #4f4f4f;
     font-family: Gotham;
     font-size: 8px;
     font-weight: 300;
     line-height: 16px;
-
   }
   .footer-content-wrapper {
     border-top: 0.5px solid #f4f4f4;
@@ -175,14 +175,15 @@
     flex-flow: row nowrap;
   }
   .sub-txt {
-    height: 12px; 
+    height: 12px;
     color: #333;
     font-family: Gotham;
     font-size: 9px;
     font-weight: 300;
     line-height: 12px;
   }
-  .input-sub,.form-inline .form-control {
+  .input-sub,
+  .form-inline .form-control {
     height: 39.47px;
     width: 164.47px;
     border-radius: 0px;
@@ -207,7 +208,6 @@
     padding-top: 50px;
   }
 }
-
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .main {
@@ -236,12 +236,11 @@
   .address {
     height: 96.92px;
     width: 79.12px;
-    color: #4F4F4F;
+    color: #4f4f4f;
     font-family: Gotham;
     font-size: 8px;
     font-weight: 300;
     line-height: 16px;
-
   }
   .footer-content-wrapper {
     border-top: 0.5px solid #f4f4f4;
@@ -273,19 +272,20 @@
     flex-flow: row nowrap;
   }
   .sub-txt {
-    height: 22px; 
+    height: 22px;
     color: #333;
     font-family: Gotham;
     font-size: 12px;
     font-weight: 300;
     line-height: 12px;
   }
-  .input-sub,.form-inline .form-control {
+  .input-sub,
+  .form-inline .form-control {
     height: 39.47px;
     width: 304.47px;
     border-radius: 0px;
   }
-   .btn-sub {
+  .btn-sub {
     height: 39.47px;
     border-radius: 0px;
   }

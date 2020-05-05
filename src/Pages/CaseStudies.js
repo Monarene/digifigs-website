@@ -177,14 +177,7 @@ const CaseStudies = (props) => {
             </h4>
           </div>
         </div>
-        <div className="row rower">
-          <div className="col-sm-6 visitor">
-            <a>Visit Heroshe.com & start shopping on US online stores</a>
-          </div>
-          <div className="col-sm-6">
-            <h3>Some funny image</h3>
-          </div>
-        </div>
+
         <div className="row  rower">
           <div className="col-sm-6" style={{ margin: "auto" }}>
             <h3 className="book-text">

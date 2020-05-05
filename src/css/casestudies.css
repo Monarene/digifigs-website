@@ -52,7 +52,7 @@
 }
 
 .rower {
-  margin: 100px 0px;
+  margin: 130px 0px;
 }
 
 .book-text {
@@ -120,4 +120,51 @@
   font-weight: 300;
   line-height: 35px;
   margin-bottom: 40px;
+}
+
+.images {
+  margin: 0px;
+  padding: 0px;
+  margin: auto;
+}
+
+.small-images {
+  margin: 10px;
+}
+
+.heroshe-website {
+  color: #000;
+  font-family: Gotham;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 38px;
+}
+
+.plot-text {
+  color: #000;
+  font-family: Gotham;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 35px;
+}
+
+.visitor {
+  color: #39f;
+  font-family: Gotham;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+.getter {
+  color: #000;
+  font-family: Gotham;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.lean-picture {
+  margin: 50px 0px;
 }

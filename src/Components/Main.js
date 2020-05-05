@@ -62,7 +62,13 @@ const Main = (props) => {
             <SEMarketing resetMessageForm={props.resetMessageForm} />
           )}
         />
-        <Route exact path="/casestudies" component={() => <CaseStudies />} />
+        <Route
+          exact
+          path="/casestudies"
+          component={() => (
+            <CaseStudies resetMessageForm={props.resetMessageForm} />
+          )}
+        />
         <Route
           exact
           path="/services/seo"

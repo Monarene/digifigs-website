@@ -53,7 +53,7 @@ const CaseStudies = (props) => {
             with potential ones.
           </div>
         </div>
-        <div className="row">
+        <div className="row rower">
           <h2 className="strategy">Strategy</h2>
           <h5 className="heroshe-work">
             Our work with Heroshe consists of a comprehensive digital marketing
@@ -73,11 +73,11 @@ const CaseStudies = (props) => {
         </div>
         <div className="row rower">
           <div className="col-sm-12 col-md-6 book-text">
-            <h3>
+            <h4>
               Content creation, development, and distribution: We developed
               audience-centred content that captures the attention of the online
               followers and sustains engagement.
-            </h3>
+            </h4>
           </div>
           <div className="col-sm-12 col-md-6 book-container">
             <img src={book} alt="book" className="book-image" />
@@ -132,7 +132,7 @@ const CaseStudies = (props) => {
           </div>
           <div className="col-sm-8 images">
             <img src={number} alt="numbers" style={{ display: "block" }} />
-            <img src={facebook_studies} alt="facebook 1" />
+            <img src={facebook_studies} className="big-fb" alt="facebook 1" />
             <img
               src={facebook_studies_2}
               alt="Facebook 2"
@@ -161,7 +161,7 @@ const CaseStudies = (props) => {
             <img
               src={plot}
               alt="plot image"
-              className="rower"
+              className="rower plot-image"
               style={{ margin: "auto" }}
             />
             <h4 className="plot-text rower">
@@ -193,7 +193,7 @@ const CaseStudies = (props) => {
             <img src={lean} className="lean-picture" />
           </div>
           <div className="col-sm-6">
-            <img src={lean_picture} alt="lean " />
+            <img src={lean_picture} alt="lean" className="lean-profile" />
           </div>
         </div>
         <div className="row">

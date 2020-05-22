@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import AOS from "aos";
 import ballons from "../assets/images/ballons.jpg";
 import TopCaption from "../Components/TopCaption";
 import Marketing from "../Components/Marketing";
@@ -13,10 +12,8 @@ import "../css/carousel.css";
 import "../css/homepage.css";
 import "../css/caption.css";
 import "../css/about.css";
-import "aos/dist/aos.css";
 
 export default function About(props) {
-  AOS.init({ duration: 800 });
   return (
     <React.Fragment>
       <div data-aos="fade-down">

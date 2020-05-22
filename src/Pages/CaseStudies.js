@@ -2,7 +2,6 @@
 import React from "react";
 import TopCaption from "../Components/TopCaption";
 import CaptionImage from "../Components/CaptionImage";
-import AOS from "aos";
 
 // All images
 import fine_girl from "../assets/images/fine-girl.jpg";
@@ -22,11 +21,9 @@ import lean_picture from "../assets/images/lean.jpg";
 import ContactForm from "../Components/ContactForm";
 
 // All CSS scripts
-import "aos/dist/aos.css";
 import "../css/casestudies.css";
 
 const CaseStudies = (props) => {
-  AOS.init({ duration: 800 });
   return (
     <React.Fragment>
       <div data-aos="fade-down">

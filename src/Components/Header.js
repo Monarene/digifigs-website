@@ -47,7 +47,7 @@ const Header = () => {
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto" style={{ marginTop: "20px" }}>
               <li class="nav-item active">
                 <Link to="/">
                   <a class="nav-link" href="/">
@@ -155,6 +155,7 @@ const Header = () => {
                   <button
                     class="btn btn-primary my-2 my-sm-0 get-started-lg header-button"
                     type="button"
+                    style={{ textAlign: "center" }}
                   >
                     Get Started
                   </button>

@@ -1,12 +1,10 @@
 import React from "react";
-import AOS from "aos";
 import TopCaption from "../../Components/TopCaption";
 import Partners from "../../Components/Partners";
 import StandOut from "../../Components/StandOut";
 import Marketing from "../../Components/Marketing";
 import Carousel from "../../Components/Carousel";
 import { Button } from "reactstrap";
-import "aos/dist/aos.css";
 import "../../css/homepage.css";
 import "../../css/services.css";
 import people from "../../assets/images/Social media marketting/1.jpg";
@@ -26,7 +24,6 @@ import ContactForm from "../../Components/ContactForm";
 //TO-DO implement the jumbotron on all pages
 
 const SocialMarketing = (props) => {
-  AOS.init({ duration: 800 });
   return (
     <React.Fragment>
       <div data-aos="fade-down">

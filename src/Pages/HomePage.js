@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Partners from "../Components/Partners";
-import AOS from "aos";
 import down from "../assets/images/down.png";
 import see_how from "../assets/images/cta.png";
 import ballons from "../assets/images/ballons.jpg";
@@ -26,7 +25,6 @@ import product_branding from "../assets/images/Product_Branding.svg";
 import email_marketing from "../assets/images/email_marketing.svg";
 
 import "../css/homepage.css";
-import "aos/dist/aos.css";
 import "../css/service.css";
 import "../css/form.css";
 
@@ -110,39 +108,32 @@ class HomePage extends Component {
   }
 
   render() {
-    AOS.init({ duration: 800 });
     return (
       <div>
-        <div data-aos="fade-down">
+        <div>
           <TopCaption
             title="Get the visibility your brand needs"
             subtitle="Customized Digital Marketing Strategies just for your brand"
           />
         </div>
 
-        <div data-aos="zoom-in">
+        <div>
           <CaptionImage image={new_image} />
         </div>
-        <div
-          className="container justify-content-center partners-lg"
-          data-aos="fade-down"
-        >
+        <div className="container justify-content-center partners-lg">
           <Partners />
         </div>
         <div className="standing2" height="444">
           <StandOut />
         </div>
-        <div
-          className="container justify-content-center partners-mb"
-          data-aos="fade-down"
-        >
+        <div className="container justify-content-center partners-mb">
           <Partners />
         </div>
-        <div data-aos="zoom-in">
+        <div>
           <Marketing caption="Art of Digital Marketing" />
         </div>
 
-        <div className="container carousel-container" data-aos="fade-up">
+        <div className="container carousel-container">
           <Carousel />
         </div>
         <div className="container justify-content-center">
@@ -156,10 +147,7 @@ class HomePage extends Component {
             {this.state.services
               .slice(0, this.state.itemsToShow)
               .map((service, i) => (
-                <div
-                  className="col-sm-12 col-md-12 col-lg-6"
-                  data-aos="fade-up"
-                >
+                <div className="col-sm-12 col-md-12 col-lg-6">
                   <Service
                     imgClass={service.imgClass}
                     image={service.image}
@@ -230,7 +218,7 @@ class HomePage extends Component {
             </div>
           </div>
         </div>
-        <div data-aos="fade-up">
+        <div>
           <ContactForm resetForm={this.props.resetMessageForm} />
         </div>
       </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import AOS from "aos";
 import ballons from "../assets/images/ballons.jpg";
 import TopCaption from "../Components/TopCaption";
 import Marketing from "../Components/Marketing";
@@ -11,13 +10,11 @@ import Carousel from "../Components/Carousel";
 import StandOut from "../Components/StandOut";
 import "../css/contact.css";
 import "../css/homepage.css";
-import "aos/dist/aos.css";
 
 export default function Contact(props) {
-  AOS.init({ duration: 800 });
   return (
     <React.Fragment>
-      <div data-aos="fade-down">
+      <div>
         <TopCaption
           title="Contact Us"
           subtitle="Customized Digital Marketing Strategies just for your brand"
@@ -25,13 +22,10 @@ export default function Contact(props) {
       </div>
       <Container className="justify-content-center">
         <Row>
-          <img alt="" src={banner} className="image1" data-aos="zoom-in" />
+          <img alt="" src={banner} className="image1" />
         </Row>
       </Container>
-      <div
-        className="container justify-content-center partners-lg"
-        data-aos="fade-down"
-      >
+      <div className="container justify-content-center partners-lg">
         <Partners />
       </div>
       <div className="standing2" height="444">
@@ -39,7 +33,7 @@ export default function Contact(props) {
       </div>
       <Container>
         <Row className="description">
-          <Col className="item-2 item-contact" data-aos="fade-up">
+          <Col className="item-2 item-contact">
             <p>
               We are Kin on making <br /> sure you have the best <br />{" "}
               experince using our devices
@@ -47,14 +41,14 @@ export default function Contact(props) {
           </Col>
         </Row>
       </Container>
-      <div className="marketing-about" data-aos="zoom-in">
+      <div className="marketing-about">
         <Marketing caption="Art of Digital Marketing" />
       </div>
-      <div className="form" data-aos="fade-up">
+      <div className="form">
         <ContactForm resetForm={props.resetMessageForm} />
       </div>
       <Container>
-        <div className="address-contact" data-aos="flip-down">
+        <div className="address-contact">
           <h3>Ibadan</h3>
           <p>
             Kuye Street, Ikolaba Estate,
@@ -62,13 +56,10 @@ export default function Contact(props) {
           </p>
         </div>
       </Container>
-      <div
-        className="container justify-content-center partners-mb"
-        data-aos="fade-down"
-      >
+      <div className="container justify-content-center partners-mb">
         <Partners />
       </div>
-      <div className="container carousel-container" data-aos="fade-up">
+      <div className="container carousel-container">
         <Carousel />
       </div>
     </React.Fragment>

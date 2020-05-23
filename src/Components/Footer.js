@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import arrow from "../assets/images/Arrow2.png";
 import "../css/footer.css";
 import group from "../assets/images/Group.png";
@@ -33,7 +34,6 @@ const Footer = () => {
                 src={facebook_black}
                 alt="facebook"
                 className="footer-icon"
-                style={{ marginTop: "5px" }}
               />
             </a>
           </div>
@@ -42,23 +42,46 @@ const Footer = () => {
           <div className="row">
             <div className="col-4 col-sm-4 col-md-auto">
               <h6 className="ibadan">Navigation</h6>
-              <h6 className="address">Home</h6>
-              <h6 className="address">About Us</h6>
-              <h6 className="address">Case Studies</h6>
+              <Link to="/">
+                <h6 className="address">Home</h6>
+              </Link>
+              <Link to="/about">
+                <h6 className="address">About us</h6>
+              </Link>
+              <Link to="/contact">
+                <h6 className="address">Contact us</h6>
+              </Link>
             </div>
             <div className="col-4 col-sm-4 col-md-auto">
-              <h6 className="ibadan">Services</h6>
-              <h6 className="address">Brand Packaging</h6>
-              <h6 className="address">Content Marketing</h6>
-              <h6 className="address">Email Marketing</h6>
-              <h6 className="address">Facebook and Instagram Ads</h6>
-              <h6 className="address">Google Search Ads</h6>
-              <h6 className="address">Mobile Development</h6>
-              <h6 className="address">Website Development</h6>
+              <Link>
+                <h6 className="ibadan">Services</h6>
+              </Link>
+              <Link>
+                <h6 className="address">Brand Packaging</h6>
+              </Link>
+              <Link>
+                <h6 className="address">Content Marketing</h6>
+              </Link>
+              <Link>
+                <h6 className="address">Email Marketing</h6>
+              </Link>
+              <Link>
+                <h6 className="address">Facebook and Instagram Ads</h6>
+              </Link>
+              <Link>
+                <h6 className="address">Google Search Ads</h6>
+              </Link>
+              <Link>
+                <h6 className="address">Mobile Development</h6>
+              </Link>
+              <Link>
+                <h6 className="address">Website Development</h6>
+              </Link>
               <h6 className="address">Search Engine Marketing</h6>
               <h6 className="address">Search Engine Optimisation </h6>
             </div>
-            <div className="col-4 col-sm-4 col-md-auto col-space"></div>
+            {/*             <div className="col-4 col-sm-4 col-md-auto col-space"></div>
+             */}{" "}
             <div className="col-4 col-sm-4 col-md-auto">
               <h6 className="ibadan">Case Studies</h6>
               <h6 className="address">Heroshe</h6>

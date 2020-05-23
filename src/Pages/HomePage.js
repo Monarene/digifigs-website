@@ -23,6 +23,7 @@ import mobile_app from "../assets/images/Mobile_App_dev.svg";
 import social_media from "../assets/images/Ad.svg";
 import product_branding from "../assets/images/Product_Branding.svg";
 import email_marketing from "../assets/images/email_marketing.svg";
+import { Link } from "react-router-dom";
 
 import "../css/homepage.css";
 import "../css/service.css";
@@ -183,16 +184,16 @@ class HomePage extends Component {
             <div className="row heroshe-wrapper">
               <div className="col-sm-12 col-md-auto heroshecontainer2">
                 <h3 className="herosheText1">
-                  How we scaled Heroshe
-                  <br /> from 0 to 100
+                  How we increased the website traffic by 1348%
                 </h3>
                 <div className="partcontainer">
                   <h4 className="herosheText2">
-                    Get your website to rank higher on search engine results
+                    We also generated an 80% increase in signups
                   </h4>
                   <h4 className="herosheText3">
-                    See how
-                    <span>
+                    <Link to="/casestudies">See how</Link>
+
+                    {/* <span>
                       <img
                         alt=""
                         src={arrow}
@@ -203,7 +204,7 @@ class HomePage extends Component {
                           textTransform: " transform: scaleX(-1) scaleY(-1)",
                         }}
                       />
-                    </span>
+                    </span> */}
                   </h4>
                 </div>
                 <img src={heroshe_text} alt="" className="herosheText4" />

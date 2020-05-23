@@ -27,7 +27,7 @@
 
 .ibadan {
   height: 19px;
-  width: 61px;
+  width: fit-content;
   color: #333;
   font-family: Gotham;
   font-size: 12px;
@@ -36,8 +36,7 @@
 }
 
 .address {
-  height: 96.92px;
-  width: 99px;
+  width: fit-content;
   color: #4f4f4f;
   font-family: Gotham;
   font-size: 12px;
@@ -128,8 +127,7 @@
     margin-bottom: 30px;
   }
   .ibadan {
-    height: 9.34px;
-    width: 29.56px;
+    width: fit-content;
     color: #333;
     font-family: Gotham;
     font-size: 8px;
@@ -137,8 +135,7 @@
     line-height: 8px;
   }
   .address {
-    height: 96.92px;
-    width: 76.12px;
+    width: fit-content;
     color: #4f4f4f;
     font-family: Gotham;
     font-size: 8px;
@@ -161,6 +158,7 @@
   .footer-icon {
     height: 16.52px;
     width: 16.39px;
+    margin: 5px 5px;
   }
   .copy {
     display: none;
@@ -225,8 +223,7 @@
     margin-bottom: 30px;
   }
   .ibadan {
-    height: 9.34px;
-    width: 29.56px;
+    width: fit-content;
     color: #333;
     font-family: Gotham;
     font-size: 8px;
@@ -234,8 +231,7 @@
     line-height: 8px;
   }
   .address {
-    height: 96.92px;
-    width: 79.12px;
+    width: fit-content;
     color: #4f4f4f;
     font-family: Gotham;
     font-size: 8px;
@@ -258,6 +254,7 @@
   .footer-icon {
     height: 16.52px;
     width: 16.39px;
+    margin: 5px 5px;
   }
   .copy {
     display: none;

@@ -33,6 +33,7 @@ const Footer = () => {
                 src={facebook_black}
                 alt="facebook"
                 className="footer-icon"
+                style={{ marginTop: "5px" }}
               />
             </a>
           </div>
@@ -40,29 +41,27 @@ const Footer = () => {
         <div className="col-8 col-sm-8 col-md-8">
           <div className="row">
             <div className="col-4 col-sm-4 col-md-auto">
-              <h6 className="ibadan">Ibadan</h6>
-              <h6 className="address">
-                Kuye Street, Ikolaba Estate, Adjacent A3 Estate, Ikolaba, Ibadan
-              </h6>
+              <h6 className="ibadan">Navigation</h6>
+              <h6 className="address">Home</h6>
+              <h6 className="address">About Us</h6>
+              <h6 className="address">Case Studies</h6>
             </div>
             <div className="col-4 col-sm-4 col-md-auto">
-              <h6 className="ibadan">Products</h6>
-              <h6 className="address">
-                Lorem ipsum sit amet, consectetur adipiscing elit
-              </h6>
+              <h6 className="ibadan">Services</h6>
+              <h6 className="address">Brand Packaging</h6>
+              <h6 className="address">Content Marketing</h6>
+              <h6 className="address">Email Marketing</h6>
+              <h6 className="address">Facebook and Instagram Ads</h6>
+              <h6 className="address">Google Search Ads</h6>
+              <h6 className="address">Mobile Development</h6>
+              <h6 className="address">Website Development</h6>
+              <h6 className="address">Search Engine Marketing</h6>
+              <h6 className="address">Search Engine Optimisation </h6>
             </div>
             <div className="col-4 col-sm-4 col-md-auto col-space"></div>
             <div className="col-4 col-sm-4 col-md-auto">
-              <h6 className="ibadan">Products</h6>
-              <h6 className="address">
-                Lorem ipsum sit amet, consectetur adipiscing elit
-              </h6>
-            </div>
-            <div className="col-4 col-sm-4 col-md-auto">
-              <h6 className="ibadan">Products</h6>
-              <h6 className="address">
-                Lorem ipsum sit amet, consectetur adipiscing elit
-              </h6>
+              <h6 className="ibadan">Case Studies</h6>
+              <h6 className="address">Heroshe</h6>
             </div>
           </div>
         </div>

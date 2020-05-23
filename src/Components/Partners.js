@@ -16,19 +16,19 @@ export default function Partners() {
       </div>
       <div className="row partners-wrapper">
         <div className="col">
-          <img alt="" src={netflix} className="company-logo" />
+          <img alt="" src={google} className="company-logo" />
         </div>
         <div className="col">
           <img alt="" src={facebook} className="company-logo" />
         </div>
         <div className="col">
-          <img alt="" src={google} className="company-logo" />
-        </div>
-        <div className="col">
-          <img alt="" src={vmware} className="company-logo" />
+          <img alt="" src={netflix} className="company-logo" />
         </div>
         <div className="col">
           <img alt="" src={toyota} className="company-logo" />
+        </div>
+        <div className="col">
+          <img alt="" src={vmware} className="company-logo" />
         </div>
       </div>
     </React.Fragment>

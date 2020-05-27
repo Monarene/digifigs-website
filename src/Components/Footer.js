@@ -33,7 +33,7 @@ const Footer = () => {
               <img
                 src={facebook_black}
                 alt="facebook"
-                className="footer-icon"
+                className="footer-icon fb-image"
               />
             </a>
           </div>
@@ -56,35 +56,41 @@ const Footer = () => {
               <Link>
                 <h6 className="ibadan">Services</h6>
               </Link>
-              <Link>
+              <Link to="/services/branding-and-packaging">
                 <h6 className="address">Brand Packaging</h6>
               </Link>
-              <Link>
+              <Link to="/services/content-marketing">
                 <h6 className="address">Content Marketing</h6>
               </Link>
               <Link>
                 <h6 className="address">Email Marketing</h6>
               </Link>
-              <Link>
+              <Link to="/services/sm-marketing">
                 <h6 className="address">Facebook and Instagram Ads</h6>
               </Link>
               <Link>
                 <h6 className="address">Google Search Ads</h6>
               </Link>
-              <Link>
+              <Link to="/services/app-development">
                 <h6 className="address">Mobile Development</h6>
               </Link>
-              <Link>
+              <Link to="/services/web-development">
                 <h6 className="address">Website Development</h6>
               </Link>
-              <h6 className="address">Search Engine Marketing</h6>
-              <h6 className="address">Search Engine Optimisation </h6>
+              <Link to="/services/se-marketing">
+                <h6 className="address">Search Engine Marketing</h6>
+              </Link>
+              <Link to="/services/seo">
+                <h6 className="address">Search Engine Optimisation </h6>
+              </Link>
             </div>
             {/*             <div className="col-4 col-sm-4 col-md-auto col-space"></div>
              */}{" "}
             <div className="col-4 col-sm-4 col-md-auto">
               <h6 className="ibadan">Case Studies</h6>
-              <h6 className="address">Heroshe</h6>
+              <Link to="/casestudies">
+                <h6 className="address">Heroshe</h6>
+              </Link>
             </div>
           </div>
         </div>

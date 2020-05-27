@@ -18,9 +18,9 @@ body {
 }
 
 .company-logo {
-  height: 80px;
+  max-width: 150px;
+  max-height: 80px;
   margin-top: 50px;
-  width: 150px;
 }
 
 .standing {
@@ -170,6 +170,19 @@ body {
   padding-top: 100px;
 }
 
+.partners-wrapper {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.partner-images {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .heroshecontainer2 {
   margin-top: 100px;
 }
@@ -282,8 +295,8 @@ body {
     text-align: center;
   }
   .company-logo {
-    height: 28.24px;
-    width: 63.12px;
+    max-height: 28.24px;
+    max-width: 63.12px;
     margin-top: 29px;
   }
   .partners-wrapper .col {
@@ -429,7 +442,7 @@ body {
     padding-left: 10px;
   }
   .company-logo {
-    width: 54.12px;
+    max-width: 54.12px;
   }
 }
 
@@ -481,8 +494,8 @@ body {
     text-align: center;
   }
   .company-logo {
-    height: 32.02px;
-    width: 68.76px;
+    max-height: 32.02px;
+    max-width: 68.76px;
   }
   .megaphone {
     height: 84.23px;

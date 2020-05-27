@@ -174,25 +174,6 @@ const CaseStudies = (props) => {
             </h4>
           </div>
         </div>
-
-        <div className="row  rower">
-          <div className="col-sm-6" style={{ margin: "auto" }}>
-            <h3 className="book-text">
-              Helping LeanMethods Group redefine and scale thier customer base
-            </h3>
-
-            <h6 className="getter">
-              Get your website to rank higher on search engine results
-            </h6>
-            <a href="" style={{ display: "block", color: "#39f" }}>
-              See How
-            </a>
-            <img src={lean} className="lean-picture" />
-          </div>
-          <div className="col-sm-6">
-            <img src={lean_picture} alt="lean" className="lean-profile" />
-          </div>
-        </div>
         <div className="row">
           <ContactForm resetForm={props.resetMessageForm} />
         </div>

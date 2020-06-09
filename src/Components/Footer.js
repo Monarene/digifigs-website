@@ -34,6 +34,7 @@ const Footer = () => {
                 src={facebook_black}
                 alt="facebook"
                 className="footer-icon fb-image"
+                style={{marginTop: "0px", marginLeft: "0px"}}
               />
             </a>
           </div>
@@ -105,7 +106,7 @@ const Footer = () => {
               <img src={twitter_black} alt="" className="footer-icon" />
             </a>
             <a href="https://facebook.com/digifigs" target="_blank">
-              <img src={facebook_black} alt="" className="footer-icon" />
+              <img src={facebook_black} alt="" className="footer-icon" style={{marginTop: "0px", marginLeft: "0px"}} />
             </a>
           </div>
         </div>

@@ -3,10 +3,10 @@
     src: local('Gotham'), url(./fonts/GothamBook.ttf) format('truetype');
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Gotham';
     src: local('Gotham'), url(./fonts/GothamLight.ttf) format('truetype');
-}
+} */
 
 /* @font-face {
     font-family: 'Gotham';

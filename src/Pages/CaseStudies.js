@@ -159,7 +159,7 @@ const CaseStudies = (props) => {
               src={plot}
               alt="plot image"
               className="rower plot-image"
-              style={{ margin: "auto" }}
+              style={{ margin: "auto", width: "100%" }}
             />
             <h4 className="plot-text rower">
               With an 80% + increase in signups between February 1st and March

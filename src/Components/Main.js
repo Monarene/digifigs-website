@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import Nav from "./NavComponent";
 import HomePage from "../Pages/HomePage";
 import { Switch, Route, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
@@ -29,7 +30,7 @@ const mapDispatchToProps = (dispatch) => ({
 const Main = (props) => {
   return (
     <div className="App">
-      <Header />
+      <Nav />
       <Switch>
         <Route
           exact={true}

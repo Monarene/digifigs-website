@@ -43,7 +43,7 @@ const Nav = () => {
           {" "}
           <img src={logo} alt="nav logo" />
         </div>
-        <ul className={navOpened ? "nav-links nav-active" : "nav-links "}>
+        <ul className={navOpened ? "nav-links nav-active" : "nav-links"}>
           <Link to="/">
             <li
               style={
@@ -100,8 +100,22 @@ const Nav = () => {
                     }
                   : {}
               }
+              className="dropdown"
             >
               Services
+              <div className="dropdown-content">
+                <Link>Content Marketing</Link>
+                <Link>Search Engine Marketing</Link>
+                <Link>Content Marketing</Link>
+                <Link>Social Media Marketing</Link>
+                <Link>Email Marketing</Link>
+                <Link>Search Engine Optimization</Link>
+                <Link>Web development</Link>
+                <Link>Mobile App development</Link>
+                <Link>Game Search Ads</Link>
+                <Link>Facebook and Instagram Ads</Link>
+                <Link>Product Branding & Packaging</Link>
+              </div>
             </li>
           </Link>
           <Link to="/contact">

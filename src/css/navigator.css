@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Gotham;
 }
 
 .logo {
@@ -65,6 +66,29 @@ button {
   display: none;
 }
 
+.dropdown-content a {
+  display: block;
+  text-align: left;
+  width: 100%;
+  font-size: 17px;
+  padding: 2px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 @media screen and (max-width: 1024px) {
   button {
     display: none;
@@ -86,9 +110,14 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
+    width: 50%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    position: fixed;
   }
 
   .nav-links li {

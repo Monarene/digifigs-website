@@ -3,24 +3,25 @@
 }
 
 .item-1 p {
-    color: #000;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 26px;
+  color: #000;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 26px;
+  font-family: Gotham;
 }
 
 .item-2 p {
-    color: #000;
-    font-size: 31px;
-    font-weight: 700;
-    line-height: 33px;
+  color: #000;
+  font-size: 28px;
+  font-family: Gotham;
+  font-weight: 700;
+  line-height: 33px;
 }
 
 .marketing-about {
-    margin-top: 130px;
-    margin-bottom: 130px;
+  margin-top: 130px;
+  margin-bottom: 130px;
 }
-
 
 @media (max-width: 767.89px) {
   .marketing-about {
@@ -55,7 +56,6 @@
     margin-top: 30px;
   }
 }
-
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .header3 {

@@ -1,0 +1,236 @@
+.objective-container {
+  margin: 100px 0px;
+}
+
+.objective {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Gotham;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 63px;
+  text-align: center;
+}
+
+.objective-text {
+  padding: 20px 0px;
+  color: #000;
+  font-family: Gotham;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+.strategy {
+  color: #000;
+  font-family: Gotham;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 60px;
+}
+
+.heroshe-work {
+  color: #000;
+  font-family: Gotham;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+  margin: 100px 0px;
+}
+
+.book {
+  height: 83.75px;
+  width: 328.49px;
+}
+
+.book-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rower {
+  margin: 130px 0px;
+}
+
+.book-text {
+  color: #000;
+  font-family: Gotham;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 34px;
+}
+
+.book-image {
+  height: 109.4px;
+  width: 285.45px;
+}
+
+.target-marketing {
+  color: #000;
+  font-family: Gotham;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.accelerating {
+  width: 235px;
+  color: #000;
+  font-family: Gotham;
+  font-size: 31px;
+  font-weight: 300;
+  line-height: 37px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.new-insta {
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.new-fb {
+  margin-bottom: 40px;
+}
+
+.social-media {
+  color: #000;
+  font-family: Gotham;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.results {
+  color: #080717;
+  font-family: Gotham;
+  font-size: 63.67px;
+  font-weight: 300;
+  line-height: 80px;
+  margin-bottom: 50px;
+}
+
+.team {
+  color: #000;
+  font-family: Gotham;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 35px;
+  margin-bottom: 40px;
+}
+
+.images {
+  margin: 0px;
+  padding: 0px;
+  margin: auto;
+}
+
+.small-images {
+  margin: 10px;
+}
+
+.heroshe-website {
+  color: #000;
+  font-family: Gotham;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 38px;
+}
+
+.plot-text {
+  color: #000;
+  font-family: Gotham;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 35px;
+}
+
+.visitor {
+  color: #39f;
+  font-family: Gotham;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+.getter {
+  color: #000;
+  font-family: Gotham;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.lean-picture {
+  margin: 50px 0px;
+}
+
+@media (max-width: 767.89px) {
+  .objective-text,
+  .heroshe-work,
+  .target-marketing,
+  .social-media,
+  .team,
+  .heroshe-website,
+  .plot-text {
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+  }
+
+  .rower {
+    margin: 80px 0px;
+  }
+
+  .strategy {
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+  }
+  .book {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
+  .book-image {
+    margin-top: 50px;
+  }
+
+  .results {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .plot-image {
+    width: 100%;
+  }
+
+  .book-text > h4 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .circle {
+    display: none;
+  }
+
+  .big-fb {
+    display: none;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024) {
+    .plot-image {
+      width: 100%;
+    }
+  }
+}

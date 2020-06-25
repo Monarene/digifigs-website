@@ -23,14 +23,13 @@ import FbInstaAds from "../Pages/services/FbInstaAds";
 const mapDispatchToProps = (dispatch) => ({
   resetMessageForm: () => {
     dispatch(actions.reset("sendMessage"));
-    console.log("I have run");
   },
 });
 
 const Main = (props) => {
   return (
     <div className="App">
-      <Nav />
+      <Header />
       <Switch>
         <Route
           exact={true}

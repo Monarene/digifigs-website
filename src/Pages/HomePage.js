@@ -1,12 +1,12 @@
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
 import Partners from "../Components/Partners";
 import down from "../assets/images/down.png";
 import see_how from "../assets/images/cta.png";
-import ballons from "../assets/images/ballons.jpg";
+// import ballons from "../assets/images/ballons.jpg";
 import new_image from "../assets/images/home-banner.jpg";
 import capa from "../assets/images/Capa_1.png";
 import target from "../assets/images/Target.png";
-import arrow from "../assets/images/Arrow.png";
+// import arrow from "../assets/images/Arrow.png";
 import heroshe from "../assets/images/heroshe.jpg";
 import heroshe_mb from "../assets/images/heroshe-mb.jpg";
 import heroshe_text from "../assets/images/heroshe-text.png";
@@ -23,17 +23,17 @@ import mobile_app from "../assets/images/Mobile_App_dev.svg";
 import social_media from "../assets/images/Ad.svg";
 import product_branding from "../assets/images/Product_Branding.svg";
 import email_marketing from "../assets/images/email_marketing.svg";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import "../css/homepage.css";
 import "../css/service.css";
 import "../css/form.css";
 
-class HomePage extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      services: [
+function HomePage (props){
+  
+  
+    const [services, showServices] = useState(
+      [
         {
           image: target,
           imgClass: "target",
@@ -90,25 +90,24 @@ class HomePage extends Component {
           text2:
             "We will create email marketing campaigns to engage your audience, promote your products and services, and ultimately, increase sales.",
         },
-      ],
-      itemsToShow: 2,
-      expanded: false,
-      imgClass: "capa",
-    };
+      ]
+    )
+  const [items, setItems] = useState(2)
+  const [expanded, setExpanded] = useState(false)
+  // itemsToShow: 2,
+  //     expanded: false,
+  //     imgClass: "capa",
 
-    this.showMore = this.showMore.bind(this);
+  function showMore() {
+    if (items === 2) {
+      setItems(services.length);
+      setExpanded(true)
+    } else {
+      setItems(2);
+      setExpanded(false);
+    }
+    return null;
   }
-
-  showMore() {
-    this.state.itemsToShow === 2
-      ? this.setState({
-          itemsToShow: this.state.services.length,
-          expanded: true,
-        })
-      : this.setState({ itemsToShow: 2, expanded: false });
-  }
-
-  render() {
     return (
       <div>
         <div>
@@ -138,15 +137,15 @@ class HomePage extends Component {
           <Carousel />
         </div>
         <div className="container justify-content-center">
-          <div className="row services">
+          <div id="services" className="row services">
             <div className="col">
               <h3 className="buildingText">Build your Business</h3>
               <h6 className="services-header">SERVICES</h6>
             </div>
           </div>
           <div className="row engineO">
-            {this.state.services
-              .slice(0, this.state.itemsToShow)
+            {services
+              .slice(0, items)
               .map((service, i) => (
                 <div className="col-sm-12 col-md-12 col-lg-6">
                   <Service
@@ -160,19 +159,19 @@ class HomePage extends Component {
           </div>
           <div></div>
           <div className="row see-all-wrapper">
-            <div onClick={this.showMore}>
-              {this.state.expanded ? (
-                <button type="button" class="btn btn-link see-all">
+            <div>
+              {expanded ? (
+                <a href="/#services"><button type="button" class="btn btn-link see-all" onClick={() => showMore()}>
                   See less
-                </button>
+                </button></a>
               ) : (
-                <button type="button" class="btn btn-link see-all">
+                <button type="button" class="btn btn-link see-all" onClick={() => showMore()}>
                   See all
                 </button>
               )}
             </div>
             <div>
-              <img src={down} alt="" />
+              {!expanded && <img src={down} alt="" />}
             </div>
           </div>
         </div>
@@ -191,20 +190,7 @@ class HomePage extends Component {
                     We also generated an 80% increase in signups
                   </h4>
                   <h4 className="herosheText3">
-                    <Link to="/casestudies">See how</Link>
-
-                    {/* <span>
-                      <img
-                        alt=""
-                        src={arrow}
-                        style={{
-                          height: "15.25px",
-                          width: "32px",
-                          paddingLeft: "5px",
-                          textTransform: " transform: scaleX(-1) scaleY(-1)",
-                        }}
-                      />
-                    </span> */}
+                    <a href="/casestudies">See how</a>
                   </h4>
                 </div>
                 <img src={heroshe_text} alt="" className="herosheText4" />
@@ -214,17 +200,16 @@ class HomePage extends Component {
                 <img src={heroshe_mb} alt="" className="herosheImage-mb" />
               </div>
               <div className="col-sm-12 col-md-auto see-how-wrapper">
-                <img src={see_how} alt="" className="see-how" />
+                <a href="/casestudies"><img src={see_how} alt="" className="see-how" /></a>
               </div>
             </div>
           </div>
         </div>
         <div>
-          <ContactForm resetForm={this.props.resetMessageForm} />
+          <ContactForm resetForm={props.resetMessageForm} />
         </div>
       </div>
-    );
-  }
+    )
 }
 
 export default HomePage;

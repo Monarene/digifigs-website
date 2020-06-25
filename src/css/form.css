@@ -32,9 +32,9 @@
   margin-bottom: 50px;
 }
 
-/* .contactContainer {
-    margin: 40px 0px;
-  } */
+.contactContainer {
+    width: 57%
+}
 
 .amessage {
   width: 600px;
@@ -55,7 +55,7 @@
   border: none;
   border-bottom: 2px solid #808080;
   border-radius: 0px;
-  padding: 0px;
+  padding-bottom: 5px;
 }
 
 .inputtext:focus {
@@ -107,13 +107,13 @@ textarea {
 
 .text-danger {
   font-size: 15px;
-  font-family: Gotham;
+  font-family: inherit;
 }
 
 @media (max-width: 767.89px) {
   .ready {
     color: #333;
-    font-family: Gotham;
+    font-family: inherit;
     font-size: 20px;
     font-weight: 300;
     letter-spacing: -0.07px;
@@ -129,11 +129,14 @@ textarea {
   .form-group {
     padding-left: 15px;
   }
+  .contactContainer {
+    width: 100%
+  }
   .contactText {
     height: 19.65px;
     /* width: 236px; */
     color: #39f;
-    font-family: Gotham;
+    font-family: inherit;
     font-size: 20px;
     font-weight: 300;
     letter-spacing: -0.07px;
@@ -143,7 +146,7 @@ textarea {
     height: 21.37px;
     /* width: 67.85px; */
     color: #333;
-    font-family: Gotham;
+    font-family: inherit;
     font-size: 12px;
     font-weight: 300;
     letter-spacing: -0.04px;
@@ -154,7 +157,7 @@ textarea {
     height: 29.75px;
     width: auto;
     color: #333;
-    font-family: Gotham;
+    font-family: inherit;
     font-size: 12px;
     font-weight: 300;
     letter-spacing: -0.04px;
@@ -165,7 +168,7 @@ textarea {
   }
   ::placeholder {
     color: #4f4f4f;
-    font-family: Gotham;
+    font-family: inherit;
     font-size: 10px;
     font-weight: 300;
     letter-spacing: -0.03px;
@@ -186,7 +189,7 @@ textarea {
 @media (min-width: 768px) and (max-width: 1024px) {
   .ready {
     color: #333;
-    font-family: Gotham;
+    font-family: inherit;
     font-size: 20px;
     font-weight: 300;
     letter-spacing: -0.07px;
@@ -195,11 +198,14 @@ textarea {
     margin-top: 92px;
     margin-bottom: 40px;
   }
+  .contactContainer {
+    width: 59%
+  }
   .contactText {
     height: 19.65px;
     width: auto;
     color: #39f;
-    font-family: Gotham;
+    font-family: inherit;
     font-size: 20px;
     font-weight: 300;
     letter-spacing: -0.07px;
@@ -209,7 +215,7 @@ textarea {
     height: 21.37px;
     width: auto;
     color: #333;
-    font-family: Gotham;
+    font-family: inherit;
     font-size: 12px;
     font-weight: 300;
     letter-spacing: -0.04px;
@@ -220,7 +226,7 @@ textarea {
     height: 29.75px;
     width: 375px;
     color: #333;
-    font-family: Gotham;
+    font-family: inherit;
     font-size: 12px;
     font-weight: 300;
     letter-spacing: -0.04px;
@@ -231,7 +237,7 @@ textarea {
   }
   ::placeholder {
     color: #4f4f4f;
-    font-family: Gotham;
+    font-family: inherit;
     font-size: 10px;
     font-weight: 300;
     letter-spacing: -0.03px;

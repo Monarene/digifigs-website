@@ -20,18 +20,18 @@ export default function Contact(props) {
           subtitle="Customized Digital Marketing Strategies just for your brand"
         />
       </div>
-      <Container className="justify-content-center">
+      {/* <Container className="justify-content-center">
         <Row>
           <img alt="" src={banner} className="image1" />
         </Row>
       </Container>
       <div className="container justify-content-center partners-lg">
         <Partners />
-      </div>
+      </div> */}
       <div className="standing2" height="444">
         <StandOut />
       </div>
-      <Container>
+      {/* <Container>
         <Row className="description">
           <Col className="item-2 item-contact">
             <p>
@@ -40,12 +40,9 @@ export default function Contact(props) {
             </p>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
       <div className="marketing-about">
         <Marketing caption="Art of Digital Marketing" />
-      </div>
-      <div className="form">
-        <ContactForm resetForm={props.resetMessageForm} />
       </div>
       <Container>
         <div className="address-contact">
@@ -56,6 +53,10 @@ export default function Contact(props) {
           </p>
         </div>
       </Container>
+      <div className="form">
+        <ContactForm resetForm={props.resetMessageForm} />
+      </div>
+      
       <div className="container justify-content-center partners-mb">
         <Partners />
       </div>

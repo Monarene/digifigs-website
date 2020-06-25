@@ -28,9 +28,6 @@ export default function Contact(props) {
       <div className="container justify-content-center partners-lg">
         <Partners />
       </div> */}
-      <div className="standing2" height="444">
-        <StandOut />
-      </div>
       {/* <Container>
         <Row className="description">
           <Col className="item-2 item-contact">
@@ -44,6 +41,12 @@ export default function Contact(props) {
       <div className="marketing-about">
         <Marketing caption="Art of Digital Marketing" />
       </div>
+      <div className="standing2" height="444">
+        <StandOut />
+      </div>
+      <div className="container justify-content-center partners-mb">
+        <Partners />
+      </div>
       <Container>
         <div className="address-contact">
           <h3>Ibadan</h3>
@@ -55,10 +58,6 @@ export default function Contact(props) {
       </Container>
       <div className="form">
         <ContactForm resetForm={props.resetMessageForm} />
-      </div>
-      
-      <div className="container justify-content-center partners-mb">
-        <Partners />
       </div>
       <div className="container carousel-container">
         <Carousel />

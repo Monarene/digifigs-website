@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import arrow from "../assets/images/Arrow2.png";
 import "../css/footer.css";
 import group from "../assets/images/Group.png";
-import logo from "../assets/images/logo-footer.png";
+import logo from "../assets/images/new_logo.png";
 import logo_tb from "../assets/images/logo-tb.png";
 import instagram_black from "../assets/images/Instagram.png";
 import twitter_black from "../assets/images/Twitter.png";

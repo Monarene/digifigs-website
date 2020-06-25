@@ -118,7 +118,7 @@ const BrandingPackaging = (props) => {
             <Button
               color="primary"
               className="text-white justify-content-center rejoicing-button"
-              href="#get-started"
+              href="/contact"
               style={{ margin: "auto" }}
             >
               Get started
@@ -147,7 +147,7 @@ const BrandingPackaging = (props) => {
               We will help you define the uniqueness of your product amidst the
               competition.{" "}
             </h4>
-            <a href="#get-started">
+            <a href="/contact">
               <Button
                 color="primary"
                 className="text-white button-dog"

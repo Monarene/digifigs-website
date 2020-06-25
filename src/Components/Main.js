@@ -39,11 +39,11 @@ const Main = (props) => {
           )}
         />
         <Route
-          path="/about"
+          path="/about-us"
           component={() => <About resetMessageForm={props.resetMessageForm} />}
         />
         <Route
-          path="/contact"
+          path="/contact-us"
           component={() => (
             <Contact resetMessageForm={props.resetMessageForm} />
           )}

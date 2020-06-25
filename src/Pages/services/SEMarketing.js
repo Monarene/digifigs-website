@@ -121,7 +121,7 @@ const SEMarketing = (props) => {
             <Button
               color="primary"
               className="text-white justify-content-center rejoicing-button"
-              href="#get-started"
+              href="/contact"
               style={{ margin: "auto" }}
             >
               Get started

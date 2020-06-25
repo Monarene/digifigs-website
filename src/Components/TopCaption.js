@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 import Ellipse from "./Ellipse";
 import "../css/caption.css";
 
-const TopCaption = ({ title, subtitle }) => {
+const TopCaption = ({ title, subtitle, contact = true }) => {
   return (
     <Container>
       <Ellipse />
@@ -15,13 +15,13 @@ const TopCaption = ({ title, subtitle }) => {
       <Row>
         <h6 className="header2 text-center">{subtitle}</h6>
       </Row>
-      <div className="get-started-mb">
-        <a href="#get-started">
+      {!contact && <div className="get-started-mb">
+        <a href="/contact">
           <button class="btn btn-primary my-2 my-sm-0" type="button" style={{width: "100%"}}>
             Get Started
           </button>
         </a>
-      </div>
+      </div>}
     </Container>
   );
 };

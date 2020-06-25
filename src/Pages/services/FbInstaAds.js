@@ -122,7 +122,7 @@ const FbInstaAds = (props) => {
             <Button
               color="primary"
               className="text-white justify-content-center rejoicing-button"
-              href="#get-started"
+              href="/contact"
               style={{ margin: "auto" }}
             >
               Get started
@@ -152,7 +152,7 @@ const FbInstaAds = (props) => {
               target audience, Facebook and IG ads take your message right to
               the people who are most likely to want your products or services.{" "}
             </h4>
-            <a href="#get-started">
+            <a href="/contact">
               <Button
                 color="primary"
                 className="text-white button-dog"

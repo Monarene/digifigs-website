@@ -47,9 +47,8 @@
 }
 
 .arrow-sub {
-  margin-left: -9px;
   height: auto;
-  width: 100%;
+  width: 37px;
   transform: scaleY(-1);
 }
 
@@ -120,12 +119,12 @@
     display: block;
   }
   .logo-footer {
-    height: 24.03px;
+    height: auto;
     width: 82.21px;
-    margin-bottom: 30px;
+    margin-bottom: 43px;
   }
   .case-studies-footer {
-    margin-top: -150px;
+    margin-top: -132px;
   }
   .ibadan {
     width: fit-content;

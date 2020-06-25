@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
         <div className="col-8 col-sm-8 col-md-8">
           <div className="row">
-            <div className="col-4 col-sm-4 col-md-auto">
+            <div className="col-5 col-sm-4 col-md-3">
               <h6 className="ibadan">Navigation</h6>
               <Link to="/">
                 <h6 className="address">Home</h6>
@@ -53,7 +53,7 @@ const Footer = () => {
                 <h6 className="address">Contact us</h6>
               </Link>
             </div>
-            <div className="col-4 col-sm-4 col-md-auto">
+            <div className="col-7 col-sm-4 col-md-3">
               <Link>
                 <h6 className="ibadan">Services</h6>
               </Link>
@@ -87,7 +87,7 @@ const Footer = () => {
             </div>
             {/*             <div className="col-4 col-sm-4 col-md-auto col-space"></div>
              */}{" "}
-            <div className="col-4 col-sm-4 col-md-auto">
+            <div className="col-6 col-sm-4 col-md-3 case-studies-footer">
               <h6 className="ibadan">Case Studies</h6>
               <Link to="/casestudies">
                 <h6 className="address">Heroshe</h6>

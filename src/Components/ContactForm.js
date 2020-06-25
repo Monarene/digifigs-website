@@ -39,14 +39,14 @@ class ContactForm extends Component {
         <div className="row">
           <div className="col ready">Ready to Start ?</div>
         </div>
-        <div className="row">
-          <div className="col-12 col-sm-12 col-md-12 contactContainer">
+        <div className="row contactContainer">
+          <div className="col-12 col-sm-12 col-md-12">
             <h4 className="contactText">
               <a href="tel:+2348102263874">0810 226 3874</a>
             </h4>
             <h5 className="callus">Call us</h5>
           </div>
-          <div className="col-12 col-sm-12 col-md-12 contactContainer">
+          <div className="col-12 col-sm-12 col-md-12">
             <h4 className="contactText">
               <a href="mailto:info@digifigs.com">info@digifigs.com</a>
             </h4>

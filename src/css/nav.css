@@ -1,5 +1,5 @@
 .logo-header {
-  height: 59.7px;
+  height: 47px;
   width: auto;
 }
 
@@ -43,7 +43,7 @@ button:focus {
 
 .dropdown-menu {
   border-radius: 10px;
-  font-family: Gotham;
+  font-family: inherit;
 }
 
 .dropdown-item:hover {
@@ -56,7 +56,7 @@ a:hover {
 }
 
 .nav-link {
-  font-family: Gotham;
+  font-family: inherit;
   font-weight: bold;
 }
 

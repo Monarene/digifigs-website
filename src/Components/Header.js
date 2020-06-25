@@ -47,7 +47,7 @@ const Header = () => {
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto" style={{ marginTop: "20px" }}>
+            <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
                 <Link to="/">
                   <a class="nav-link" href="/">
@@ -129,7 +129,7 @@ const Header = () => {
                       class="dropdown-item"
                       href="/services/facebook-instagram-ads"
                     >
-                      Facebook & Instagram Ads
+                      Facebook &amp; Instagram Ads
                     </a>
                   </Link>
                   <div class="dropdown-divider"></div>
@@ -138,7 +138,7 @@ const Header = () => {
                       class="dropdown-item"
                       href="/services/branding-and-packaging"
                     >
-                      Product Branding & Packaging
+                      Product Branding &amp; Packaging
                     </a>
                   </Link>
                 </div>
@@ -150,18 +150,18 @@ const Header = () => {
                   </a>
                 </Link>
               </li>
-              <li>
-                <a href="#get-started">
+            </ul>
+          </div> {/* end navbar-collapse */}
+          <div>
+          <a href="/#get-started">
                   <button
-                    class="btn btn-primary my-2 my-sm-0 get-started-lg header-button"
+                    class="btn btn-primary my-2 my-sm-0 get-started-lg"
                     type="button"
                     style={{ textAlign: "center" }}
                   >
                     Get Started
                   </button>
                 </a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>

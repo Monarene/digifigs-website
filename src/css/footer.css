@@ -29,7 +29,6 @@
   height: 19px;
   width: fit-content;
   color: #333;
-  font-family: Gotham;
   font-size: 12px;
   font-weight: 600;
   line-height: 12px;
@@ -38,7 +37,6 @@
 .address {
   width: fit-content;
   color: #4f4f4f;
-  font-family: Gotham;
   font-size: 12px;
   font-weight: 300;
   line-height: 24px;
@@ -50,20 +48,20 @@
 
 .arrow-sub {
   margin-left: -9px;
-  height: 44.11px;
-  width: 38.25px;
+  height: auto;
+  width: 100%;
   transform: scaleY(-1);
 }
 
 .input-sub,
 .form-inline .form-control {
-  height: 50.28px;
+  height: 37.28px;
   width: 386.67px;
 }
 
 .btn-sub {
   width: 57.69px;
-  height: 50px;
+  height: 37.28px;
   background-color: #39f;
   padding: 0px;
 }
@@ -71,7 +69,6 @@
 .sub-txt {
   height: 21.29px;
   color: #333;
-  font-family: Gotham;
   font-size: 12px;
   font-weight: 300;
   line-height: 12px;
@@ -81,7 +78,7 @@
 .footer-bottom {
   align-items: center;
   margin-top: 100px;
-  margin-bottom: 70px;
+  padding-bottom: 70px;
 }
 
 .sub {
@@ -90,7 +87,6 @@
 
 .copy-txt {
   color: #333;
-  font-family: Gotham;
   font-size: 12px;
   font-weight: 300;
   line-height: 12px;
@@ -113,6 +109,7 @@
 ::placeholder {
   font-size: 14px;
   color: #4f4f4f;
+  text-transform: lowercase;
 }
 
 @media (max-width: 767.89px) {
@@ -127,10 +124,12 @@
     width: 82.21px;
     margin-bottom: 30px;
   }
+  .case-studies-footer {
+    margin-top: -150px;
+  }
   .ibadan {
     width: fit-content;
     color: #333;
-    font-family: Gotham;
     font-size: 8px;
     font-weight: 600;
     line-height: 8px;
@@ -138,7 +137,6 @@
   .address {
     width: fit-content;
     color: #4f4f4f;
-    font-family: Gotham;
     font-size: 8px;
     font-weight: 300;
     line-height: 16px;
@@ -175,25 +173,24 @@
   .sub-txt {
     height: 12px;
     color: #333;
-    font-family: Gotham;
     font-size: 9px;
     font-weight: 300;
     line-height: 12px;
   }
   .input-sub,
   .form-inline .form-control {
-    height: 39.47px;
+    height: 30.47px;
     width: 164.47px;
     border-radius: 0px;
   }
   .btn-sub {
-    height: 39.47px;
+    height: 30.47px;
     width: 39.47px;
     border-radius: 0px;
   }
   .arrow-sub {
-    height: 36.47px;
-    width: 39.47px;
+    height: auto;
+    width: 100%;
   }
   .copy-txt {
     font-size: 10px;
@@ -225,7 +222,6 @@
   .ibadan {
     width: fit-content;
     color: #333;
-    font-family: Gotham;
     font-size: 8px;
     font-weight: 600;
     line-height: 8px;
@@ -233,7 +229,6 @@
   .address {
     width: fit-content;
     color: #4f4f4f;
-    font-family: Gotham;
     font-size: 8px;
     font-weight: 300;
     line-height: 16px;
@@ -270,7 +265,6 @@
   .sub-txt {
     height: 22px;
     color: #333;
-    font-family: Gotham;
     font-size: 12px;
     font-weight: 300;
     line-height: 12px;

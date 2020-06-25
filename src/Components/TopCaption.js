@@ -17,7 +17,7 @@ const TopCaption = ({ title, subtitle }) => {
       </Row>
       <div className="get-started-mb">
         <a href="#get-started">
-          <button class="btn btn-primary my-2 my-sm-0" type="button">
+          <button class="btn btn-primary my-2 my-sm-0" type="button" style={{width: "100%"}}>
             Get Started
           </button>
         </a>

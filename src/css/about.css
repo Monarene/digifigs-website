@@ -7,13 +7,13 @@
   font-size: 25px;
   font-weight: 300;
   line-height: 26px;
-  font-family: Gotham;
+  font-family: inherit;
 }
 
 .item-2 p {
   color: #000;
   font-size: 28px;
-  font-family: Gotham;
+  font-family: inherit;
   font-weight: 700;
   line-height: 33px;
 }
@@ -34,7 +34,7 @@
     height: 94px;
     width: 197px;
     color: #000;
-    font-family: Gotham;
+    font-family: inherit;
     font-size: 10px;
     font-weight: 300;
     line-height: 15px;
@@ -45,7 +45,7 @@
     height: 109px;
     width: 316px;
     color: #000;
-    font-family: Gotham;
+    font-family: inherit;
     font-size: 20px;
     font-weight: 600;
     line-height: 25px;

@@ -134,33 +134,6 @@ const WebDev = (props) => {
       >
         <StandOut />
       </div>
-      {/* <div className="container content-container" data-aos="fade-up">
-        <div className="row">
-          <div className="col-sm-6 col-md-6 girl-dog-container">
-            <img src={girl_dog} alt="A girl and a dog" className="girl-dog" />
-          </div>
-          <div
-            className="col-sm-6 col-md-6 customer-container"
-            style={{ paddingLeft: "20px" }}
-          >
-            <h4 className="customer-text">
-              We’ll create a customer-focused content strategy without
-              compromising brand-image or product-quality across any online
-              medium.{" "}
-            </h4>
-            <a href="#get-started">
-              <Button
-                color="primary"
-                className="text-white button-dog"
-                style={{ marginTop: "30px" }}
-              >
-                {" "}
-                Get started
-              </Button>
-            </a>
-          </div>
-        </div>
-      </div> */}
       <div className="container carousel-container" data-aos="zoom-in">
         <Carousel />
       </div>
@@ -180,19 +153,7 @@ const WebDev = (props) => {
                   Get your website to rank higher on search engine results
                 </h4>
                 <h4 className="herosheText3">
-                  See how
-                  <span>
-                    <img
-                      alt=""
-                      src={arrow}
-                      style={{
-                        height: "15.25px",
-                        width: "32px",
-                        paddingLeft: "5px",
-                        textTransform: " transform: scaleX(-1) scaleY(-1)",
-                      }}
-                    />
-                  </span>
+                    <a href="/casestudies">See how</a>
                 </h4>
               </div>
               <img src={heroshe_text} alt="" className="herosheText4" />

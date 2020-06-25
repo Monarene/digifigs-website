@@ -24,7 +24,7 @@
 
 .content-text {
   color: #333;
-  font-family: Gotham;
+  font-family: inherit;
   font-size: 18px;
   font-weight: 300;
   line-height: 26px;
@@ -35,7 +35,7 @@
   height: 327px;
   width: 515px;
   color: #000;
-  font-family: Gotham;
+  font-family: inherit;
   font-size: 35px;
   font-weight: 300;
   line-height: 43px;
@@ -55,7 +55,7 @@
 
 .customer-text {
   color: #000;
-  font-family: Gotham;
+  font-family: inherit;
   font-size: 35px;
   font-weight: 300;
   line-height: 43px;
@@ -76,7 +76,7 @@
 
   .contentText {
     color: #000;
-    font-family: Gotham;
+    font-family: inherit;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: -0.42px;
@@ -87,7 +87,7 @@
   .content-text {
     width: 197px;
     color: #4f4f4f;
-    font-family: Gotham;
+    font-family: inherit;
     font-size: 10px;
     font-weight: 300;
     line-height: 16px;
@@ -96,7 +96,7 @@
   .rejoice-text {
     width: 315px;
     color: #000;
-    font-family: Gotham;
+    font-family: inherit;
     font-size: 16px;
     font-weight: 300;
     line-height: 20px;
@@ -142,7 +142,7 @@
     height: 159px;
     width: auto;
     color: #000;
-    font-family: Gotham;
+    font-family: inherit;
     font-size: 16px;
     font-weight: 300;
     line-height: 20px;

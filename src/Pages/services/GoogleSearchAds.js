@@ -186,19 +186,7 @@ const GoogleSearchAds = (props) => {
                   Get your website to rank higher on search engine results
                 </h4>
                 <h4 className="herosheText3">
-                  See how
-                  <span>
-                    <img
-                      alt=""
-                      src={arrow}
-                      style={{
-                        height: "15.25px",
-                        width: "32px",
-                        paddingLeft: "5px",
-                        textTransform: " transform: scaleX(-1) scaleY(-1)",
-                      }}
-                    />
-                  </span>
+                    <a href="/casestudies">See how</a>
                 </h4>
               </div>
               <img src={heroshe_text} alt="" className="herosheText4" />

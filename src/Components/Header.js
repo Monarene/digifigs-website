@@ -1,7 +1,7 @@
 //importing the
 import React from "react";
 import logo from "../assets/images/logo.png";
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 import "../css/nav.css";
 
 const Header = () => {
@@ -49,29 +49,29 @@ const Header = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <Link to="/">
-                  <a class="nav-link" href="/">
+                <a href="/">
+                  <a class="nav-a" href="/">
                     Home
                   </a>
-                </Link>
+                </a>
               </li>
               <li class="nav-item">
-                <Link to="/about">
-                  <a class="nav-link" href="/about">
+                <a href="/about">
+                  <a class="nav-a" href="/about">
                     About Us
                   </a>
-                </Link>
+                </a>
               </li>
               <li class="nav-item">
-                <Link to="/casestudies">
-                  <a class="nav-link" href="/casestudies">
+                <a href="/casestudies">
+                  <a class="nav-a" href="/casestudies">
                     Case Studies
                   </a>
-                </Link>
+                </a>
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-a dropdown-toggle"
                   href="#"
                   id="navbarDropdown"
                   role="button"
@@ -82,78 +82,72 @@ const Header = () => {
                   Services
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <Link to="/services/content-marketing">
+                  
                     <a class="dropdown-item" href="/services/content-marketing">
                       Content Marketing
                     </a>
-                  </Link>
-                  <Link to="/services/se-marketing">
+                  
+                  
                     <a class="dropdown-item" href="/services/se-marketing">
                       Search Engine Marketing
                     </a>
-                  </Link>
-                  <Link to="/services/sm-marketing">
+                  
+                  
                     <a class="dropdown-item" href="/services/sm-marketing">
                       Social Media Marketing
                     </a>
-                  </Link>
-                  <Link to="/services/email-marketing">
+                  
+                  
                     <a class="dropdown-item" href="/services/email-marketing">
                       Email Marketing
                     </a>
-                  </Link>
+                  
                   <div class="dropdown-divider"></div>
-                  <Link to="/services/seo">
+                  
                     <a class="dropdown-item" href="/services/seo">
                       Search Engine Optimization
                     </a>
-                  </Link>
-                  <Link to="/services/web-development">
+                  
+                  
                     <a class="dropdown-item" href="/services/web-development">
                       Web Development
                     </a>
-                  </Link>
-                  <Link to="/services/app-development">
+                  
+                  
                     <a class="dropdown-item" href="/services/app-development">
                       Mobile App Development
                     </a>
-                  </Link>
+                  
                   <div class="dropdown-divider"></div>
-                  <Link to="/services/google-search-ads">
+                  
                     <a class="dropdown-item" href="/services/google-search-ads">
                       Google Search Ads
                     </a>
-                  </Link>
-                  <Link to="/services/facebook-instagram-ads">
-                    <a
-                      class="dropdown-item"
-                      href="/services/facebook-instagram-ads"
-                    >
+                  
+                  
+                    <a class="dropdown-item" href="/services/facebook-instagram-ads">
                       Facebook &amp; Instagram Ads
                     </a>
-                  </Link>
+                  
                   <div class="dropdown-divider"></div>
-                  <Link to="/services/branding-and-packaging">
-                    <a
-                      class="dropdown-item"
-                      href="/services/branding-and-packaging"
-                    >
+                  
+                    <a class="dropdown-item" href="/services/branding-and-packaging">
                       Product Branding &amp; Packaging
                     </a>
-                  </Link>
+                  
                 </div>
               </li>
               <li class="nav-item">
-                <Link to="/contact">
-                  <a class="nav-link" href="/contact">
-                    Contact
+                <a href="/contact-us">
+                  <a class="nav-a" href="/contact-us">
+                    contact-us
                   </a>
-                </Link>
+                </a>
               </li>
             </ul>
           </div> {/* end navbar-collapse */}
           <div>
-          <a href="/#get-started">
+          <a href="/contact-us">
                   <button
                     class="btn btn-primary my-2 my-sm-0 get-started-lg"
                     type="button"

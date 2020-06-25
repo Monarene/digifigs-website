@@ -117,7 +117,7 @@ const ContentMarketing = (props) => {
             <Button
               color="primary"
               className="text-white justify-content-center rejoicing-button"
-              href="#get-started"
+              href="/contact"
               style={{ margin: "auto" }}
             >
               Get started
@@ -147,7 +147,7 @@ const ContentMarketing = (props) => {
               compromising brand-image or product-quality across any online
               medium.{" "}
             </h4>
-            <a href="#get-started">
+            <a href="/contact">
               <Button
                 color="primary"
                 className="text-white button-dog"

@@ -119,7 +119,7 @@ const EmailMarketing = (props) => {
             <Button
               color="primary"
               className="text-white justify-content-center rejoicing-button"
-              href="#get-started"
+              href="/contact"
               style={{ margin: "auto" }}
             >
               Get started
@@ -149,7 +149,7 @@ const EmailMarketing = (props) => {
               promote your products and services, and ultimately, increase
               sales.{" "}
             </h4>
-            <a href="#get-started">
+            <a href="/contact">
               <Button
                 color="primary"
                 className="text-white button-dog"

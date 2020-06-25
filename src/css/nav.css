@@ -51,6 +51,11 @@ button:focus {
   color: white;
 }
 
+.nav-item a {
+  color: #333;
+  margin-right: 10px
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -64,6 +69,10 @@ a:hover {
   .logo-header {
     height: 23px;
     width: 99.9px;
+  }
+  .nav-item {
+    margin-bottom: 5px;
+    margin-left: 10px;
   }
   .get-started-lg {
     display: none;

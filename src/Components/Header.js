@@ -45,7 +45,6 @@ const Header = () => {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
@@ -56,8 +55,8 @@ const Header = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/about">
-                  <a class="nav-a" href="/about">
+                <a href="/about-us">
+                  <a class="nav-a" href="/about-us">
                     About Us
                   </a>
                 </a>
@@ -82,80 +81,79 @@ const Header = () => {
                   Services
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  
-                    <a class="dropdown-item" href="/services/content-marketing">
-                      Content Marketing
-                    </a>
-                  
-                  
-                    <a class="dropdown-item" href="/services/se-marketing">
-                      Search Engine Marketing
-                    </a>
-                  
-                  
-                    <a class="dropdown-item" href="/services/sm-marketing">
-                      Social Media Marketing
-                    </a>
-                  
-                  
-                    <a class="dropdown-item" href="/services/email-marketing">
-                      Email Marketing
-                    </a>
-                  
+                  <a class="dropdown-item" href="/services/content-marketing">
+                    Content Marketing
+                  </a>
+
+                  <a class="dropdown-item" href="/services/se-marketing">
+                    Search Engine Marketing
+                  </a>
+
+                  <a class="dropdown-item" href="/services/sm-marketing">
+                    Social Media Marketing
+                  </a>
+
+                  <a class="dropdown-item" href="/services/email-marketing">
+                    Email Marketing
+                  </a>
+
                   <div class="dropdown-divider"></div>
-                  
-                    <a class="dropdown-item" href="/services/seo">
-                      Search Engine Optimization
-                    </a>
-                  
-                  
-                    <a class="dropdown-item" href="/services/web-development">
-                      Web Development
-                    </a>
-                  
-                  
-                    <a class="dropdown-item" href="/services/app-development">
-                      Mobile App Development
-                    </a>
-                  
+
+                  <a class="dropdown-item" href="/services/seo">
+                    Search Engine Optimization
+                  </a>
+
+                  <a class="dropdown-item" href="/services/web-development">
+                    Web Development
+                  </a>
+
+                  <a class="dropdown-item" href="/services/app-development">
+                    Mobile App Development
+                  </a>
+
                   <div class="dropdown-divider"></div>
-                  
-                    <a class="dropdown-item" href="/services/google-search-ads">
-                      Google Search Ads
-                    </a>
-                  
-                  
-                    <a class="dropdown-item" href="/services/facebook-instagram-ads">
-                      Facebook &amp; Instagram Ads
-                    </a>
-                  
+
+                  <a class="dropdown-item" href="/services/google-search-ads">
+                    Google Search Ads
+                  </a>
+
+                  <a
+                    class="dropdown-item"
+                    href="/services/facebook-instagram-ads"
+                  >
+                    Facebook &amp; Instagram Ads
+                  </a>
+
                   <div class="dropdown-divider"></div>
-                  
-                    <a class="dropdown-item" href="/services/branding-and-packaging">
-                      Product Branding &amp; Packaging
-                    </a>
-                  
+
+                  <a
+                    class="dropdown-item"
+                    href="/services/branding-and-packaging"
+                  >
+                    Product Branding &amp; Packaging
+                  </a>
                 </div>
               </li>
               <li class="nav-item">
                 <a href="/contact-us">
                   <a class="nav-a" href="/contact-us">
-                    contact-us
+                    Contact Us
                   </a>
                 </a>
               </li>
             </ul>
-          </div> {/* end navbar-collapse */}
+          </div>{" "}
+          {/* end navbar-collapse */}
           <div>
-          <a href="/contact-us">
-                  <button
-                    class="btn btn-primary my-2 my-sm-0 get-started-lg"
-                    type="button"
-                    style={{ textAlign: "center" }}
-                  >
-                    Get Started
-                  </button>
-                </a>
+            <a href="/contact-us">
+              <button
+                class="btn btn-primary my-2 my-sm-0 get-started-lg"
+                type="button"
+                style={{ textAlign: "center" }}
+              >
+                Get Started
+              </button>
+            </a>
           </div>
         </div>
       </div>

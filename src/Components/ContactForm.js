@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import arrow from "../assets/images/Arrow2.png";
 import { Control, Form, Errors, actions } from "react-redux-form";
 import "../css/form.css";
+import axios from "axios";
 
 //TODO implement the form in react redux state
 //TODO implement form validation in react redux state
@@ -16,6 +17,30 @@ class ContactForm extends Component {
     super(props);
 
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.state = {
+      countryName: "",
+      countryCode: "",
+    };
+  }
+
+  getGeoInfo = () => {
+    axios
+      .get("https://ipapi.co/json/")
+      .then((response) => {
+        let data = response.data;
+        this.setState({
+          countryName: data.country_name,
+          countryCode: data.country_calling_code,
+        });
+        console.log(this.state.countryName);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
+  componentDidMount() {
+    this.getGeoInfo();
   }
 
   async handleSubmit(values) {
@@ -40,12 +65,17 @@ class ContactForm extends Component {
           <div className="col ready">Ready to Start ?</div>
         </div>
         <div className="row contactContainer">
-          <div className="col-12 col-sm-12 col-md-12">
-            <h4 className="contactText">
-              <a href="tel:+2348102263874">0810 226 3874</a>
-            </h4>
-            <h5 className="callus">Call us</h5>
-          </div>
+          {this.state.countryName !== "Nigeria" ? (
+            <div></div>
+          ) : (
+            <div className="col-12 col-sm-12 col-md-12">
+              <h4 className="contactText">
+                <a href="tel:+2348102263874">0810 226 3874</a>
+              </h4>
+              <h5 className="callus">Call us</h5>
+            </div>
+          )}
+
           <div className="col-12 col-sm-12 col-md-12">
             <h4 className="contactText">
               <a href="mailto:info@digifigs.com">info@digifigs.com</a>
@@ -116,7 +146,7 @@ class ContactForm extends Component {
                 <button
                   className="btn btn-primary"
                   type="submit"
-                  style={{ height: "50px"}}
+                  style={{ height: "50px" }}
                 >
                   Send
                   <img className="arrow" src={arrow} alt="" />

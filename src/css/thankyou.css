@@ -1,0 +1,76 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.second {
+  padding-top: 2vh 0;
+  font-size: 83px;
+  font-weight: 300;
+  line-height: 83px;
+  color: #39f;
+}
+
+.third {
+  padding-top: 2vh 0;
+  font-size: 33px;
+  font-weight: 300;
+  color: #333;
+  line-height: 33px;
+}
+
+.fourth {
+  padding-top: 2vh 0;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 27px;
+  color: #333;
+}
+
+.fifth {
+  margin-top: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 20vh;
+  padding: 0 40px;
+}
+
+.goback {
+  margin: auto 10px;
+}
+
+.pointer {
+  height: 18px;
+  width: 9.02px;
+}
+
+@media (max-width: 767.89px) {
+  .second {
+    font-size: 40px;
+  }
+
+  .third {
+    font-size: 22px;
+    padding: 0px;
+  }
+
+  .fourth {
+    font-size: 19px;
+    padding: 0px;
+    line-height: 12px;
+  }
+
+  .goback {
+    font-size: 18px;
+  }
+}

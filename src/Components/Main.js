@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import Nav from "./NavComponent";
 import HomePage from "../Pages/HomePage";
 import { Switch, Route, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
@@ -19,6 +18,7 @@ import BrandingPackaging from "../Pages/services/BrandingPackaging";
 import EmailMarketing from "../Pages/services/EmailMarketing";
 import GoogleSearchAds from "../Pages/services/GoogleSearchAds";
 import FbInstaAds from "../Pages/services/FbInstaAds";
+import ThanksPage from "../Pages/ThankYou";
 
 const mapDispatchToProps = (dispatch) => ({
   resetMessageForm: () => {
@@ -121,6 +121,7 @@ const Main = (props) => {
             <FbInstaAds resetMessageForm={props.resetMessageForm} />
           )}
         />
+        <Route exact path="/thankyou" component={ThanksPage} />
       </Switch>
       <Footer />
     </div>

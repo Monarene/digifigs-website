@@ -3,6 +3,7 @@ import arrow from "../assets/images/Arrow2.png";
 import { Control, Form, Errors, actions } from "react-redux-form";
 import "../css/form.css";
 import axios from "axios";
+import { Redirect } from "react-router-dom";
 
 //TODO implement the form in react redux state
 //TODO implement form validation in react redux state
@@ -56,6 +57,7 @@ class ContactForm extends Component {
     });
 
     this.props.resetForm();
+    return <Redirect to="/thankyou" />;
   }
 
   render() {
@@ -148,7 +150,10 @@ class ContactForm extends Component {
                   type="submit"
                   style={{ height: "50px" }}
                 >
-                  Send
+                  <a href="/thankyou" style={{ color: "white" }}>
+                    Send
+                  </a>
+
                   <img className="arrow" src={arrow} alt="" />
                 </button>
               </div>
